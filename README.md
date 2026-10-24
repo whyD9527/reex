@@ -60,7 +60,8 @@ Reex-Reverse/
 │   ├── 10-native-reimpl.md      自写原生库的完整还原（libmmr / libmpvclient）
 │   ├── 11-protocol-map.md       **机器码级协议图谱**（11 通道 → 方法 → 函数地址）
 │   ├── 12-dynamic-playbook.md   真机动态验证 Playbook（配合 frida/）
-│   └── 13-dynamic-results.md    **真机验证结果**（Redmi K90 / Android 17）
+│   ├── 13-dynamic-results.md    **真机验证结果**（Redmi K90 / Android 17）
+│   └── 14-native-stack-upgrade.md  **原生栈升级评估**（版本对比 / ABI / 16KB）
 ├── decompiled/
 │   ├── apktool/                 apktool 全量反编译（manifest/res/smali/assets/lib）
 │   └── jadx-src/                jadx 反编译的 Java 源码（1209 个文件）
