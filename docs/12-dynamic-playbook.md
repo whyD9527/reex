@@ -146,3 +146,29 @@ sqlite3 reex.sqlite '.schema'        # 得到完整建表语句 → 补齐 docs/
 - `README.md` 的关键发现
 
 并把新的 `[channel]` 日志整理进 `docs/11-protocol-map.md` 的附录（如果有新增）。
+---
+
+## 6. 无线调试（USB 不通时的备用通道）
+
+本机在 Windows 10 上实测遇到：手机（REDMI K90，`VID_18D1&PID_4E11`）能枚举，
+绑定 Google USB 驱动后仍是 **Code 10（CM_PROB_FAILED_START）**，adb 看不到设备。
+此时改用无线调试最快：
+
+1. 手机与电脑连同一个 Wi-Fi（本机 `192.168.1.9`）；
+2. 手机：开发者选项 → **无线调试** → 打开 → “使用配对码配对设备”，记下 `IP:端口` 与 6 位配对码；
+3. 电脑：
+
+```bash
+adb pair 192.168.1.x:37123 123456    # 手机屏上的配对码
+adb connect 192.168.1.x:5555        # 手机屏上的 IP:端口
+adb devices
+```
+
+4. 之后直接：
+
+```bash
+python tools/device_run.py --adb <adb路径> \
+    --pair 192.168.1.x:37123 123456 --connect 192.168.1.x:5555
+```
+
+> 无线调试不需要 USB 驱动；frida-gadget 注入版 APK 同样适用（adb forward 走 TCP）。

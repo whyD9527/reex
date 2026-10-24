@@ -62,3 +62,28 @@ adb install -r patches/out/Reex-1.8.9-hardened.apk
 
 签名与原版不同，必须先卸载原版（会丢数据），或将来自行改包名共存
 （注意 Dart 侧硬编码通道名，改包名会导致原生功能全失效，见 docs/07）。
+## 分析版 APK（注入 frida-gadget，仅用于动态分析）
+
+```bash
+python patches/apply_patches.py \
+    --debuggable \
+    --gadget /path/to/frida-gadget-<ver>-android-arm64.so \
+    --apktool apktool.jar --build-tools build-tools/34.0.0 \
+    --out patches/out/Reex-1.8.9-analysis.apk
+```
+
+| 追加项 | 作用 |
+| --- | --- |
+| `--debuggable` | `android:debuggable="true"` → 可用 `run-as` 取 `reex.sqlite`、日志 |
+| `--gadget <so>` | 放入 `lib/arm64-v8a/libgadget.so` + 配置（listen 127.0.0.1:27042），并在 `MainActivity` 的 `<clinit>` 里 `System.loadLibrary("gadget")` |
+
+产物 `Reex-1.8.9-analysis.apk`（36.8 MB）**不入库**（体积原因），按上面命令可复现。
+验证：`libgadget.so` 存在、manifest `debuggable=true`、`allowBackup=false`、dex 含 `gadget` 字符串。
+
+连接方式：
+
+```bash
+adb install -r patches/out/Reex-1.8.9-analysis.apk
+adb forward tcp:27042 tcp:27042
+python tools/device_run.py --skip-install
+```
