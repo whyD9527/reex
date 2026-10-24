@@ -73,7 +73,7 @@ Reex-Reverse/
 │       ├── blutter_frida.js     Frida 脚本（类/函数地址表）
 │       └── strings_zh.txt       344 条中文界面文案
 ├── native/                      原生层：依赖图、版本、**重建的 C 头与伪代码**
-│   ├── libmmr.h                 媒体元数据检索器 ABI（结构体+10 个函数）
+│   ├── libmmr.h                 媒体元数据检索器 ABI（结构体+10 个函数；该库在本版本未被调用）
 │   ├── libmpvclient.h           JNI/FFI/SMB2 协议 ABI
 │   ├── pseudo/                  等价重写的伪 C（带原始地址注释）
 │   ├── disasm/                  两个自写库的完整反汇编文本
@@ -109,7 +109,7 @@ Reex-Reverse/
 | `libavcodec/libavformat/libavfilter/libavutil/libavdevice/libswresample/libswscale` | FFmpeg 7.0-dev | `FFmpeg version git-2024-03-27-1ad0e81f38` |
 | `libsmb2.so` | SMB2/3 客户端 | 3.1.1 |
 | `libsqlite3.so` | SQLite | 3.45.1 |
-| `libmmr.so` | 作者自写的媒体元数据/封面读取 JNI 库（11 KB） | 链接 FFmpeg |
+| `libmmr.so` | 作者自写的媒体元数据/封面读取库（11 KB）；**全 APK 无任何代码引用，属遗留死代码**（见 docs/04 §2、docs/10 §2） | 链接 FFmpeg |
 | `libmpvclient.so` | 作者自写的 mpv JNI 桥（48 KB，`xyz.lhtls.mpv_client.MPVJniUtils`） | 含 smb2 流回调 |
 | `libflutter.so` | Flutter 引擎 | Dart 3.3.3 stable |
 
@@ -134,7 +134,7 @@ Reex-Reverse/
 8. **11 条通道在 Dart 机器码中全部定位**：自写 PP(x27) 引用扫描器扫了 141 万条指令、
    7.2 万处对象池引用，得到「通道 → 方法名 → 函数地址」的完整映射（docs/11），
    并发现 Java 侧未暴露的方法（如通知 API 的 14 个 key、权限通道的 4 个细分方法）。
-9. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数）与
+9. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数；注意本版本未使用）与
    `libmpvclient`（JNI + Dart FFI + SMB2 流）；其中 SMB 协议把**明文凭据以 JSON 塞进
    `smb2://{...}` URI**，会进入 mpv 日志（安全问题 S-11）。
 

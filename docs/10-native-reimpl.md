@@ -42,6 +42,27 @@ python tools/disasm_arm64.py libmpvclient.so --json out.json
 
 ## 2. libmmr.so —— 媒体元数据检索器
 
+> ⚠️ **先看这个更正**：`libmmr.so` 在本版本 APK 中**没有被任何代码引用**。
+>
+> 证据：对 `classes.dex`、`libapp.so`、`libmpvclient.so` 全字节扫描，
+> 包含 `mmr` 的 ASCII 字符串数量为 **0**（`tools/` 下的扫描脚本可复现）：
+>
+> ```
+> classes.dex       : 0
+> libapp.so         : 0
+> libmpvclient.so   : 0
+> ```
+>
+> 即：没有 `System.loadLibrary("mmr")`、没有 `DynamicLibrary.open("libmmr.so")`、
+> 也没有 DT_NEEDED。它只是被打进了 APK（11.6 KB）。
+>
+> 应用的元数据/封面/截帧实际走 **mpv 属性**：
+> `metadata`、`track-list`、`chapters`、`albumart`，
+> 以及 `screenshot-to-file` / `screenshot-format` / `screenshot-directory` / `screenshot-template`。
+>
+> 因此 §2.1–2.3 是对**该库自身**的完整还原（可用于重写/复用），
+> 而 §2.4 的两个疑点属于"这个库的内部实现"，**不影响应用行为**。
+
 ### 2.1 函数表（26 个函数，其中 10 个导出）
 
 | 地址 | 名称 | 大小 | 作用 |
@@ -100,7 +121,7 @@ av_find_best_stream(VIDEO)
 > （NONE=0, MPEG1=1, MPEG2=2, H261=3, H263=4, RV10=5, RV20=6, MJPEG=7），
 > 用官方 `codec_id.h` 逐项计数核对过。
 
-### 2.4 两处需要标注的疑点
+### 2.4 两处需要标注的疑点（仅对该库自身成立）
 
 1. **音频轨 +0x08 / +0x0c 的来源偏移**（`codecpar+0x94`、`codecpar+0x74`）
    在 FFmpeg 7.0 的 `AVCodecParameters` 里分别是 `ch_layout.u` 的高 32 位与 `color_trc`，

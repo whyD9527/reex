@@ -28,9 +28,25 @@ function exportOf(mod, sym) {
   return null;
 }
 
+let NATIVE_DIR = null;
+Java.perform(function () {
+  try {
+    const cur = Java.use('android.app.ActivityThread').currentApplication();
+    NATIVE_DIR = cur.getApplicationInfo().nativeLibraryDir.value;
+    log('nativeLibraryDir = ' + NATIVE_DIR);
+  } catch (e) { log('nativeLibraryDir unavailable: ' + e); }
+});
+
 function waitLib(name, cb, tries) {
   tries = tries || 0;
   if (Module.findBaseAddress(name)) return cb(Module.findBaseAddress(name));
+  // libmmr 在应用里没有被加载过：主动 dlopen 一次（它就在 nativeLibraryDir 里）
+  if (name === 'libmmr.so' && tries === 20 && NATIVE_DIR) {
+    try {
+      Module.load(NATIVE_DIR + '/' + name);
+      log('dlopen ' + NATIVE_DIR + '/' + name);
+    } catch (e) { log('dlopen failed: ' + e); }
+  }
   if (tries > 60) { log(name + ' not loaded, give up'); return; }
   setTimeout(function () { waitLib(name, cb, tries + 1); }, 500);
 }

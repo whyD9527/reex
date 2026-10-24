@@ -11,7 +11,7 @@
 | `libflutter.so` | 10.55 MB | libflutter.so | libc libdl libm libandroid libEGL libGLESv2 liblog libjnigraphics | Dart 3.3.3 (stable) 2024-03-26 |
 | `libmpv.so` | 5.12 MB | libmpv.so | avcodec avfilter avformat avutil placebo swresample swscale android OpenSLES EGL m z dl | mpv（FFmpeg git-2024-03-27 构建链） |
 | `libmpvclient.so` | 48 KB | libmpvclient.so | mpv smb2 placebo av* log m dl | 作者自写，clang 12.0.8 |
-| `libmmr.so` | 11.6 KB | libmmr.so | av* log m dl | 作者自写，clang 12.0.8（r23b） |
+| `libmmr.so` | 11.6 KB | libmmr.so | av* log m dl | 作者自写，clang 12.0.8（r23b）；**无任何代码引用，死代码** |
 | `libplacebo.so` | 1.31 MB | libplacebo.so | m dl c | API 6.338.0 / 7.347.0 |
 | `libavcodec.so` | 12.16 MB | libavcodec.so | swresample avutil android z dl | FFmpeg `git-2024-03-27-1ad0e81f38` |
 | `libavformat.so` | 2.27 MB | libavformat.so | avcodec avutil z | 同上 |
@@ -27,7 +27,17 @@
 FFmpeg 系列带 `LIBAVCODEC_61`/`LIBAVFORMAT_61`/`LIBAVUTIL_59`/`LIBSWSCALE_8` 版本符号，
 与 FFmpeg 7.0 的 ABI 号一致（2024-03 主干）。
 
-## 2. `libmmr.so` —— 自写「媒体元数据读取器」
+## 2. `libmmr.so` —— 自写「媒体元数据读取器」（**本版本未使用**）
+
+> ⚠️ **重要更正**：遍历 `classes.dex`、`libapp.so`、`libmpvclient.so` 的全部字节，
+> **找不到任何 `mmr` 字样**（连 `libmmr` / `mmr.so` / `loadLibrary("mmr")` 都没有）。
+> 这个库被打包进来但从未被加载或调用，属于遗留死代码。
+>
+> Reex 实际用 **mpv 自己的属性**完成元数据/封面/截图：
+> `metadata`、`track-list`、`chapters`、`albumart`、
+> `screenshot-to-file` / `screenshot-format` / `screenshot-directory` / `screenshot-template`
+> （见 `dart/blutter/strings.txt`）。
+> 因此下面的 ABI 描述仍是对该库的准确还原，但**不代表线上行为**。
 
 导出符号（全部为 C ABI，无 C++ 修饰）：
 

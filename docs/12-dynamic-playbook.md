@@ -45,9 +45,19 @@ frida -U -f xyz.re.player.ex -l frida/hooks.js --no-pause
 
 ## 2. 验证清单（按优先级）
 
-### ✅ V1 截帧时间单位（对应 docs/10 [存疑] #2）
+> ⚠️ **前置更正**：`libmmr.so` 在本版本 APK 中**没有被任何代码引用**（详见 docs/10 §2）。
+> 所以 V1/V2 是**对该库 ABI 的独立验证**（把它当成一个可复用的组件来测），
+> 不代表应用实际行为；应用真正的元数据/封面/截图走 mpv 属性（V5 里顺带观察）。
 
-**操作**：进入媒体库，让应用为视频生成缩略图/封面（或长按视频选"设置封面"）。
+### ✅ V1 截帧时间单位（对应 docs/10 [存疑] #2，**独立 ABI 测试**）
+
+**操作**：`frida/verify_abi.js` 会直接调用 `media_metadata_retriever_get_frame_at_time`，
+传入 pos=0/2/2000/5000，比较返回的 JPEG 大小：
+
+- pos=2 与 pos=0 结果**相同**、pos=2000 不同 → 单位是**毫秒**；
+- pos=2 与 pos=0 **不同**、pos=2000 返回 NULL → 单位是**秒**。
+
+**也可**：进入媒体库，让应用为视频生成缩略图（观察是否触发；预期**不会**触发 libmmr）。
 
 **观察**：
 
@@ -61,9 +71,15 @@ frida -U -f xyz.re.player.ex -l frida/hooks.js --no-pause
 
 **结论记录**：pos 单位 = ______；缩略图是否正确 = ______。
 
-### ✅ V2 音频轨字段（对应 docs/10 [存疑] #1）
+### ✅ V2 音频轨字段（对应 docs/10 [存疑] #1，**独立 ABI 测试**）
 
-**操作**：播放一首已知参数的音频（如 2 声道 / 44.1 kHz 的 FLAC）。
+**操作**：`verify_abi.js` 用 2 声道/44.1 kHz 的 WAV 调用 `get_audio_track`，
+直接打印结构体 +0x08/+0x0c（以及 type/codec 字符串）。
+
+> 若应用不加载 libmmr，脚本会用 `Module.findBaseAddress` 等待——可以用
+> `frida -H 127.0.0.1:27042 -l frida/verify_abi.js` 时手动 `dlopen` 触发，或接受 `not loaded` 的结果。
+
+**另一条路径（真实播放）**：播放一首已知参数的音频，观察 `[channel]` 与 mpv 的 `track-list` 属性。
 
 **观察**：
 
