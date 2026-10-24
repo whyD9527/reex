@@ -1,0 +1,120 @@
+{
+ "libapp.so": [],
+ "libavcodec.so": [
+  "libandroid.so",
+  "libavutil.so",
+  "libc.so",
+  "libdl.so",
+  "libm.so",
+  "libswresample.so",
+  "libz.so"
+ ],
+ "libavdevice.so": [
+  "libavformat.so",
+  "libavutil.so",
+  "libc.so"
+ ],
+ "libavfilter.so": [
+  "libavcodec.so",
+  "libavformat.so",
+  "libavutil.so",
+  "libc.so",
+  "libm.so",
+  "libswresample.so",
+  "libswscale.so"
+ ],
+ "libavformat.so": [
+  "libavcodec.so",
+  "libavutil.so",
+  "libc.so",
+  "libm.so",
+  "libz.so"
+ ],
+ "libavutil.so": [
+  "libandroid.so",
+  "libc.so",
+  "libdl.so",
+  "libm.so"
+ ],
+ "libflutter.so": [
+  "libEGL.so",
+  "libGLESv2.so",
+  "libandroid.so",
+  "libc.so",
+  "libdl.so",
+  "libjnigraphics.so",
+  "liblog.so",
+  "libm.so"
+ ],
+ "libmmr.so": [
+  "libavcodec.so",
+  "libavdevice.so",
+  "libavfilter.so",
+  "libavformat.so",
+  "libavutil.so",
+  "libc.so",
+  "libdl.so",
+  "liblog.so",
+  "libm.so",
+  "libswresample.so",
+  "libswscale.so"
+ ],
+ "libmpv.so": [
+  "libEGL.so",
+  "libOpenSLES.so",
+  "libandroid.so",
+  "libavcodec.so",
+  "libavdevice.so",
+  "libavfilter.so",
+  "libavformat.so",
+  "libavutil.so",
+  "libc.so",
+  "libdl.so",
+  "libm.so",
+  "libplacebo.so",
+  "libswresample.so",
+  "libswscale.so",
+  "libz.so"
+ ],
+ "libmpvclient.so": [
+  "libavcodec.so",
+  "libavdevice.so",
+  "libavfilter.so",
+  "libavformat.so",
+  "libavutil.so",
+  "libc.so",
+  "libdl.so",
+  "liblog.so",
+  "libm.so",
+  "libmpv.so",
+  "libplacebo.so",
+  "libsmb2.so",
+  "libswresample.so",
+  "libswscale.so"
+ ],
+ "libplacebo.so": [
+  "libc.so",
+  "libdl.so",
+  "libm.so"
+ ],
+ "libsmb2.so": [
+  "libc.so",
+  "libdl.so",
+  "libm.so"
+ ],
+ "libsqlite3.so": [
+  "libc.so",
+  "libdl.so",
+  "libm.so"
+ ],
+ "libswresample.so": [
+  "libavutil.so",
+  "libc.so",
+  "libm.so"
+ ],
+ "libswscale.so": [
+  "libavutil.so",
+  "libc.so",
+  "libm.so"
+ ]
+}

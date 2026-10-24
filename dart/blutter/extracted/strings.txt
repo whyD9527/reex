@@ -1,0 +1,7541 @@
+file:///G:/MyProject/Reex/re_player_ex/.dart_tool/flutter_build/dart_plugin_registrant.dart
+`path_provider_android` threw an error: 
+. The app may not function as expected until you remove this plugin from pubspec.yaml
+`url_launcher_android` threw an error: 
+`const Object()` cannot be used as the token.
+Platform interfaces must not be implemented with `implements`
+object
+Cannot be a string, number, boolean, record, null, Pointer, Struct or Union
+value
+
+A Dart object attempted to access a native peer, but the native peer has been collected (nullptr). This is usually the result of calling methods on a native-backed object when the native resources have already been disposed.
+key
+dart:ui
+Image::height
+Image::width
+DartRuntimeHooks::ScheduleMicrotask
+DartRuntimeHooks::Logger_PrintString
+http
+https
+Non-https connection \"
+\" is not supported by the platform. Refer to https://flutter.dev/docs/release/breaking-changes/network-policy-ios-android.
+localhost
+Unexpected address type 
+%
+Invalid internet address 
+address
+IPv4 addresses cannot have a scope ID
+Invalid IPv6 address with scope ID
+function result
+Invalid value
+start
+end
+:dynamic_assert_assignable_stc_check
+PlatformConfigurationNativeApi::SetNeedsReportTimings
+ in type cast
+dev.flutter/channel-buffers
+A message on the 
+ channel was discarded before it could be handled.\nThis happens when a plugin sends messages to the framework side before the framework has had an opportunity to register a listener. See the ChannelBuffers API documentation for details on how to configure the channel to expect more messages, or to expect messages to get discarded:\n  https://api.flutter.dev/flutter/dart-ui/ChannelBuffers-class.html\nThe capacity of the 
+ channel is 
+ message
+s
+.
+DartRuntimeHooks::Logger_PrintDebugString
+Kj
+No element
+ll
+PlatformConfigurationNativeApi::RespondToPlatformMessage
+resize
+overflow
+\r
+Unrecognized message sent to dev.flutter/channel-buffers (method name too long)
+Invalid arguments for \'resize\' method sent to dev.flutter/channel-buffers (arguments must be a two-element list, channel name and new capacity)
+Invalid arguments for \'resize\' method sent to dev.flutter/channel-buffers (first argument must be a string)
+Invalid arguments for \'resize\' method sent to dev.flutter/channel-buffers (channel name must be less than 254 characters long)
+Invalid arguments for \'resize\' method sent to dev.flutter/channel-buffers (channel name must not contain any null bytes)
+Invalid arguments for \'resize\' method sent to dev.flutter/channel-buffers (second argument must be an integer in the range 0 to 2147483647)
+Invalid arguments for \'overflow\' method sent to dev.flutter/channel-buffers (arguments must be a two-element list, channel name and flag state)
+Invalid arguments for \'overflow\' method sent to dev.flutter/channel-buffers (first argument must be a string)
+Invalid arguments for \'overflow\' method sent to dev.flutter/channel-buffers (channel name must be less than 254 characters long)
+Invalid arguments for \'overflow\' method sent to dev.flutter/channel-buffers (second argument must be a boolean)
+Unrecognized method \'
+\' sent to 
+Unrecognized message 
+ sent to 
+Fn
+Attempt to execute code removed by Dart AOT compiler (TFA)
+Radix 
+ not in range 2..36
+Invalid number
+Invalid radix-
+ number
+Positive input exceeds the limit of integer
+Negative input exceeds the limit of integer
+Neb
+IYa
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDaaIIQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRRbbbbbbbbbbb
+Missing extension byte
+Unexpected extension byte
+Invalid UTF-8 byte
+Overlong encoding
+Out of unicode range
+Encoded surrogate
+Unfinished UTF-8 octet sequence
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFFFFFFFFFFFFFFFFGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHIHHHJEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBKCCCCCCCCCCCCDCLONNNMEEEEEEEEEEE
+ 
+charCodes
+Contains invalid character code, not 0 <= code <= 0x10FFFF
+skipCount
+Too few elements
+AQb
+EQb
+pQb
+sQb
+sXb
+tXb
+vQb
+wQb
+textScaleFactor
+alwaysUse24HourFormat
+nativeSpellCheckServiceDefined
+brieflyShowPassword
+platformBrightness
+dark
+light
+systemFontFamily
+configurationId
+ is not a valid platformBrightness.
+Ybb
+JXa
+`null` encountered as the result from expression with type `Never`.
+Unterminated string
+Unexpected end of input
+Unexpected character
+Unterminated number literal
+Invalid double
+nfinity
+Missing expected digit
+true
+null
+false
+Control character in string
+Invalid unicode escape
+Unrecognized string escape
+Invalid hex digit
+_
+YMb
+\"matrix4\" must have 16 entries.
+ImageShader::initWithImage
+ImageShader::Create
+FragmentProgram::initFromAsset
+FragmentProgram::Create
+Invalid type: 
+Getting current working directory failed
+/
+file
+Jhb
+Lhb
+Mhb
+Nhb
+Ohb
+Phb
+Sdb
+eeb
+jkb
+//
+..
+/.
+./
+%3A
+0123456789ABCDEF
+string
+Contains invalid characters.
+\\
+Wkb
+Xkb
+%25
+Invalid character
+&
+=
+Aib
+25
+]
+[
+Missing end `]` to match `[` in host
+Illegal IPv6 address, invalid start colon.
+Illegal IPv6 address, only one wildcard `::` is allowed
+Illegal IPv6 address, address is too short
+Illegal IPv6 address, too few parts
+Illegal IPv6 address, expected a part after last `:`
+Illegal IPv6 address, an address with a wildcard must have less than 7 parts
+Illegal IPv6 address, an address without a wildcard must contain exactly 8 parts
+Illegal IPv6 address, an IPv6 part can only contain a maximum of 4 hex digits
+Illegal IPv6 address, each part must be in the range of `0x0..0xFFFF`
+Illegal IPv6 address, 
+Illegal IPv4 address, invalid character
+Illegal IPv4 address, each part must be in the range 0..255
+Illegal IPv4 address, IPv4 address should contain exactly 4 parts
+ZoneID should not contain % anymore
+Illegal scheme character
+Scheme not starting with alphabetic character
+package
+\\\\\?\\
+UNC\\
+path
+Windows paths with \\\\\?\\ prefix must be absolute
+Windows paths with drive letter must be absolute
+[\"*/:<>\?\\\\|]
+Illegal character in path
+Illegal character in path: 
+EXa
+FXa
+GXa
+HXa
+Illegal drive letter 
+http:
+https:
+package:
+dart:
+data:
+file:
+nkb
+/..
+file:///
+file://
+80
+443
+Invalid empty scheme
+Invalid port
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-._~!$&\'()*+,;=
+:
+\?
+#
+/\\
+@
++-.
+data
+Invalid MIME type
+base64
+Expecting \'=\'
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+Invalid base64 encoding length 
+==
+Invalid base64 data
+Invalid base64 padding, padded length must be multiple of four, is 
+Invalid base64 padding, \'=\' not at the end
+Invalid base64 padding, more than two \'=\' characters
+TlsException
+CertificateException
+HandshakeException
+\'print\' is not supported
+Local \'
+\' has been assigned during initialization.
+\' has already been initialized.
+\' has not been initialized.
+Field \'
+AbiSpecificInteger is missing mapping for \"
+\".
+Value not in range
+Microtasks are not supported
+Htb
+The error handler of Future.then must return a value of the returned future\'s type
+onError
+The error handler of Future.catchError must return a value of the future\'s type
+qfb
+Timer
+Future not completed
+idb
+Error handler must accept one Object or one Object and a StackTrace as arguments, and return a value of the returned future\'s type
+Ul
+yield before stream is listened to
+Xl
+unexpected yield
+Unexpected function data 
+Atb
+cm
+dm
+em
+Future already completed
+\'Uri.base\' is not supported
+ != null
+PlatformConfigurationNativeApi::ScheduleFrame
+POST_FRAME
+during a scheduler callback
+scheduler library
+Vec
+Another exception was thrown: 
+\n
+: 
+ Failed assertion:
+  
+  <no message available>
+dart:async-patch
+dart:async
+package:stack_trace
+class _AssertionError
+class _FakeAsync
+class _FrameCallbackEntry
+class _Timer
+class _RawReceivePortImpl
+class 
+ (
+ frames)
+ (1 frame)
+(elided one frame from 
+)
+and 
+(elided 
+ frames from 
+, 
+Too many elements
+Al
+Key not in map.
+<asynchronous suspension>
+...
+^#(\\d+) +(.+) \\((.+\?):\?(\\d+){0,1}:\?(\\d+){0,1}\\)$
+.<anonymous closure>
+new
+<unknown>
+dart
+startIndex
+^\\s*at ([^\\s]+).*$
+wgc
+Local \'Ucg\' has not been initialized.
+^ *(\?:[-+*] |[0-9]+[.):] )\?
+Ej
+Uneven calls to startSync and finishSync
+{}
+Mub
+while handling pending events
+foundation
+during a task callback
+while dispatching a non-hit-tested pointer event
+gesture library
+while dispatching a pointer event
+while routing a pointer event
+Si
+device
+kind
+activateSystemCursor
+No implementation found for method 
+ on channel 
+The BackgroundIsolateBinaryMessenger.instance value is invalid until BackgroundIsolateBinaryMessenger.ensureInitialized is executed.
+PlatformConfigurationNativeApi::GetRootIsolateToken
+while dispatching notifications for 
+foundation library
+The 
+ sending notification was
+[root]
+attaching to the render tree
+widgets library
+Zj
+while rebuilding dirty elements
+The element being rebuilt at the time was index 
+ of 
+, but _dirtyElements only had 
+ entries. This suggests some confusion in the framework internals.
+PlatformConfigurationNativeApi::UpdateSemantics
+EAd
+GAd
+popRoute
+pushRoute
+pushRouteInformation
+location
+state
+SystemNavigator.pop
+Menu.selectedCallback
+Menu.opened
+Menu.closed
+error
+Wj
+Root Focus Scope
+Jfc
+cSc
+dSc
+while finalizing the widget tree
+wDc
+SemanticsUpdateBuilder::updateNode
+‫
+‬
+‪
+SemanticsUpdateBuilder::build
+SemanticsUpdateBuilder::Create
+Scene::dispose
+PlatformConfigurationNativeApi::Render
+SystemChrome.setSystemUIOverlayStyle
+systemNavigationBarColor
+systemNavigationBarDividerColor
+systemStatusBarContrastEnforced
+statusBarColor
+statusBarBrightness
+statusBarIconBrightness
+systemNavigationBarIconBrightness
+systemNavigationBarContrastEnforced
+Brightness.
+SceneBuilder::build
+SceneBuilder::Create
+Picture::dispose
+PictureRecorder did not start recording.
+PictureRecorder::endRecording
+paint
+during 
+()
+rendering library
+iNb
+performLayout
+while executing callbacks for FrameTiming
+Flutter framework
+Vob
+_eic@44240726
+SystemChrome.systemUIChange
+System.requestAppExit
+response
+AppLifecycleState.resumed
+AppLifecycleState.inactive
+AppLifecycleState.hidden
+AppLifecycleState.paused
+AppLifecycleState.detached
+type
+didGainFocus
+nodeId
+fontsChange
+memoryPressure
+Image::dispose
+Stream has been disposed.\nAn ImageStream is considered disposed once at least one listener has been added and subsequently all listeners have been removed and no handles are outstanding from the keepAlive method.\nTo resolve this error, maintain at least one listener on the stream, or create an ImageStreamCompleterHandle from the keepAlive method, or create a new stream for the image.
+System.initializationComplete
+xcb
+controller
+NOTICES.Z
+decompressLicenses
+utf8DecodeLicenses
+parseLicenses
+-
+\n\n
+Fyb
+Cannot add event after closing
+Cannot add event while adding a stream
+krb
+qcb
+Computation ended without result
+sob
+Isolate.spawn ready
+Isolate.spawn
+Unable to spawn isolate: 
+Internal error: unexpected format for ready message: \'
+\'
+flutter/assets
+The asset does not exist or has empty data.
+Unable to load asset: \"
+during a platform message response callback
+services library
+PlatformConfigurationNativeApi::SendPlatformMessage
+_gic@44240726
+_hic@44240726
+handled
+while processing a key handler
+while processing the key message handler
+while processing a raw key listener
+keymap
+android
+flags
+codePoint
+keyCode
+plainCodePoint
+scanCode
+metaState
+source
+vendorId
+productId
+deviceId
+repeatCount
+character
+fuchsia
+hidUsage
+modifiers
+macos
+characters
+charactersIgnoringModifiers
+specifiedLogicalKey
+ios
+linux
+unicodeScalarValues
+toolkit
+keydown
+windows
+characterCodePoint
+web
+keyup
+Unknown key event type: 
+Unknown keymap for key events: 
+code
+glfw
+gtk
+Window toolkit not recognized: 
+flutter/keydata
+PlatformConfigurationNativeApi::SendChannelUpdate
+getKeyboardState
+push
+ was invoked but isn\'t implemented by 
+enabled
+root
+c
+put
+done() must not be called more than once on the same 
+Hlc
+while handling a pointer data packet
+gestures library
+Unreachable
+during method call 
+TextInputClient.focusElement
+TextInputClient.requestElementsInRect
+TextInputClient.scribbleInteractionBegan
+TextInputClient.scribbleInteractionFinished
+TextInputClient.requestExistingInputState
+TextInputClient.updateEditingStateWithTag
+TextInputClient.updateEditingState
+TextInputClient.updateEditingStateWithDeltas
+deltas
+TextInputClient.performAction
+TextInputAction.commitContent
+TextInputClient.performSelectors
+TextInputClient.performPrivateCommand
+action
+TextInputClient.updateFloatingCursor
+TextInputClient.onConnectionClosed
+TextInputClient.showAutocorrectionPromptRect
+TextInputClient.showToolbar
+TextInputClient.insertTextPlaceholder
+TextInputClient.removeTextPlaceholder
+fk
+xxc
+rdb
+RenderBox was not laid out: 
+0
+0123456789abcdefghijklmnopqrstuvwxyz
+AEc
+PJc
+kBb
+lCc
+jbd
+Dgd
+uhd
+yhd
+HapticFeedback.vibrate
+HapticFeedbackType.selectionClick
+Paragraph::height
+Paragraph::layout
+ParagraphBuilder::build
+ParagraphBuilder::addText
+ParagraphBuilder::pushStyle
+AWb
+BWb
+CWb
+DWb
+EWb
+FWb
+GWb
+HWb
+NUb
+WNb
+xWb
+yWb
+zWb
+packages/
+ParagraphBuilder::Create
+KUb
+LUb
+MUb
+OUb
+PUb
+QUb
+rQb
+Paragraph::width
+None of the patterns in the switch expression the matched input value. See https://github.com/dart-lang/language/issues/3488 for details.
+Paragraph::getRectsForRange
+REc
+aBd
+TextPainter.text must be set to a non-null value before using the TextPainter.
+TextPainter.textDirection must be set to a non-null value before using the TextPainter.
+while building a TextSpan
+painting library
+�
+ParagraphBuilder::pop
+Paragraph::maxIntrinsicWidth
+A RenderObject does not have any constraints before it has been laid out.
+@0@@  0P`pPP±@0@@  0P`pPP°@0@@  0P`pPP°@0@@  1P`pPP°A1AA¡ 1QaqQQ°@0@@  1Q`pPP°@0@@  1QapQP°@0@@  1PaqQQ°à0@@  1P`pPP°±±±±±Á±±±±±±±±@0@@Ð 1P`pPP°A1AA¡!1QaqQQ±@0@@ 1P`pPP°
+᫄⮸䄟㊶㊶㊶㊶㊶㊶㊶㊶㊶㽏ࠔ㊶㊶㊶㊶ᾁ㊶㊶㊶ᮻ⽯㳂Ԟ㊶ᇓޛⰒ㥧ᬘᢪ㤫䅏߱⺵ᢀᄣѺᤉࣆᤉᆯ⼲ᨙӑᧃ⹫ₚኘ቙٧ႎᅠ㱉ᅯᬃኣὼማ‣ᡀ㒰ࢊ㰓Ҷ㊶䆯䇏䇯䈗㊶㊶㊶㊶㊶㤧㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶ᣘሁ⸮ᖾՓ㊶㯩㊶䅯㊶㊶㊶ᩨქ⩙Ⰾ⁞⻳မө᪄㊶㊶㴏㊶㊶㊶㽏㊶㊶㊶㊶㊶㊶㊶㊶၎ݪ㊶޻ᗜ㊶Ⴚ㊶㊶㊶㊶㊶ᨿ㊶ೲᘆ㊶㊶㊶ࡷ㊶㊶ܽℹ෋ோ঳ோ࿙⃷ϣ㊶㊶㊶㊶㊶ܳ㊶㊶㊶㊶㊶㊶㊶Нࡤ㊶㊶㊶㊶㊶㤕㊶㑷㊶㆓㊶㊶㊶㊶㊶㊶㊶㊶₾㊶㚱㊶㊶㊶㊶㊶㊶㊶℠㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶⾀㚬㚚㊶㊶㊶㊶ᮌ㊶ᖄ᥇᫤㲂ᦆθк᭒⹷᧙㊶㊶㊶㳟ऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखञऊऒचआऎखऺॳ㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㵏㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㒘㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶㊶࠴㊶㊶⮸㊶㊶㚬㖦㊹㏖㊶㊶㊶㗥⓮㡇
+E533333333333333333333333333DDDDDDD4333333333333333333334C43333CD53333333333333333333333UEDTE433433333333333333333333333333333D433333333333333333CDDEDDD43333333S5333333333333333333333C333333D533333333333333333333333SUDDDDT533CD4E333333333333333333333333UEDDDDE433333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333TUUS5CTE3333333333333333333333333333333333333333333333333333333333333333333333SUDD3DUU43533333333333333333C3333333333333w733337333333s3333333w7333333333w33333333333333333333CDDTETE43333ED4S5SE3333C33333D33333333333334E433C3333333C33333333333333333333333333333CETUTDT533333CDDDDDDDDDD3333333343333333D$433333333333333333333333SUDTEE433C34333333333333333333333333333333333333333333333333333333333333333333333333333333TUDDDD3333333333CT5333333333333333333333333333DCEUU3U3U5333343333S5CDDD3CDD333333333333333333333333333333333333333333333333333333333333333333333s73333s33333333333\"\"\"\"\"\"\"\"333333339433333333333333CDDDDDDDDDDDDDDDD3333333CDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD33333333DDDDDDDD3333333373s333333333333333333333333333333CDTDDDCTE43C4CD3C333333333333333D3C33333îîíîîîîîîîîîîîîîíîîîîîîîîîîîîîíîîîîîîîîîîîîî333333»»»»»»»»33ÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌ<3sww73333swwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww7333swwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww7333333w7333333333333333733333333333333333333333333333sww733333s7333333s3wwwww333333333wwwwwwwwwwwwwwwwwwwwwwwwwwwwgffffffffffffvww7wwwwwwswwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww733333333333333333333333swwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww7333333333333333333333333333333333333333333333333333333333swwwww7333333333333333333333333333333333333333333wwwwwwwwwwwwwwwwwwwww7swwwwwss33373733s33333w33333CT333333333333333EDTETD433333333#\"333333333333\"\"\"233333373ED4U5UE9333C33333D33333333333333www3333333s73333333333EEDDDCC3DDDDUUUDDDDD3T5333333333333333333333333333CCU3333333333333333333333333333334EDDD33SDD4D5U4333333333C43333333333CDDD9DDD3DCD433333333C433333333333333C433333333333334443SEUCUSE4333D33333C43333333533333CU33333333333333333333333333334EDDDD3CDDDDDDDDDDDDDDDDDDDDDDDDDDD33DDDDDDDDDDDDDDDDDDDDDDDDD33334333333C33333333333DD4DDDDDDD433333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CSUUUUUUUUUUUUUUUUUUUUUUUUUUU333CD43333333333333333333333333333333333333333433333U3333333333333333333333333UUUUUUTEDDDDD3333C3333333333333333373333333333s333333333333swwwww33w733wwwwwww73333s33333333337swwwwsw73333wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwDD4D33CDDDDDCDDDDDDDDDDDDDDDDD43EDDDTUEUCDDD33333D33333333333333DDCDDDDCDCDD333333333DT33333333333333D5333333333333333333333333333CSUE4333333333333CDDDDDDDD4333333DT33333333333333333333333CUDDUDU3SUSU43333433333333333333333333ET533E3333SDD3U3U4333D43333C43333333333333s733333s33333333333CTE333333333333333333UUUUDDDDUD3333\"\"\"\"\"(\"\"\"\"\"\"\"\"\"3333333333333333333DDDD333333333333333333333333CDDDD3333C3333T333333333333333333333334343C33333333333SET334333333333DDDDDDDDDDDDDDDDDDDDDD4DDDDDDDD4CDDDC4DD43333333333333333333333333333333333333333333333333C33333333333333333333333333333333333333333333333333333333333333333333333333333333DDD433333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334333333333333333333333333333333DD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333DD433333333333333333333333333333DDD43333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333DDDDDDD533333333333333333333333DDDTTU5D4DD333C433333D333333333333333333333DDD733333s373ss33w7733333ww733333333333ss33333333333333333333333333333ww3333333333333333333333333333wwww33333www33333333333333333333wwww333333333333333wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww333333wwwwwwwwwwwwwwwwwwwwwww7wwwwwswwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww73333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333C4\"\"333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333DD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333DDD4333333333333333333333333333333333333333333333333333333DDD4333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333UEDDDTEE43333333333333333333333333333333333333333333333333333CEUDDDE33333333333333333333333333333333333333333333333333CD3DDEDD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333EDDDCDDT43333333333333333333333333333333333333333CDDDDDDDDDD4EDDDETD3333333333333333333333333333333333333333333333333333333333333DDD3CC4DDD433333333333333333333333333333333SUUC4UT4333333333333333333333333333333333333333333333333333#\"\"\"\"\"\"\"B333DDDDDDD433333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CED3SDD$\"\"\"BDDD4CDDD333333333333333DD33333333333333333333333333333333333333333DEDDDUE333333333333333333333333333CCD3D33CD533333333333333333333333333CESEU3333333333333333333DDDD433333CU33333333333333333333333333334DC44333333333333333333333333333CD4DDDDD33333333333333333333DDDDD333343333DDDUD43333333333333333333IDDDDDDE43333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CDDDDDDDDDDDDDDDDDDDDDD4CDDDDDDDDDDD33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CD3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333433333333333333333333333333333333333333333333333333333333333333333333333333DD4333333333333333333333333333333333333333333333333333333333333333333\"\"\"\"\"\"33D4D33CD43333333333333333333CD3343333333333333333333333333333333333333333333333333333333333333333333333333333333333D33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CT53333DY333333333333333333333333UDD43UT43333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333D3333333333333333333333333333333333333333D43333333333333333333333333333333333CDDDDD333333333333333333333333CD4333333333333333333333333333333333333333333333333333333333333SUDDDDUDT43333333333343333333333333333333333333333333333333333TEDDTTEETD333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333CUDD3UUDE43333333333333D3333333333333333343333333333SE43CD33333333DD33333C33TEDCSUUU433333333S533333CDDDDDU333333ªªªªªªªªªªªªªª:333333DDDDD4233333333333333333UTEUS433333333CDCDDDDDDEDDD33433C3E433#\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"BDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD$\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"BDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD$\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"2333373r33333333933CDDD4333333333333333CDUUDU53SEUUUD43£ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªº»»»»»»»»»»»»»»»»»»»ËÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌ\f
+Unexpected state: 
+ 0000 @P`p`p± 0000 @P`p`p° 0000 @P`p`p° 1011 @P`p`p° 1111¡AQaqaq° 1011 @Qapaq° 1011 @Paq`p° 1011 @P`q`p° 01 @P`p`p° 1011 @P`p`p° 10111@P`p`p°!1111¡AQaqaq±
+while checking if the clipboard has strings
+widget library
+Clipboard.hasStrings
+text/plain
+while checking the availability of Live Text input
+LiveText.isLiveTextInputAvailable
+dpc
+Fdb
+Uyc
+while notifying status listeners for 
+animation library
+xj
+while notifying listeners for 
+Paragraph::getPositionForOffset
+tEd
+pEd
+jQc
+while calling onSelectionChanged for 
+widgets
+kbd
+from
+TextInput.startLiveTextInput
+Share.invoke
+SearchWeb.invoke
+LookUp.invoke
+ADc
+oNb
+CCc
+Kmd
+fqc
+Pyd
+CKc
+DKc
+FKc
+aQc
+while applying input formatters
+while calling onChanged
+Etb
+Zl
+am
+_Gld@167498029
+_Znb@167498029
+iwb
+jwb
+sNb
+tNb
+Hmc
+Xmc
+wZa
+Clipboard.getData
+text
+Clipboard.setData
+ProcessText.processTextAction
+_iOc@201111801
+Paragraph::getLineBoundary
+Rxd
+Yxd
+cyd
+nyd
+uNc
+TextInput.requestAutofill
+TextInput.show
+fontFamily
+fontSize
+fontWeightIndex
+textAlignIndex
+textDirectionIndex
+TextInput.setStyle
+width
+height
+x
+y
+TextInput.setCaretRect
+TextInput.setMarkedTextRect
+transform
+TextInput.setEditableSizeAndTransform
+EditableText-
+invalid text selection: 
+Sfc
+Vyc
+yOd
+zOd
+X
+Y
+FloatingCursorDragState.start
+FloatingCursorDragState.update
+FloatingCursorDragState.end
+Unknown text cursor action: 
+while calling onSubmitted for 
+TextInput.clearClient
+TextInput.hide
+Rbb
+hMc
+kMc
+cUc
+tTc
+TextInputAction.none
+TextInputAction.unspecified
+TextInputAction.go
+TextInputAction.search
+TextInputAction.send
+TextInputAction.next
+TextInputAction.previous
+TextInputAction.continueAction
+TextInputAction.join
+TextInputAction.route
+TextInputAction.emergencyCall
+TextInputAction.done
+TextInputAction.newline
+Unknown text input action: 
+mimeType
+uri
+oldText
+deltaStart
+deltaEnd
+deltaText
+composingBase
+composingExtent
+selectionBase
+selectionExtent
+selectionAffinity
+TextAffinity.downstream
+TextAffinity.upstream
+selectionIsDirectional
+TextInput.setEditingState
+IWb
+nmc
+omc
+TextAffinity.
+TextInput.setClient
+inputType
+name
+signed
+decimal
+TextInputType.
+readOnly
+obscureText
+autocorrect
+smartDashesType
+smartQuotesType
+enableSuggestions
+enableInteractiveSelection
+actionLabel
+inputAction
+textCapitalization
+TextCapitalization.none
+keyboardAppearance
+enableIMEPersonalizedLearning
+contentCommitMimeTypes
+autofill
+enableDeltaModel
+TextInputAction.
+uniqueIdentifier
+hints
+editingValue
+hintText
+UWa
+api level 
+license/libmpv
+libmpv
+license/libsmb2
+libsmb2
+UTF8 decode for \"
+\"
+bmc
+SystemChrome.setEnabledSystemUIMode
+SystemChrome.setEnabledSystemUIOverlays
+SystemUiMode.
+Cannot close file
+qHb
+File closed
+An async operation is currently pending
+IO Service
+readInto failed
+Unknown error
+read failed
+length failed
+vJb
+Invalid file mode for this operation
+Cannot open file
+Cannot check existence
+preferences
+flutter_preferences.prefs
+flutter_preferences.prefs.tmp
+join
+(
+): part 
+ was null, but part 
+ was not.
+a/b
+a\\b
+Cannot extract a file path from a 
+ URI
+Cannot extract a file path from a URI with a query component
+Cannot extract a file path from a URI with a fragment component
+Cannot extract a non-Windows file path from a file URI with an authority
+Illegal percent encoding in URI
+Truncated URI
+Invalid URL encoding
+Illegal path character 
+posix
+[^/]$
+^/
+[/\\\\]
+[^/\\\\]$
+^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])
+^[/\\\\](\?![/\\\\])
+url
+(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$
+[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*
+android.intent.action.VIEW
+android.intent.action.SEND
+android.intent.extra.TEXT
+reex.extra.http_header
+_loadStartedPlaylist
+reex.extra.title
+android.intent.extra.TITLE
+title
+reex.extra.subtitle
+uriString
+queryDisplayName
+content
+] 
+StartedIntentChannel.getStringExtra
+StartedIntentChannel.dataString
+StartedIntentChannel.action
+checkManualExternalStorage
+checkMediaPermission
+getStorageDirectory
+dev.flutter.pigeon.PathProviderApi.getExternalStoragePath
+channel-error
+Unable to establish connection on channel.
+tcb
+getApplicationSupportDirectory
+Unable to get application support directory
+dev.flutter.pigeon.PathProviderApi.getApplicationSupportPath
+getTemporaryDirectory
+Unable to get temporary directory
+dev.flutter.pigeon.PathProviderApi.getTemporaryPath
+getAll
+appName
+packageName
+version
+buildNumber
+buildSignature
+installerStore
+canTouchScreen
+isTelevision
+getDeviceApiLevel
+Wnb
+Xnb
+PlatformConfigurationNativeApi::RegisterBackgroundIsolate
+DartPluginRegistrant_EnsureInitialized
+IsolateRunners.io
+clockSeq
+mSecs
+nSecs
+node
+uuid.v1(): Can\'t create more than 10M uuids/sec
+buffer too small: need 16: length=
+seedBytes
+hasInitV1
+hasInitV4
+v1rngPositionalArgs
+v1rngNamedArgs
+v1rng
+rwb
+Sk
+rk
+KGe
+LGe
+SGe
+TGe
+QGe
+RGe
+ExternalTrack(uriString: 
+, displayName: 
+, language: 
+, httpHeader: 
+Playlist(title: 
+, index: 
+, options: 
+, items: 
+PlaylistItem(uriString: 
+, identity: 
+, title: 
+, subtitles: 
+ScreenOrientationMode.
+SortType.
+ListMode.
+AudioOutputDriver.
+gFb
+flush failed
+writeFrom failed
+stackTrace
+Cannot create file
+Creation failed
+[^/]/+[^/]
+Exists failed
+Cannot check existence of file
+IsolateService already created.
+This runner(
+) already closed.
+Please call IsolateRunners.ensureInitialized() first
+Error_Records.jsonl
+PDf
+MissingPlatformDirectoryException(
+Vgf
+%3a
+://
+Background isolates do not support setMessageHandler(). Messages from the host platform always go to the root isolate.
+PlatformConfigurationNativeApi::SendPortPlatformMessage
+(...)
+count
+MaterialState.
+ThemeMode.
+no scaling
+linear (
+x)
+EdgeInsets.zero
+EdgeInsets.all(
+EdgeInsets(
+EdgeInsetsDirectional(
+) + EdgeInsetsDirectional(
+, 0.0, 
+, 0.0)
+NaN
+fractionDigits
+AxisDirection.
+Axis.
+<optimized out>
+AttributedString
+(\'
+\', attributes: 
+Tolerance
+(distance: ±
+, time: ±
+, velocity: ±
+Simulation
+ParametricCurve
+Cubic
+_AnimationDirection.
+AnimationBehavior.
+AnimationStatus.
+active
+complete
+canceled
+This ticker was canceled: 
+The ticker was canceled before the \"orCancel\" property was first used.
+SchedulerPhase.
+ScrollDirection.
+RevealedOffset
+(offset: 
+, rect: 
+xlc
+ at 
+TextSelectionHandleType.
+HitTestBehavior.
+PaintingContext
+(layer: 
+, canvas bounds: 
+Bpb
+gNb
+DSd
+zDc
+latestEvent: 
+annotations: [list of 
+EngineLayer::dispose
+LayerHandle(
+DISPOSED
+SceneBuilder::addRetained
+SceneBuilder::pop
+SceneBuilder::pushTransformHandle
+SceneBuilder::pushOffset
+-ltr
+-rtl
+LiveTextInputStatus.
+ClipboardStatus.
+ScrollIncrementType.
+ScrollPositionAlignmentPolicy.
+extent: 
+initialScrollOffset: 
+no clients
+one client, offset 
+ clients
+StorageEntryIdentifier(
+(opaque: 
+; maintainState: 
+(DISPOSED)
+Notification
+[GlobalKey#
+_ElementLifecycle.
+TraversalEdgeBehavior.
+FocusHighlightStrategy.
+FocusHighlightMode.
+KeyEventResult.
+UnfocusDisposition.
+Paragraph::computeLineMetrics
+_Editable must be mounted.
+ContextMenuButtonType.
+ContextMenuButtonItem 
+Zxc
+while resolving a PointerSignalEvent
+[0] 
+\n[1] 
+\n[2] 
+\n[3] 
+,
+DragStartBehavior.
+HitTestResult(
+<empty path>
+FloatingCursorDragState.
+SelectionChangedCause.
+TextEditingValue
+(text: ┤
+├, selection: 
+, composing: 
+TextCapitalization.
+SmartDashesType.
+TextInputType
+(name: 
+, signed: 
+, decimal: 
+TextSelection
+.collapsed(offset: 
+, affinity: 
+, isDirectional: 
+(baseOffset: 
+, extentOffset: 
+TextSelection.invalid
+SystemUiOverlayStyle
+SystemUiOverlay.
+RestorationBucket(restorationId: root, owner: null)
+ModifierKey.
+KeyboardSide.
+Wbb
+Uec
+Expected envelope List, got 
+Invalid envelope: 
+method
+args
+Expected method call Map, got 
+Invalid method call: 
+MissingPluginException(
+MethodCall
+PlatformException(
+KeyboardInsertedContent
+KeyDataTransitMode.
+KeyboardLockMode.
+KeyMessage(
+during a platform message callback
+StackFrame
+(#
+, className: 
+, method: 
+_WordWrapParseMode.
+Bec
+<BindingBase>
+FlutterError
+PackageInfo(appName: 
+, buildNumber: 
+, packageName: 
+, version: 
+, buildSignature: 
+, installerStore: 
+Size(
+BoxHeightStyle.
+TextRange(start: 
+, end: 
+KeyEventDeviceType.
+TextAlign.
+Offset(
+TextHeightBehavior(applyHeightToFirstAscent: 
+, applyHeightToLastDescent: 
+, leadingDistribution: 
+[size: 
+DisplayFeatureState.
+DisplayFeatureType.
+TextPosition(offset: 
+ParagraphStyle(textAlign: 
+unspecified
+, textDirection: 
+, fontWeight: 
+, fontStyle: 
+, maxLines: 
+, textHeightBehavior: 
+, fontFamily: 
+, fontSize: 
+, height: 
+, strutStyle: 
+, ellipsis: 
+, locale: 
+ParagraphConstraints(width: 
+GestureSettings(physicalTouchSlop: 
+, physicalDoubleTapSlop: 
+TextBox.fromLTRBD(
+PointerSignalKind.
+PointerDeviceKind.
+KeyData(
+, physical: 0x
+, logical: 
+, character: 
+, synthesized
+ (0x
+<none>
+\"\\n\"
+\t
+\"\\t\"
+\"\\r\"
+\b
+\"\\b\"
+\f
+\"\\f\"
+0x
+ (Unicode)
+ (Unprintable)
+ (Flutter)
+ (Android)
+ (Fuchsia)
+ (iOS)
+ (macOS)
+ (GTK)
+ (Windows)
+ (Web)
+ (GLFW)
+Key Down
+Key Up
+Key Repeat
+`null` encountered as case in a switch expression with a non-nullable type.
+AppExitResponse.
+accessibleNavigation
+invertColors
+disableAnimations
+boldText
+reduceMotion
+highContrast
+onOffSwitchLabels
+AccessibilityFeatures
+TextLeadingDistribution.
+AppLifecycleState.
+TextDirection.
+BoxWidthStyle.
+Color(0x
+KeyEventType.
+ViewPadding(left: 
+, top: 
+, right: 
+, bottom: 
+Display(id: 
+, size: 
+, devicePixelRatio: 
+, refreshRate: 
+Rect.fromLTRB(
+TextStyle(color: 
+, decoration: 
+, decorationColor: 
+, decorationStyle: 
+, decorationThickness: 
+, textBaseline: 
+, fontFamilyFallback: 
+, letterSpacing: 
+, wordSpacing: 
+, background: 
+, foreground: 
+, shadows: 
+, fontFeatures: 
+, fontVariations: 
+PointerData(x: 
+, y: 
+PointerChange.
+DisplayFeature(rect: 
+, type: 
+, state: 
+×
+FlutterView(id: 
+SemanticsAction.
+(buildDuration: 
+, rasterDuration: 
+, vsyncOverhead: 
+, totalSpan: 
+, layerCacheCount: 
+, layerCacheBytes: 
+, pictureCacheCount: 
+, pictureCacheBytes: 
+, frameNumber: 
+ms
+PathNotFoundException
+, path = \'
+Link: \'
+FileSystemException
+File: \'
+InternetAddress(\'
+\', 
+PathAccessException
+PathExistsException
+Directory: \'
+OS Error
+, errno = 
+: errno = 
+InternetAddressType: 
+Not a byte value at index 
+: 0x
+Cannot remove from a fixed-length list
+Cannot add to a fixed-length list
+ReachabilityError: 
+index
+Index out of range
+Symbol(\"
+\")
+LateInitializationError: 
+_Architecture.
+_OS.
+Offset (
+) must be a multiple of BYTES_PER_ELEMENT (
+skipCount + length
+Cannot modify an unmodifiable list
+fillValue
+Must not be null
+\r\n\t
+No events after a done.
+kdb
+Stream has already been listened to.
+Wrb
+handleError callback must take either an Object (the error), or both an Object (the error) and a StackTrace.
+LWa
+Timer interface not supported.
+DeferredLoadException: \'
+TimeoutException after 
+{...}
+{
+}
+Cannot modify unmodifiable map
+Cannot change an unmodifiable set
+lk
+Cannot instantiate abstract class 
+: _url \'
+\' line 
+IsolateSpawnException: 
+Exception: 
+Deferred library 
+ was not loaded.
+Out of Memory
+FormatException
+ (at line 
+, character 
+)\n
+ (at character 
+^\n
+ (at offset 
+../
+IntegerDivisionByZeroException
+Reading static variable during its initialization
+Reading static variable \'
+\' during its initialization
+Cannot remove from an unmodifiable list
+Cannot add to an unmodifiable list
+Invalid argument
+(s)
+RangeError
+: index must not be negative
+: no indices are valid
+: index should be less than 
+Concurrent modification during iteration.
+Concurrent modification during iteration: 
+InternalError: \'
+Stack Overflow
+0.0
+Unsupported operation: 
+Expando:
+\': 
+ pos 
+\': Failed assertion: line 
+: \'
+is not true.
+MapEntry(
+UnimplementedError: 
+UnimplementedError
+Assertion failed: 
+NoSuchMethodError: Cannot assign to final variable \'
+<
+>
+ with matching arguments
+function
+NoSuchMethodError: 
+The null object does not have a 
+ \'
+\' was called on null.
+Closure call with mismatched arguments: function \'
+call
+Attempted to use type \'
+\' as a function. Since types do not define a method \'call\', this is not possible. Did you intend to call the 
+ constructor and forget the \'new\' operator\?
+Class \'
+\' has no instance 
+Super class of class \'
+super.
+No static 
+ declared in class \'
+\'.
+No constructor \'
+new 
+No top-level 
+ declared.
+Receiver: top-level
+Receiver: 
+Tried calling: 
+ = 
+\nFound: 
+get:
+set:
+Bad state: 
+displayName
+language
+httpHeader
+options
+items
+identity
+subtitles
+Version: 
+Error:
+StackTrace:
+numberOfProcessors
+pathSeparator
+operatingSystem
+operatingSystemVersion
+localHostname
+environment
+executable
+resolvedExecutable
+script
+executableArguments
+packageConfig
+stdinSupportsAnsi
+stdoutSupportsAnsi
+localeName
+Error determining ANSI support
+Failed to get type of stdio handle (fd 
+Cannot open stdio file for: 
+Unexpected handle type 
+Error retrieving socket type
+Socket Event Handler
+Error event raised in event handler : error condition has been reset
+Btb
+RDb
+jGb
+pgb
+sGb
+MaterialStateMouseCursor(
+SemanticsData
+SemanticsNode
+; paused
+; DISPOSED
+; silenced
+⏮
+▶
+◀
+⏭
+hCc
+performResize
+ DETACHED
+; NOT NORMALIZED
+BoxConstraints(biggest
+BoxConstraints(unconstrained
+w
+h
+BoxConstraints(
+<=
+scrollDelta: 
+direction: 
+depth: 
+local
+remote
+overscroll: 
+velocity: 
+(DEFUNCT)
+Widget
+building 
+[IN FOCUS PATH]
+[PRIMARY FOCUS]
+SizedBox.expand
+SizedBox.shrink
+SizedBox
+SystemMouseCursor
+defer
+Exception caught by 
+TextDecorationStyle.
+_FrameTimingInfo.
+FontStyle.
+SemanticsFlag.
+TextBaseline.
+FramePhase.
+LineMetrics(hardBreak: 
+, ascent: 
+, descent: 
+, unscaledAscent: 
+, width: 
+, left: 
+, baseline: 
+, lineNumber: 
+TextDecoration.none
+underline
+overline
+lineThrough
+TextDecoration.
+TextDecoration.combine([
+])
+Ubb
+odb
+Invalid value in input: 
+Cyclic error in JSON stringify
+Converting object to an encodable object failed:
+Converting object did not return an encodable object:
+{\n
+\": 
+,\n
+[]
+[\n
+Missing padding character
+Invalid length, must be multiple of four
+Invalid encoding before padding
+Invalid padding character
+\":
+,\"
+bk
+: Not less than or equal to 
+: Not greater than or equal to 
+: Not in inclusive range 
+: Valid value range is empty
+: Only valid value is 
+Yxc
+Zyc
+_aFd@224451017
+ESc
+[#
+btb
+StdoutException: 
+Cxb
+Cannot send errors on sockets
+Write failed
+Read failed
+Illegal length 
+uvb
+StdinException: 
+StreamSink is bound to a stream
+StreamSink is already bound to a stream
+StreamSink is closed
+SocketException
+, address = 
+, port = 
+Called updateOverrides on a ProviderContainer that was already disposed
+UFc
+Gze
+Kde
+Rde
+iVd
+AYd
+CVb
+ghc
+WVd
+AAe
+Aze
+Bze
+CFc
+Cze
+Dne
+Dze
+Eze
+FAe
+Fze
+GAe
+HAe
+Hpe
+Hze
+IAe
+Jze
+Kze
+Lze
+Mze
+Nlc
+Nze
+Oze
+PEd
+Pze
+Qbe
+Qze
+Rze
+Sze
+Tze
+Uze
+Vze
+Wce
+Wze
+Xce
+Xze
+Yce
+Yze
+Zde
+Zze
+aAe
+abe
+bAe
+bge
+cAe
+cFd
+dAe
+dde
+eAe
+efe
+emd
+fAe
+fde
+ffe
+gAe
+hAe
+iAe
+jAe
+kAe
+lAe
+mAe
+mce
+nAe
+oAe
+pAe
+pze
+qAe
+qze
+rAe
+rze
+sAe
+tAe
+tze
+uAe
+ude
+uze
+vAe
+vze
+wAe
+xAe
+xze
+yAe
+yze
+zAe
+Ticker(
+Paragraph::paint
+Canvas::drawRect
+\"recorder\" must not already be associated with another Canvas.
+Canvas::Create
+PictureRecorder::Create
+Fl
+HJc
+IJc
+JJc
+nRb
+pNb
+sYa
+vn
+Bad start position: 
+setPosition failed
+Reex
+ajf
+DVb
+SVd
+ede
+fFc
+mAc
+pde
+tde
+uhe
+vhe
+whe
+xce
+xhe
+Required PreferenceScope!
+*
+color
+darkColor
+highContrastColor
+darkHighContrastColor
+elevatedColor
+darkElevatedColor
+highContrastElevatedColor
+darkHighContrastElevatedColor
+CupertinoDynamicColor
+, resolved by: 
+UNRESOLVED
+ScriptCategory.
+(h: 
+, v: 
+MaterialTapTargetSize.
+_TextSelectionToolbarItemPosition.
+TUd
+FloatingLabelBehavior.
+FloatingLabelAlignment.start
+FloatingLabelAlignment.center
+FloatingLabelAlignment(x: 
+ButtonTextTheme.
+TextStyle
+TextOverflow.
+ColorSwatch
+(primary value: 
+Alignment.topLeft
+Alignment.topCenter
+Alignment.topRight
+Alignment.centerLeft
+Alignment.center
+Alignment.centerRight
+Alignment.bottomLeft
+Alignment.bottomCenter
+Alignment.bottomRight
+Alignment(
+ + 
+AlignmentDirectional.topStart
+AlignmentDirectional.topCenter
+AlignmentDirectional.topEnd
+AlignmentDirectional.centerStart
+AlignmentDirectional.center
+AlignmentDirectional.centerEnd
+AlignmentDirectional.bottomStart
+AlignmentDirectional.bottomCenter
+AlignmentDirectional.bottomEnd
+AlignmentDirectional(
+SceneBuilder::addPicture
+offset=
+[_DeprecatedRawViewKey 
+IUb
+JUb
+pFc
+qFc
+rFc
+tFc
+uFc
+PlaceholderSpanIndexSemanticsTag(
+GXb
+RYb
+VFc
+WFc
+Wuc
+XFc
+YFc
+ZFc
+aGc
+bGc
+cGc
+dGc
+eGc
+fGc
+gGc
+hGc
+iGc
+jFb
+jGc
+kGc
+kZb
+lGc
+mGc
+orc
+pyc
+yVb
+_MediaQueryAspect.
+MultitouchDragStrategy.
+while handling a gesture
+gesture
+dqc
+_DragState.
+TargetPlatform.
+PaintingStyle.
+Clip.
+Home
+首頁
+首页
+Network sharing
+網絡共享
+网络共享
+Playlist
+播放列表
+Settings
+設置
+设置
+MeAppTheme.
+GlobalMaterialLocalizations.delegate(
+ locales)
+GlobalWidgetsLocalizations.delegate(
+GlobalCupertinoLocalizations.delegate(
+CVc
+Uuc
+Vsc
+Vuc
+Wsc
+Xsc
+Xuc
+bvc
+evc
+gVc
+hVc
+iVc
+jVc
+kVc
+mVc
+nVc
+oVc
+pVc
+prc
+qVc
+rrc
+sVc
+src
+uVc
+vVc
+wVc
+xVc
+zBc
+Canvas::clipPath
+Canvas::restore
+Canvas::saveLayer
+Canvas::save
+jJd
+Path::shift
+Canvas::drawRRect
+Path::close
+Path::arcTo
+Path::lineTo
+Path::moveTo
+Path::addRRect
+Path::Create
+{hovered: 
+, focused,pressed: 
+, otherwise: null}
+{disabled: 
+, otherwise: 
+TabBarIndicatorSize.
+TabAlignment.
+MaterialStatePropertyAll(
+ink renderer
+MaterialType.
+TextSpan
+TextWidthBasis.
+RoundedRectangleBorder
+Decoration
+HSLColor
+CircleBorder
+, eccentricity: 
+BoxShadow(
+BoxShape.
+Border
+.all(
+top: 
+right: 
+bottom: 
+left: 
+BorderSide
+BorderStyle.
+ShapeBorder()
+BorderRadius.circular(
+BorderRadius.all(
+BorderRadius.only(
+topLeft: 
+topRight: 
+bottomLeft: 
+bottomRight: 
+BorderRadiusDirectional.circular(
+BorderRadiusDirectional.all(
+BorderRadiusDirectional.only(
+topStart: 
+topEnd: 
+bottomStart: 
+bottomEnd: 
+BorderRadius.zero
+VerticalDirection.
+SemanticsProperties
+SemanticsTag
+DecorationPosition.
+CustomClipper
+CrossAxisAlignment.
+MainAxisAlignment.
+MainAxisSize.
+A DefaultTextStyle constructed with DefaultTextStyle.fallback cannot be incorporated into the widget tree, it is meant only to provide a fallback value returned by DefaultTextStyle.of() when no enclosing default text style is present in a BuildContext.
+ScrollBehavior
+while invoking the callback for 
+ that invoked the callback was
+LocalizationsDelegate
+TraversalDirection.
+A DefaultSelectionStyle constructed with DefaultSelectionStyle.fallback cannot be incorporated into the widget tree, it is meant only to provide a fallback value returned by DefaultSelectionStyle.of() when no enclosing default selection style is present in a BuildContext.
+Zk
+Ejc
+xFc
+zFc
+Paragraph::dispose
+…
+GKd
+EJc
+OffsetPair
+(local: 
+, global: 
+DragUpdateDetails
+DragStartDetails
+GestureDisposition.
+TextShadow(
+ColorFilter.mode(
+ColorFilter.matrix(
+ColorFilter.linearToSrgbGamma()
+ColorFilter.srgbToLinearGamma()
+Unknown ColorFilter type. This is an error. If you\'re seeing this, please file an issue at https://github.com/flutter/flutter/issues/new.
+Radius.circular(
+Radius.elliptical(
+BlurStyle.
+BlendMode.
+ImageFilter.blur(
+clamp
+repeated
+mirror
+decal
+`null` encountered as case in a switch statement with a non-nullable type.
+ImageFilter.compose(source -> 
+ -> result)
+ -> 
+unknow ColorFilter
+blur(
+TileMode.
+Nothing
+什麼也沒有
+什么也没有
+external_primary
+Emc
+Cannot delete file
+Cannot rename file to \'
+MIb
+Unb
+No ProviderScope found
+Cannot use \"ref\" after the widget was disposed.
+IJb
+VRe
+ZIb
+gUe
+Rename
+重命名
+disable
+禁用
+Edit
+編輯
+编辑
+Delete
+删除
+Bjd
+jjd
+mkd
+mqc
+yFc
+qtc
+jed
+sub
+result
+target
+KQb
+computation
+The type parameter is not nullable
+qfd
+queryTreeUris
+documentUri
+isDirectory
+isVirtual
+lengthInBytes
+getPersistedUriReadPermissions
+releasePersistableUriReadPermission
+kAc
+No such element
+modified_time
+playback_histories
+dob
+;
+UPDATE 
+ SET 
+SELECT
+ * FROM 
+DELETE FROM 
+ORDER BY 
+WHERE 
+XMe
+reex.sqlite
+takePersistableUriReadPermission
+request
+Ozf
+Select
+選擇
+选择
+playlist_id
+extended_playlist_items
+id
+extended_playlists
+PRIMARY KEY AUTOINCREMENT
+Cannot fire new event. Controller is already firing an event
+Cannot add new events after calling close
+Cannot add new events while doing an addStream
+AND
+Stream is already closed
+EKe
+tKe
+zLe
+Hl
+Sorry, 
+ cannot be used for that because: \n
+• 
+Wid
+qnd
+Tried to call `requireValue` on an `AsyncValue` that has no value: 
+riverpod
+Wpc
+===== asynchronous gap ===========================\n
+data:...
+Couldn\'t parse package:stack_trace stack trace line \'
+absolute
+non-byte value
+^(\\S+)(\?: (\\d+)(\?::(\\d+))\?)\?\\s+([^\\d].*)$
+unparsed
+=====
+.da
+<async>
+<anonymous closure>
+<fn>
+<data:
+<(<anonymous closure>|[^>]+)_async_body>
+^#\\d+\\s+(\\S.*) \\((.+\?)((\?::\\d+){0,2})\\)$
+takeCount
+\tat 
+\nStack trace:\n
+ line 
+.<fn>
+^([a-zA-Z]:[\\\\/]|\\\\\\\\)
+^[a-zA-Z][-+.a-zA-Z\\d]*://
+/<
+anonymous
+(\\S+)@(\\S+) line (\\d+) >.* (Function|eval):\\d+:\\d+
+^\\.
+^(\?:([^@(/]*)(\?:\\(.*\\))\?((\?:/[^/]*)*)(\?:\\(.*\\))\?@)\?(.*\?):(\\d*)(\?::(\\d*))\?$
+[native code]
+<anonymous>
+Anonymous function
+(anonymous function)
+native
+^(.*\?):(\\d+)(\?::(\\d+))\?$|native$
+^eval at (\?:\\S.*\?) \\((.*)\\)(\?:, .*\?:\\d+:\\d+)\?$
+^\\s*at (\?:(\\S.*\?)(\?: \\[as [^\\]]+\\])\? \\((.*)\\)|(.*))$
+    \?at 
+^[^\\s<][^\\s]*( \\d+(:\\d+)\?)\?[ \\t]+[^\\s]+$
+@\\S+ line \\d+ >.* (Function|eval):\\d+:\\d+
+^(([.0-9A-Za-z_$/<]|\\(.*\\))*@)\?[^\\s]*:\\d*$
+\\n    \?at 
+^<asynchronous suspension>\\n\?$
+rowid
+ INTO 
+DEFAULT VALUES
+ RETURNING 
+) 
+VALUES (
+ not supported on postgres
+Video
+視頻
+视频
+NavigationView.
+stop
+onNewPlaylistItem
+subtitle
+callback
+setRequestedOrientation
+getScreenBrightness
+red
+HAb
+MPV_EVENT_END_FILE
+length must be in the range [0, 1073741823].
+mpv_wait_event
+mpv_hook_continue
+on_load
+on_load_fail
+on_preloaded
+on_unload
+on_before_start_file
+on_after_end_file
+length must be in the range [0, 
+].
+Operation \'toDartString\' not allowed on a \'nullptr\'.
+Unknown reason 
+mpv_client_name
+mpv_error_string
+libmpv.so
+NativeCallable(InstanceTearOff(InstanceAccessKind.Instance, this.{MPVClient._handleWakeup}))
+mpv_destroy
+Could not allocate 
+ bytes.
+malloc
+free
+quit
+Should not empty
+command
+aff
+mpv_command_async
+lZd
+calloc
+pause
+setPropertyBool
+mpv_set_property_async
+eZd
+Please use key in correct isolate!
+IsolateService not created.
+IsolateService already stopped.
+prefix
+level
+dispose
+SurfaceTextureEntry.release
+abandonAudioFocus
+focusChange
+getStreamVolume
+getStreamMaxVolume
+getStreamMinVolume
+BCb
+blf
+smb2://
+stream-buffer-size
+1MiB
+cache
+yes
+loadfile
+replace
+video-add
+audio-add
+sub-add
+cached
+vid
+aid
+sid
+secondary-sid
+setPropertyString
+audio-delay
+setPropertyDouble
+sub-delay
+brightness
+setScreenBrightness
+hue
+gamma
+contrast
+saturation
+setPropertyInt
+streamType
+setStreamVolume
+video-pan-x
+video-pan-y
+video-aspect-override
+video-zoom
+video-rotate
+video-scale-x
+video-scale-y
+panscan
+no
+video-unscaled
+speed
+unique_uri
+Expected exactly one result, but found more than one!
+updateNotification
+isPlaying
+canSkipToPrevious
+canSkipToNext
+setNotificationActions
+position
+playbackSpeed
+setPlaybackState
+setAspectRatio
+numerator
+denominator
+duration
+setProgress
+setIsPlaying
+keepOn
+keepScreenOn
+image/
+Bsf
+paths
+mimeTypes
+scanFilePaths
+picturesDirPath
+FfiFile.close -> 
+package:re_player_ex/utils/ffi_io.dart
+close
+FfiFile.write -> 
+write
+mode
+openFileDescriptor
+parentDirname
+createImage
+png
+jpg
+jpeg
+webp
+jxl
+avif
+tmp-
+screenshot-to-file
+externalSize
+dart:_internal
+FinalizerEntry_SetExternalSize
+dart:ffi
+Pointer_asTypedListFinalizerAllocateData
+Pointer_asTypedListFinalizerCallbackPointer
+screenshot-format
+getPropertyString
+mpv_get_property_async
+ilf
+seek
+absolute+keyframes
+time-pos
+SystemChrome.restoreSystemUIOverlays
+SystemChrome.setSystemUIChangeListener
+setNotificationIcon
+artist
+album
+albumArtist
+displayIconUri
+setMediaMetadata
+create
+onPlay
+onPause
+onSeekTo
+onSkipToPrevious
+onSkipToNext
+onSetPlaybackSpeed
+smb2
+glsl-shaders
+observeProperty
+setOptionString
+mpv_set_option_string
+mpv_observe_property
+xyz.re.player.ex/HeadsetPlugChannel
+cancel
+while de-activating platform stream on channel 
+listen
+while activating platform stream on channel 
+fatal
+warn
+info
+v
+debug
+trace
+requestLogMessages
+LogLevel.
+mpv_request_log_messages
+mpv_logs.jsonl
+wid
+SurfaceTextureEntry.create
+initializeAsync
+mpv_initialize
+profile
+fast
+config
+config-dir
+cache-dir
+icc-cache-dir
+gpu-shader-cache-dir
+screenshot-directory
+screenshot-template
+%f-%P
+force-window
+script-opts
+stats-font_size=10
+exact
+sub-auto
+sub-font
+sub-font-size
+sub-color
+sub-border-color
+sub-border-size
+sub-bold
+sub-italic
+sub-ass-override
+strip
+opengl-es
+hwdec
+hwdec-codecs
+h264,hevc,mpeg4,mpeg2video,vp8,vp9,av1
+vo
+gpu
+gpu-context
+audiotrack,opensles
+opensles,audiotrack
+ao
+MiB
+demuxer-max-bytes
+demuxer-max-back-bytes
+save-position-on-quit
+tls-verify
+tls-ca-file
+volume
+100
+display-fps-override
+vd-lavc-fast
+vd-lavc-skiploopfilter
+nonkey
+ytdl
+contentType
+focusGain
+requestAudioFocus
+getActiveMode
+refreshRate
+cacert.pem
+assets/cacert.pem
+screenshot_cache
+fonts
+fonts.conf
+fontconfig
+system/fonts
+dir
+int
+rescan
+3600
+Node already has a parent, copy or remove it first
+Got 
+, but expected one of 
+_Qnb@1010054576
+_eQf@1010054576
+cachedir
+muf
+Unable to build an incomplete DOM element.
+rtf
+Unable to add element of type 
+fontconfig SYSTEM \"urn:fontconfig:fonts.dtd\"
+xml
+version=\"1.0\"
+http://www.w3.org/XML/1998/namespace
+system/etc/fonts.xml
+alias
+family
+lang
+variant
+font
+style
+weight
+xmlns
+to
+familyset
+Failed to decode data using encoding \'
+utf-8
+Failed to decode data using encoding \'utf-8\'
+readSync failed
+Deletion failed
+external_fonts
+mpv_cache
+mpv
+PlayerPrefs.hardwareDecode
+.glsl
+shaders
+Unable register 
+register_mpv_stream_cb_dart
+libmpvclient.so
+Unable create MPVClient!
+mpv_create
+mpv_hook_add
+mpv_set_wakeup_callback
+NativeCallable is already closed.
+Dart_InitializeApiDL
+open
+read
+size
+mpv_stream_method_done
+PlayerLogsRecorder
+SEc
+bBd
+None of the patterns in the exhaustive switch statement the matched input value. See https://github.com/dart-lang/language/issues/3488 for details.
+tooltip
+xWc
+ImageConfiguration(
+bundle: 
+devicePixelRatio: 
+locale: 
+textDirection: 
+size: 
+platform: 
+RenderComparison.
+SelectionStatus.
+Canvas::transform
+Path::contains
+This Decoration subclass does not expect to be used for clipping.
+zYd
+NativeStringAttribute::initSpellOutStringAttribute
+Canvas::translate
+TextPainter.paint called when text geometry was not yet calculated.\nPlease call layout() before paint() to position the text before painting it.
+gVb
+Canvas::clipRect
+Gradient::initLinear
+Gradient::Create
+\"colors\" must have length 2 if \"colorStops\" is omitted.
+\"colors\" and \"colorStops\" arguments must have equal length.
+Paragraph::didExceedMaxLines
+Paragraph::getRectsForPlaceholders
+Paragraph::getClosestGlyphInfo
+SceneBuilder::pushOpacity
+SceneBuilder::pushClipPath
+Unreachable code.
+nKc
+textScaler: 
+platformBrightness: 
+padding: 
+viewPadding: 
+viewInsets: 
+systemGestureInsets: 
+alwaysUse24HourFormat: 
+accessibleNavigation: 
+highContrast: 
+onOffSwitchLabels: 
+disableAnimations: 
+invertColors: 
+boldText: 
+navigationMode: traditional
+gestureSettings: 
+displayFeatures: 
+MediaQueryData
+NavigationMode.
+IconData(U+
+FILL
+wght
+GRAD
+opsz
+Bj
+KXb
+kXc
+lXc
+mXc
+pXc
+SemanticsGestureDelegate()
+EPb
+Fqc
+Rrc
+IDc
+EDc
+GDc
+Velocity(
+DeviceGestureSettings(touchSlop: 
+DragDownDetails
+DragEndDetails
+RRect.fromLTRBR(
+RRect.fromLTRBXY(
+RRect.fromLTRBAndCorners(
+, topLeft: 
+, topRight: 
+, bottomRight: 
+, bottomLeft: 
+PlaceholderAlignment.
+<!DOCTYPE
+\"]\" expected
+<!NOTATION
+<!ENTITY
+<!ATTLIST
+<!ELEMENT
+input expected
+whitespace expected
+PUBLIC
+SYSTEM
+name expected
+:A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�-.0-9·̀-ͯ‿-⁀
+] expected
+\\b
+\\t
+\\n
+\\v
+\\f
+\\r
+\\\"
+\\\'
+\\\\
+\\x
+Successful parse results do not have a message.
+^
+\" expected
+:A-Z_a-zÀ-ÖØ-öø-˿Ͱ-ͽͿ-῿‌-‍⁰-↏Ⰰ-⿯、-퟿豈-﷏ﷰ-�
+<\?
+\?>
+\"\?>\" expected
+<\?xml
+<![CDATA[
+]]>
+\"]]>\" expected
+<!--
+-->
+\"-->\" expected
+</
+/>
+gif
+Recursive references detected: 
+Mk
+Node already has a non-matching parent
+[^.]+\\.<async>
+.<
+_async_body>
+vEf
+6ba7b811-9dad-11d1-80b4-00c04fd430c8
+.jpg
+randomNamespace
+[0-9a-f]{2}
+The provided UUID is not RFC4122 compliant. It seems you might be using a Microsoft GUID. Try setting `validationMode = ValidationMode.nonStrict`
+The provided UUID is invalid.
+^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[0-9a-f]{4}-[0-9a-f]{12}$
+^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
+`
+` is an invalid ValidationMode.
+positionalArgs
+namedArgs
+rng
+globalRNG
+random
+gPositionalArgs
+gNamedArgs
+grng
+MediaMetadata
+volumeName
+mediaType
+extensions
+relativePaths
+queryFiles
+.nomedia
+ssf
+trashed
+queryVideos
+getExternalVolumeNames
+getStorageVolumes
+description
+isEmulated
+isPrimary
+isRemovable
+Environment.getExternalStorageDirectory
+requestMediaPermission
+scan paths => 
+VideoManager
+_VideoScanner
+Cannot retrieve length of file
+DateTime is outside valid range: 
+millisecondsSinceEpoch
+Layout
+布局
+Column
+列
+Grid
+網格
+网格
+Folder
+文件夹
+Show playback history
+顯示播放記錄
+显示播放记录
+Playback history
+播放歷史
+播放历史
+Player
+播放器
+General
+常規
+常规
+About
+關於
+关于
+SMB
+FTP
+WebDav
+Open
+打開
+打开
+network_account_id
+network_directory_favorites
+network_accounts
+https://xxxxxxxx/dav
+Oof
+jDb
+Pof
+Qof
+lFb
+mFb
+Password
+密碼
+密码
+Optional
+可選
+可选
+Username
+用戶名
+用户名
+URL
+Alias
+别名
+Port
+端口
+Server
+服務器
+服务器
+Share
+共享
+Domain
+域
+ video
+ 個視頻
+ 个视频
+Txc
+ode
+sde
+xZd
+MeNavigationViewState.
+Abd
+Bbd
+Cbd
+zbd
+OSb
+PSb
+FfiFile.size -> 
+lseek
+r
+_PLb@815520522
+Already receive!
+smb2_get_error
+smb2_service failed with: 
+smb2_service
+poll
+smb2_which_events
+smb2_get_fd
+libsmb2.so
+Already closed
+smb2_pread_async
+smb2_get_max_read_size
+smb2_fstat_async
+smb2_open_async
+PKe
+smb2_connect_share_async
+smb2_set_password
+smb2_set_user
+smb2_set_domain
+smb2_set_timeout
+failed to smb2_init_context
+smb2_init_context
+This client already destroyed!
+smb2_destroy_context
+jBf
+max
+Must be positive and <= 2^32
+domain
+_Oyf@814192553
+username
+_bYe@814192553
+password
+_Pyf@814192553
+server
+_Qyf@814192553
+share
+_Ryf@814192553
+_Spb@814192553
+hwdec-current
+media-title
+metadata
+video-params
+video-out-params
+osd-dimensions
+mt
+ml
+mr
+mb
+aspect
+track-list
+ab-loop-a
+ab-loop-b
+chapter
+chapter-list
+demuxer-cache-state
+seekable-ranges
+bof-cached
+eof-cached
+fw-bytes
+file-cache-bytes
+cache-end
+reader-pts
+cache-duration
+raw-input-rate
+playlist
+idle-active
+core-idle
+seekable
+paused-for-cache
+cache-buffering-state
+sub-text
+secondary-sub-text
+time
+Xmf
+Ymf
+Zmf
+anf
+bnf
+cnf
+eVb
+jWb
+kWb
+rZb
+demux-w
+demux-h
+external-filename
+selected
+external
+image
+codec
+demux-fps
+demux-bitrate
+demux-samplerate
+demux-channels
+demux-channel-count
+main-selection
+video
+audio
+Unknown type 
+dw
+dh
+par
+rotate
+pixelformat
+hw-pixelformat
+AdjustDirection.
+TextMessageLevel.
+&lt;
+&amp;
+]]&gt;
+&#x
+[&<
+\\u0001-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f-\\u0084\\u0086-\\u009f
+]|]]>
+ does not have a parent
+XmlNodeTypeException: 
+XmlParentException: 
+XmlNodeType.
+The \"
+\" prefix cannot be bound.
+\" prefix conflicts with existing binding.
+PGb
+ttf
+Undefined namespace: 
+{ 
+, weight: 
+AudioFocus.
+AudioFocusRequest.
+PlaybackHistory(
+uniqueUri: 
+playerValue: 
+platformValue: 
+modifiedTime: 
+Zof
+uniqueUri
+playerValue
+platformValue
+modifiedTime
+player_value
+platform_value
+textureId
+overlayModeEnabled
+backgroundModeEnabled
+mediaTitle
+repeatMode
+hardwareAccelerationEnabled
+isLoading
+eof
+sleepTimerDuration
+timePos
+audioDelay
+subtitleDelay
+pausedForCache
+cacheBufferingState
+currentChapterIndex
+chapters
+scriptBinding
+abLoopRange
+demuxerCacheState
+osdDimensions
+videoParams
+videoOutParams
+videoEqualizer
+videoTransform
+videoTracks
+audioTracks
+subtitleTracks
+currentVideoTrack
+currentAudioTrack
+currentSubtitleTrack
+currentSecSubtitleTrack
+subtitleText
+secondarySubtitleText
+externalSubtitleTrack
+externalAudioTrack
+glslShaders
+isSelected
+isExternal
+externalFilename
+demuxSize
+demuxFps
+demuxSampleRate
+demuxBitRate
+demuxChannels
+demuxChannelCount
+panX
+panY
+aspectOverride
+zoom
+scaleX
+scaleY
+unscaled
+displayWidth
+displayHeight
+aspectRatio
+pixelAspectRatio
+pixelFormat
+hardwarePixelFormat
+marginTop
+marginLeft
+marginRight
+marginBottom
+seekableRanges
+bofCached
+eofCached
+fwBytes
+fileCacheBytes
+cacheEnd
+readerPts
+cacheDuration
+rawInputRate
+a
+b
+ExtendedPlaylist(
+id: 
+title: 
+options: 
+ExtendedPlaylistsCompanion(
+pNe
+Could not parse BigInt
+^\\s*([+-]\?)((0x[a-f0-9]+)|(\\d+)|([a-z0-9]+))\\s*$
+Value must be finite: 
+shift-amount must be positive 
+hxb
+group
+http_header
+A value must be provided. Supported values: 
+` is not one of the supported values: 
+PlatformValue(textureId: 
+, volume: 
+, brightness: 
+, overlayModeEnabled: 
+, backgroundModeEnabled: 
+ABLoopRange(a: 
+, b: 
+PlayerValue(playlist: 
+, mediaTitle: 
+, repeatMode: 
+, hardwareAccelerationEnabled: 
+, isLoading: 
+, eof: 
+, isPlaying: 
+, sleepTimerDuration: 
+, duration: 
+, timePos: 
+, playbackSpeed: 
+, audioDelay: 
+, subtitleDelay: 
+, pausedForCache: 
+, cacheBufferingState: 
+, currentChapterIndex: 
+, chapters: 
+, scriptBinding: 
+, seekable: 
+, abLoopRange: 
+, demuxerCacheState: 
+, osdDimensions: 
+, videoParams: 
+, videoOutParams: 
+, metadata: 
+, videoEqualizer: 
+, videoTransform: 
+, videoTracks: 
+, audioTracks: 
+, subtitleTracks: 
+, currentVideoTrack: 
+, currentAudioTrack: 
+, currentSubtitleTrack: 
+, currentSecSubtitleTrack: 
+, subtitleText: 
+, secondarySubtitleText: 
+, externalSubtitleTrack: 
+, externalAudioTrack: 
+, glslShaders: 
+TrackType.
+VideoEqualizer(brightness: 
+, contrast: 
+, saturation: 
+, gamma: 
+, hue: 
+ScriptBinding.
+VideoTransform(panX: 
+, panY: 
+, aspectOverride: 
+, zoom: 
+, rotate: 
+, mirror: 
+, scaleX: 
+, scaleY: 
+, panscan: 
+, unscaled: 
+Amf
+Bmf
+Dmf
+Emf
+Imf
+Jmf
+Kmf
+Lmf
+Mmf
+Njf
+Nmf
+Omf
+Pmf
+Rmf
+Smf
+Tmf
+Umf
+Vmf
+Yic
+gmf
+hmf
+imf
+jmf
+kmf
+lmf
+mmf
+nmf
+omf
+pmf
+qmf
+rmf
+smf
+tVe
+tmf
+vmf
+wmf
+xmf
+ymf
+zmf
+RepeatMode.
+HardwareDecode.
+ScreenshotFormat.
+ScreenOrientation.
+A provider for 
+ unexpectedly returned null.
+Provider<
+> not found for 
+Tried to read a provider that threw during the creation of its value.\nThe exception occurred during the creation of type 
+.\n\n
+provider
+FBd
+Uri 
+ must have scheme \'file:\'.
+implemented internally
+): 
+MPVFormat.
+) -> 
+EndFileReason.
+MPVHook.
+At least listener of the StateNotifier 
+ threw an exception\nwhen the notifier tried to update its state.\n\nThe exceptions thrown are:\n\n
+Tried to read the state of an uninitialized provider
+An exception was thrown inside a _ChangeNotifier listener:\n
+Tried to read a provider from a ProviderContainer that was already disposed
+_PKd@606412286
+UUe
+Xfb
+iWe
+called ProviderSubscription.read on a subscription that was closed
+zYc
+sUe
+RIb
+ @ 
+Hz
+BEGIN TRANSACTION
+COMMIT TRANSACTION
+ROLLBACK TRANSACTION
+ROLLBACK TO s
+RELEASE s
+SAVEPOINT s
+Can\'t re-open a database after closing it. Please create a new database connection and open that instead.
+PRAGMA user_version = 10;
+executing
+sqlite3_finalize
+sqlite3_reset
+MOf
+NOf
+QFe
+ (code 
+sqlite3_errstr
+sqlite3_errmsg
+sqlite3_extended_errcode
+sqlite3_exec
+qMf
+This database has already been closed
+player_state_snapshots
+playlist_options_entities
+playlist_entities
+playlist_item_entities
+ALTER TABLE 
+ ADD COLUMN 
+ bigserial PRIMARY KEY NOT NULL
+ NULL
+ NOT NULL
+ANY
+CREATE TABLE IF NOT EXISTS 
+, PRIMARY KEY (
+DROP TABLE IF EXISTS 
+PRAGMA user_version;
+selecting from statement
+sqlite3_column_table_name
+sqlite3_column_name
+sqlite3_column_blob
+sqlite3_column_bytes
+sqlite3_column_text
+sqlite3_column_double
+sqlite3_column_int64
+sqlite3_column_type
+sqlite3_column_count
+sqlite3_step
+params[
+Allowed parameters must either be null or bool, int, num, String or List<int>.
+sqlite3_bind_blob64
+sqlite3_bind_text
+sqlite3_bind_double
+sqlite3_bind_int64
+BigInt value exceeds the range of 64 bits
+gXa
+9223372036854775807
+-9223372036854775808
+sqlite3_bind_null
+Expected 
+ parameters, got 
+parameters
+sqlite3_bind_parameter_count
+Tried to operate on a released prepared statement
+eQe
+fQe
+gQe
+sql
+Must contain an SQL statement.
+Had an unexpected trailing statement.
+Has trailing data after the first sql statement:
+preparing statement
+sqlite3_prepare_v2
+sqlite3_prepare_v3
+closing database
+sqlite3_close_v2
+sqlite3_update_hook
+power
+pow
+sqrt
+sin
+cos
+tan
+asin
+acos
+atan
+regexp
+regexp_moor_ffi
+moor_contains
+current_time_millis
+Expected 2 or 3 arguments to moor_contains
+First two args to contains must be strings
+Expected two or three arguments to regexp
+Expected two strings as parameters to regexp
+Invalid regex
+kQe
+sqlite3_result_error
+Unsupported type
+sqlite3_result_blob64
+sqlite3_result_text
+sqlite3_result_double
+sqlite3_result_int64
+sqlite3_result_null
+sqlite3_create_function_v2
+functionName
+Must not exceed 255 bytes when utf-8 encoded
+INSERT INTO open_connections VALUES (\?, \?)
+executing statement
+tZa
+opening the database
+token
+detach
+sqlite3_extended_result_codes
+sqlite3_open_v2
+sqlite3_compileoption_get
+ENABLE_COLUMN_METADATA
+sqlite3_libversion_number
+libsqlite3.so
+/proc/self/cmdline
+/data/data/
+/lib/libsqlite3.so
+file:drift_connection_store\?mode=memory&cache=shared
+CREATE TABLE IF NOT EXISTS open_connections(\n  database_pointer INTEGER NOT NULL PRIMARY KEY,\n  path TEXT NULL\n);\n    
+sqlite3_last_insert_rowid
+sqlite3_changes
+ in 
+Unable to find a path to \"
+\" from \"
+_Rtb@539089718
+LazyDatabase created with 
+, but underlying database is 
+DriftSqlType.
+_ComparisonOperator.
+Precedence.
+DESC
+Variable(
+$
+NULL
+\'\'
+Must be null, bool, String, int, DateTime, Uint8List or double
+InsertMode.
+OrderingMode.
+SqlDialect.
+CouldNotRollBackException: 
+. \nFor context: The transaction was rolled back because of 
+, which was thrown here: \n
+InvalidDataException: 
+Value(
+Value.absent()
+TableUpdate(
+, kind: 
+UpdateKind.
+DefaultCupertinoLocalizations.delegate(en_US)
+Nad
+Canvas::drawLine
+DefaultMaterialLocalizations.delegate(en_US)
+ButtonStyleButton_MouseCursor
+MaterialRectArcTween
+ → 
+; beginArc=
+, endArc=
+ugb
+Arena no longer in use, `releaseAll(reuse: false)` was called.
+PlaceholderDimensions(
+GNb
+kVd
+Canvas::saveLayerWithoutBounds
+tSb
+uSb
+InlineSpanSemanticsInformation
+{text: 
+, semanticsLabel: 
+, recognizer: 
+Path::addOval
+BoxPainter for 
+AFc
+Canvas::drawPath
+Path::reset
+Canvas::drawDRRect
+tTb
+uTb
+vTb
+wTb
+Canvas::drawCircle
+Path::addRect
+message
+SemanticsEvent
+CurveTween
+(curve: 
+➩
+Animatable
+Interval
+⋯
+)➩
+ProxyAnimation
+(null; 
+kAlwaysDismissedAnimation
+StackFit.
+widget: 
+not laid out
+offset: 
+Had
+SceneBuilder::pushBackdropFilter
+ImageFilter::initMatrix
+ImageFilter::Create
+SceneBuilder::pushImageFilter
+SceneBuilder::pushClipRect
+; flex=
+; fit=
+FlexFit.
+ScrollViewKeyboardDismissBehavior.
+ScrollPhysics
+estimated child count: 
+estimated child count: EXCEPTION (
+PlatformConfigurationNativeApi::RequestDartPerformanceMode
+cPd
+ModalRoute
+, animation: 
+Navigator
+vWc
+WOd
+RoutePopDisposition.
+_RouteLifecycle.
+RouteSettings
+none
+GlobalObjectKey
+<State<StatefulWidget>>
+VelocityEstimate(
+; offset: 
+, confidence: 
+_PointAtTime(
+forced
+spontaneous
+uk
+_ScaleState.
+GestureRecognizerState.
+PolynomialFit
+Infinity
+-Infinity
+<empty>
+ [open]
+ [held]
+ [hasPendingSweep]
+ (eager winner)
+<\'
+\'>
+SpellOutStringAttribute(
+Glyph(
+, textRange: 
+, direction: 
+ImageFilter.matrix(
+FontVariation(\'
+values
+Vtb
+Broadcast stream controllers do not support pause callbacks
+Not available
+Z
+00
+000
+Expected a single root element
+Missing </
+Expected at most one XML declaration
+Unexpected XML declaration
+Expected at most one doctype declaration
+Unexpected doctype declaration
+Unexpected root element
+Expected </
+>, but found </
+Unexpected </
+Unable to parse character data.
+The argument list is unmodifiable
+sqlite3_value_blob
+sqlite3_value_bytes
+sqlite3_value_text
+sqlite3_value_double
+sqlite3_value_int64
+sqlite3_value_type
+Changing the length of sql arguments in Dart
+OperatingSystem.
+Ozd
+nnd
+MediaDirectory{volumeName: 
+,parentPath: 
+,displayName: 
+,realPath: 
+Theme
+主題
+主题
+Toggle theme
+主題切換
+主题切换
+Language
+語言
+语言
+Other
+其他
+Trash
+回收站
+Clear cache
+清理緩存
+清理缓存
+Error logs
+錯誤日誌
+错误日志
+Permissions
+權限
+权限
+Clean up succeeded
+清理成功
+_defaultKey
+Filter size of video
+過濾視頻的大小
+过滤视频的大小
+ MB
+Recognize .nomedia
+識別 .nomedia
+识别 .nomedia
+Auto scan
+自動掃描
+自动扫描
+System
+系統
+系统
+Licenses
+查看許可
+查看许可
+Sponsor
+支持
+Privacy policy
+隱私政策
+隐私政策
+Videos
+0 KB
+GB
+MB
+.m3u8
+listFile
+Custom
+自定義
+自定义
+Network
+網絡
+网络
+File
+文件
+.m3u
+ !!!
+bytes == null
+gjb
+tnf
+uZd
+group-title
+#M3U
+#EXTM3U
+#EXTINF
+First line is empty\?
+ != 
+ and 
+#EXTINF:([-0-9]+)
+ (.*\?)=\"(.*\?)\"
+Match error.
+,(.*)
+Missing title
+readBytes
+bPf
+allowMultiple
+openFileSelector
+^(http|https)://
+ -> data == null
+Dio can\'t establish a new connection after it was closed.
+The connection errored: 
+ This indicates an error which most likely cannot be solved by the library.
+CGb
+MHe
+NHe
+VAb
+XAb
+gBb
+hBb
+This is an informational response - the request was received, continuing processing
+The request was successfully received, understood, and accepted
+Redirection: further action needs to be taken in order to complete the request
+Client error - the request contains bad syntax or cannot be fulfilled
+Server error - the server failed to fulfil an apparently valid request
+A response with a status code that is not within the range of inclusive 100 to exclusive 600is a non-standard response, possibly due to the server\'s software
+This exception was thrown because the response has a status code of 
+ and RequestOptions.validateStatus was configured to throw for this status code.
+The status code of 
+ has the following meaning: \"
+Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+content-type
+application/json
+text/json
++json
+no more input
+quoted string
+\\\\(.)
+\"(\?:[^\"\\x00-\\x1F\\x7F]|\\\\.)*\"
+expected 
+End 
+ must come after start 
+ must not be greater than the number of characters in the file, 
+Start may not be negative, was 
+position must be greater than or equal to 0.
+position must be less than or equal to the string length.
+[^()<>@,;:\"\\\\/[\\]\?={} \\t\\x00-\\x1F\\x7F]+
+(\?:
+)*
+(\?:\\r\\n)\?[ \\t]+
+Invalid 
+media type
+ \"
+UJg
+The request took longer than 
+ to receive data. It was aborted. To get rid of this exception, try raising the RequestOptions.receiveTimeout above the duration of 
+ or improve the response time of the server.
+Can\'t establish connection after the adapter was closed.
+Operation already completed
+pHb
+timed out
+Request has been aborted
+ to send data. It was aborted. To get rid of this exception, try raising the RequestOptions.sendTimeout above the duration of 
+content-length
+transfer-encoding
+date
+host
+expires
+connection
+if-modified-since
+ 0
+:0
+ GMT
+Unexpected type for header named 
+chunked
+1.0
+Trying to set \'Transfer-Encoding: Chunked\' on HTTP 1.0 headers
+1.1
+Trying to clear ContentLength on HTTP 1.0 headers with \'Connection: Keep-Alive\' set
+Content-Length must contain only digits
+^\\d+$
+keep-alive
+Invalid HTTP header field value: 
+Invalid HTTP header field name: 
+HTTP headers are not mutable
+The request connection took longer than 
+ and it was aborted. To get rid of this exception, try raising the RequestOptions.connectTimeout above the duration of 
+GET
+HEAD
+POST
+No content even though contentLength was specified to be greater than 0: 
+Content size below specified contentLength.  
+ bytes written but expected 
+cookie
+CONNECT
+DELETE
+set-cookie
+kAb
+yZa
+Content size exceeds specified contentLength. 
+ bytes written while expected 
+. [
+Trying to set \'Connection: Keep-Alive\' on HTTP 1.0 headers with no ContentLength
+Request already sent
+Client is closed
+No host specified in URI 
+Unsupported scheme \'
+\' in URI 
+accept-encoding
+gzip
+user-agent
+Basic 
+proxy-authorization
+authorization
+Socket closed before request was sent
+Connection closed before data was received
+Redirect limit exceeded
+Redirect loop detected
+Response has no Location header for redirect
+More than one value for header 
+www-authenticate
+proxy-authenticate
+realm
+basic
+digest
+charset
+Failed to parse header value
+content-encoding
+jAb
+zCb
+No proxies given
+HTTP connection timed out after 
+, host: 
+, port: 
+ssh:
+Proxy failed to establish tunnel (
+_yEb@14069316
+Subscription passed to TLS upgrade is paused
+Connection terminated during handshake
+ error 
+Invalid number of arguments in evaluate response
+requestedPort is not in the range 0..65535
+Connection closed before response was received
+Unexpected response (unsolicited response without request).
+Connection closed while receiving data
+Connection closed before full header was received
+Connection closed before full body was received
+Invalid request method
+Invalid response line
+Invalid response line, failed to parse HTTP version
+Invalid request, empty URI
+Invalid response, invalid HTTP version
+Invalid response, status code is over 3 digits
+The Content-Length header occurred more than once, at most one is allowed.
+upgrade
+Chunk size overflows the integer
+Data on closed connection
+Data on failed connection
+Failed to parse HTTP, 
+ does not match 
+Invalid request, unexpected 
+ in URI
+Invalid response status code with 
+Invalid header field name, with 
+ is expected to be a Hex digit
+Method
+URI
+Reason phrase
+Header field
+Header value
+ exceeds the 
+ size limit
+Failed host lookup: \'
+CLg
+Connection attempt cancelled, host: 
+Connection failed
+Address family not supported by protocol family, sourceAddress.type must be 
+ but was 
+ or 
+Invalid port 
+ is not a valid link-local address but contains %. Scope id should be used as part of link-local address.
+fe
+8
+9
+PROXY 
+DIRECT
+Invalid proxy configuration 
+, invalid port \'
+no_proxy
+NO_PROXY
+http_proxy
+HTTP_PROXY
+https_proxy
+HTTPS_PROXY
+:1080
+                                 ! #$%&\'  *+ -. 0123456789       ABCDEFGHIJKLMNOPQRSTUVWXYZ   ^_`abcdefghijklmnopqrstuvwxyz | ~ 
+https\?:
+:/
+Dart/
+ (dart:io)
+hob
+CBb
+OBb
+PBb
+UHe
+VHe
+WHe
+XHe
+aIe
+cIe
+dIe
+eIe
+jIe
+kIe
+mAb
+connectTimeout should be positive
+Unable to set different values for `contentType` and the content-type header.
+compute
+: start
+Isolate exited without result or error.
+: end
+Group
+組
+组
+Name
+名稱
+名称
+_ItemAction.
+Favorites
+收藏
+Smb2FileSystemEntityType.
+Smb2Stat {\n      type: 
+,\n      size: 
+,\n      changed: 
+,\n      accessedTime: 
+,\n      modifiedTime: 
+,\n    }
+android-surface-size
+SurfaceTextureEntry.setDefaultBufferSize
+ / 
+OK
+確定
+确定
+tUc
+Msb
+scb
+\\s+
+&quot;
+&apos;
+[\"&<\\n\\r\\t
+[\'&<\\n\\r\\t
+XmlAttributeType.
+NetworkAccount(
+kind: 
+server: 
+username: 
+password: 
+port: 
+domain: 
+share: 
+alias: 
+port
+AccountKind.
+ExtendedPlaylistItem(
+playlistId: 
+group: 
+uri: 
+subtitle: 
+httpHeader: 
+key: 
+playlistId
+NetworkAccountsCompanion(
+display_name
+Chapter(title: 
+, time: 
+Track(type: 
+, id: 
+, isSelected: 
+, isExternal: 
+, image: 
+, externalFilename: 
+, codec: 
+, demuxSize: 
+, demuxFps: 
+, demuxSampleRate: 
+, demuxBitRate: 
+, demuxChannels: 
+, demuxChannelCount: 
+VideoParams(width: 
+, displayWidth: 
+, displayHeight: 
+, aspectRatio: 
+, pixelAspectRatio: 
+, pixelFormat: 
+, hardwarePixelFormat: 
+SeekableRange(start: 
+DemuxerCacheState(seekableRanges: 
+, bofCached: 
+, eofCached: 
+, fwBytes: 
+, fileCacheBytes: 
+, cacheEnd: 
+, readerPts: 
+, cacheDuration: 
+, rawInputRate: 
+UUd
+Vmd
+fmf
+Vi
+Wi
+MediaType.
+OSDDimensions(width: 
+, marginTop: 
+, marginLeft: 
+, marginRight: 
+, marginBottom: 
+     path: 
+,\n     description: 
+\n     isEmulated: 
+\n     isPrimary: 
+\n     isRemovable: 
+\n     state: 
+\n     
+Unsupported operation on parser reference
+ (at 
+newline expected
+Success[
+]: 
+Failure[
+Context[
+PathException: 
+ValidationMode.
+Nested transactions aren\'t supported.
+A tranaction was used after being closed. Please check that you\'re awaiting all database operations inside a `transaction` block.
+OpenMode.
+Can\'t change rows from a result set
+Cannot modify an unmodifiable Map
+Cannot change the length of a fixed-length list
+SqliteException(
+while 
+  Causing statement: 
+, parameters: 
+blob (
+ bytes)
+Operation was cancelled
+DriftAny(raw: 
+Constant(
+Hashing is unsupported for messages with more than 2^53 bits.
+Hash.add() called after close().
+add must be called once.
+add may only be called once.
+Path::arcToPoint
+YMg
+ZMg
+TransitionRoute
+_IconButtonVariant.
+<default FloatingActionButton tag>
+MaterialPointArcTween
+; center=
+, radius=
+, beginAngle=
+, endAngle=
+_CornerId.
+_BlendedDecorationImagePainter
+Canvas::drawOval
+FlippedCurve
+ThreePointCubic(
+ₒₙ/
+ₒₙ
+_TrainHoppingMode.
+➪
+ReverseAnimation
+TrainHoppingAnimation
+(next: 
+(no next)
+kAlwaysCompleteAnimation
+CacheExtentStyle.
+RelativeRect.fromLTRB(
+SKc
+TKc
+pMd
+Btd
+ Focus Scope
+history
+ddd
+SystemSound.play
+SystemSoundType.
+HeroFlight(for: 
+, from: 
+, to: 
+HeroFlightDirection.
+_HeroFlightManifest(
+ tag: 
+ from route: 
+ to route: 
+ with hero: 
+ to 
+, INVALID
+router
+SystemNavigator.setFrameworkHandlesBack
+zxc
+hl
+onTapCancel
+onSecondaryTapCancel
+onTertiaryTapCancel
+ScaleUpdateDetails(focalPoint: 
+, localFocalPoint: 
+, scale: 
+, horizontalScale: 
+, verticalScale: 
+, rotation: 
+, pointerCount: 
+, focalPointDelta: 
+, sourceTimeStamp: 
+ScaleStartDetails(focalPoint: 
+, pointersCount: 
+ScaleEndDetails(velocity: 
+, scaleVelocity: 
+_PointerPanZoomData(parent: 
+, _position: 
+, _pan: 
+, _scale: 
+, _rotation: 
+DartPerformanceMode.
+ImageFilter::initColorFilter
+Unknown mode 
+ for ColorFilter.
+ColorFilter::initSrgbToLinearGamma
+ColorFilter::Create
+ColorFilter::initLinearToSrgbGamma
+ColorFilter::initMatrix
+ImageFilter::initBlur
+ImageFilter::initComposeFilter
+FileStat: type 
+\n          changed 
+\n          modified 
+\n          accessed 
+\n          mode 
+\n          size 
+(suid) 
+(guid) 
+(sticky) 
+Imb
+Pjb
+im
+00000000
+0000
+wBc
+StorageAccessEntity{displayName: 
+, uriString: 
+MultiSliver can only handle RenderSliver and RenderBox children
+Canvas::clipRRect
+Folders
+Directory
+目錄
+目录
+Audio output
+音頻輸出
+音频输出
+Screen orientation
+屏幕方向
+Auto
+自動
+自动
+Auto(sensor)
+自動（傳感器）
+自动（传感器）
+Landscape
+横屏
+Landscape(sensor)
+橫屏（傳感器）
+横屏（传感器）
+Reverse landscape
+橫屏(逆方向)
+横屏(逆方向)
+Portrait
+豎屏
+竖屏
+Device
+設備
+设备
+Allow window extend into the cutout area
+允許窗口擴展到切口區域
+允许窗口扩展到切口区域
+Background playback
+後台播放
+后台播放
+Fast seek
+快速定位
+Less accurate
+降低精確度
+降低精确度
+Hardware decoding
+硬件解碼
+硬件解码
+Resume history of last playback
+恢複上次播放時的曆史記錄
+恢复上次播放时的历史记录
+Gesture
+手勢
+手势
+Configuration
+配置
+Shaders
+著色器
+着色器
+Logs
+日誌
+日志
+Custom Picture-in-Picture
+自定義畫中畫
+自定义画中画
+TLS Verify
+TLS 驗證
+TLS 验证
+Subtitle
+字幕
+Subtitle style
+字幕樣式
+字幕样式
+Auto load subtitles
+自動加載字幕
+自动加载字幕
+Custom buttons
+自定義按鈕
+自定义按钮
+Frame step
+幀步進
+帧步进
+Auto hide interface
+自動隱藏界面
+自动隐藏界面
+Media
+媒體
+媒体
+Trying to read an uninitialized value.
+requestManualExternalStorage
+Light mode
+亮色
+Dark mode
+深色
+Theme of video player
+視頻播放器主題
+视频播放器主题
+https://afdian.net/a/lntls
+更新日期: 2022 年 5 月 18 日\n\n本应用(Reex)不会收集和上传任何数据（没有集成任何第三方广告、统计等SDK）\n\n权限说明：\n- READ_EXTERNAL_STORAGE\n- WRITE_EXTERNAL_STORAGE\n  用于读取和删除媒体文件\n- INTERNET ACCESS_NETWORK_STATE\n  用于访问网络媒体  \n- FOREGROUND_SERVICE\n  用于后台播放\n- SYSTEM_ALERT_WINDOW\n  用于实现画中画功能\n- WAKE_LOCK\n  用于播放视频时防止屏幕休眠\n- VIBRATE\n  用于长按倍速震动提醒\n- BLUETOOTH\n  用于监听蓝牙耳机状态
+Expected exactly one element, but got 
+_AddMode.
+All
+全部
+pnd
+_lAf@848495006
+pattern
+repeat
+amplitude
+intensities
+vibrate
+board
+bootloader
+brand
+display
+fingerprint
+hardware
+manufacturer
+model
+product
+supported32BitAbis
+supported64BitAbis
+supportedAbis
+tags
+isPhysicalDevice
+systemFeatures
+displayMetrics
+serialNumber
+widthPx
+heightPx
+xDpi
+yDpi
+baseOS
+codename
+incremental
+previewSdkInt
+release
+sdkInt
+securityPatch
+getDeviceInfo
+XmlTagException: 
+XmlParserException: 
+NetworkDirectoryFavorite(
+networkAccountId: 
+displayName: 
+path: 
+networkAccountId
+ExtendedPlaylistItemsCompanion(
+\r\n
+Token[
+handled internally
+Zhb
+VUe
+The provider 
+ was disposed during loading state, yet no value could be emitted.
+qpb
+current
+mqb
+LinkedListEntry is already in a LinkedList
+YUe
+(provider: 
+, origin: 
+: from 
+\">
+Offset may not be negative, was 
+Offset 
+Error on 
+line 
+, column 
+╵
+[34m
+ contains no null elements.
+│
+Zab
+─
+ZJf
+ contains no elements matching 
+┼
+└
+┬
+┌
+[0m
+╷
+The context line \"
+\" must contain \"
+The span text \"
+\" must start at column 
+ in a line within \"
+Text \"
+\" must be 
+ characters long.
+Line may not be negative, was 
+Column may not be negative, was 
+ must be not be greater than the number of characters in the file, 
+Line 
+ comes after offset 
+ must be less than the number of lines in the file, 
+ doesn\'t have 
+ columns.
+; 
+[\"\\x00-\\x1F\\x7F]
+[()<>@,;:\"\\\\/\\[\\]\?={} \\t\\x00-\\x1F\\x7F]
+InterceptorResultType.
+DioException [
+connection timeout
+send timeout
+receive timeout
+bad certificate
+bad response
+request cancelled
+connection error
+unknown
+\nError: 
+DioExceptionType.
+RedirectRecord{statusCode: 
+, location: 
+ResponseType.
+ListFormat.
+0123456789abcdef
+_CupertinoTextSelectionToolbarItemsSlot.
+drawer_open
+end_drawer_open
+Qhe
+Rhe
+fbe
+yse
+Hje
+ReusableFragmentShader::Dispose
+shaders/ink_sparkle.frag
+, focused: 
+, pressed: 
+StadiumBorder
+MemoryImage
+ImageConfiguration()
+FractionalOffset(
+ImageRepeat.
+kac
+top=
+right=
+bottom=
+left=
+width=
+height=
+not positioned
+Mud
+SliverGeometry
+paintOffset=
+_IntrinsicDimension.
+label
+primaryColor
+SystemChrome.setApplicationSwitcherDescription
+; shouldPaint=
+offset
+NavigationNotification canHandlePop: 
+Orientation.
+DefaultWidgetsLocalizations.delegate(en_US)
+Invalid direction 
+eFc
+YAc
+Entry#
+_Znb@217160358
+_YXc@217160358
+FilterQuality.
+Writing to a closed socket
+Invalid bytes parameter in SecureSocket.read (bytes: 
+Invalid offset parameter in SecureSocket.read (offset: 
+Invalid length parameter in SecureSocket.read (length: 
+Reading from a closed socket
+Basic
+Digest
+Unknown
+HttpClientResponseCompressionState.
+HttpException: 
+, uri = 
+RedirectException: 
+Error handler must accept one Object or one Object and a StackTrace as arguments.
+\"(),/:;<=>\?@[]{}
+futureValue
+Sink is closed
+primary 
+: \"
+\" (
+List
+列表
+Sort
+排序
+Positive order
+正序
+Reverse order
+倒序
+Date
+日期
+Move
+移動
+移动
+set xxx xxx;set xxx xxx
+Command
+命令
+Right-to-Left
+右到左
+Loading
+加載中
+加载中
+Nothing in Trash
+回收站為空
+回收站为空
+Restore
+恢復
+恢复
+uriList
+isTrashed
+createTrashRequest
+createDeleteRequest
+Font
+字體
+字体
+Font color
+字體顔色
+字体颜色
+Font size
+字體大小
+字体大小
+Border color
+邊框顔色
+边框颜色
+Border size
+邊框大小
+边框大小
+Ignore ASS style
+忽略 ASS 樣式
+忽略 ASS 样式
+Italic
+斜體
+斜体
+Bold
+粗體
+粗体
+^\\+\?[1-9][0-9]*$
+Default
+默認
+默认
+Subtitle track
+字幕軌
+字幕轨
+Audio track
+音頻軌
+音频轨
+Subtitle delay
+字幕延遲
+字幕延迟
+Audio delay
+音頻延遲
+音频延迟
+Mirror
+鏡像反轉
+镜像反转
+Transform
+縮放平移
+缩放平移
+Playback speed
+倍速
+Brightness
+亮度
+Volume
+音量
+Position
+進度
+进度
+Parameters
+參數
+参数
+Forward
+快進
+快进
+Rewind
+快退
+Playback speed on long press
+長按時的倍速
+长按时的倍速
+Vibrate when long press
+長按時震動
+长按时震动
+Double tap
+雙擊
+双击
+Vertical drag on the right
+右側垂直滑動
+右侧垂直滑动
+Adjust volume
+調節音量
+调节音量
+Vertical drag on the left
+左側垂直滑動
+左侧垂直滑动
+Adjust brightness
+調節亮度
+调节亮度
+Horizontal drag
+水平滑動
+水平滑动
+Seek position
+進度跳轉
+进度跳转
+Long press
+長按
+长按
+Speed up playback
+倍速播放
+Play/Pause
+播放/暫停
+播放/暂停
+https://mpv.io/manual/master/
+Guest
+IPC$
+smb2_disconnect_share_async
+smb2_free_data
+smb2_share_enum_async
+smb2_set_security_mode
+Failed to load
+加載失敗
+加载失败
+accept-charset
+receiveTimeout should be positive
+sendTimeout should be positive
+mpf
+Chapter
+章節
+章节
+Rotate
+旋轉
+旋转
+getRequestedOrientation
+Unknown flag(
+commands
+isLoading: 
+value: 
+error: 
+stackTrace: 
+Mw
+Could not find a matching SQL type for 
+unknown source
+BaseDeviceInfo{data: 
+mxb
+FBe
+indicatorPadding insets should be less than Tab Size\nRect Size : 
+, Insets: 
+_SwitchType.
+_ScaffoldSlot.
+Scaffold.of() called with a context that does not contain a Scaffold.
+No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought.
+There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is \"under\" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html
+A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function.
+_TransitionSnapshotFabLocation
+(begin: 
+, progress: 
+hintText: \"
+hintMaxLines: \"
+floatingLabelBehavior: 
+floatingLabelAlignment: 
+isDense: 
+contentPadding: 
+prefixIcon: 
+prefixIconConstraints: 
+focusedBorder: 
+border: 
+alignLabelWithHint: 
+InputDecoration(
+_HighlightType.
+_ije@369321118
+Canvas::drawPaint
+ReusableFragmentShader::Create
+yde
+FloatingActionButtonAnimator
+FloatingActionButtonLocation.endFloat
+useSafariVC
+useWebView
+enableJavaScript
+enableDomStorage
+universalLinksOnly
+headers
+launch
+PreferredLaunchMode.
+FileImage
+(\"
+\", scale: 
+ResizeImagePolicy.
+BoxFit.
+TweenSequence(
+ items)
+TweenSequence.evaluate() could not find an interval for 
+ConstantTween
+(value: 
+index=
+keepAlive; 
+crossAxisOffset=
+scrollOffset: 
+crossAxisOffset: 
+mainAxisExtent: 
+crossAxisExtent: 
+SliverGridGeometry(
+GrowthDirection.
+layoutOffset=
+None
+remainingPaintExtent: 
+overlap: 
+crossAxisDirection: 
+viewportMainAxisExtent: 
+remainingCacheExtent: 
+cacheOrigin: 
+SliverConstraints(
+Canvas::drawShadow
+AnnotationEntry
+(annotation: 
+, localPosition: 
+SceneBuilder::pushClipRRect
+MultiChildLayoutDelegate
+RenderAnimatedSizeState.
+Constructor will never be called because null is never provided as current tween.
+axisDirection: 
+scroll controller: 
+decorationClipBehavior: 
+kLc
+route
+OverlayPortalController
+MXc
+Hec
+image resource service
+when reporting an error to an image listener
+by a synchronously-called image listener
+by a synchronously-called image error listener
+Cannot clone a disposed image.\nThe clone() method of a previously-disposed Image was called. Once an Image object has been disposed, it can no longer be used to create handles, as the underlying data may have been released.
+resolving an image frame
+Codec::repetitionCount
+by an image listener
+Codec failed to produce an image, possibly due to invalid image data.
+Codec::getNextFrame
+Codec::frameCount
+Ndc
+ImmutableBuffer::dispose
+ImageDescriptor::instantiateCodec
+ImageDescriptor::height
+ImageDescriptor::width
+ImageDescriptor::initEncoded
+operation failed
+Efg
+VXc
+FocusTraversalGroup
+Widgets that mix AutomaticKeepAliveClientMixin into their State must call super.build() but must ignore the return value of the superclass.
+ConnectionState.
+AsyncSnapshot
+vdb
+Listenable.merge([
+No Activity found to handle intent { 
+ }
+ACTIVITY_NOT_FOUND
+dev.flutter.pigeon.url_launcher_android.UrlLauncherApi.launchUrl
+null-error
+Host platform returned null value for non-null return value.
+dev.flutter.pigeon.url_launcher_android.UrlLauncherApi.openUrlInApp
+vSb
+FYa
+JO
+Cannot change handlers of asBroadcastStream source subscription.
+le
+zmb
+EBd
+Ehd
+_ActionMenu.
+ (+_+)\?
+mpvlog(
+FfiFile.sync -> 
+fsync
+ +
+openFileCreator
+\nError:\n
+Copy
+複製
+复制
+ !
+This client already closed!
+QUIT
+VXe
+> 
+< 
+Timeout reached for Receiving response !
+lXg
+ShareType.
+- 
+Ate
+Cte
+Dte
+Fte
+Gte
+Hte
+Ite
+Jte
+Kte
+Lte
+Mte
+Nte
+Ote
+jpe
+qte
+rte
+ste
+tte
+ute
+vte
+wte
+xte
+yte
+zte
+•
+restartTextInput
+zh
+Hant
+en
+yMd
+yMMMd
+MMMEd
+yMMMMEEEEd
+yMMMM
+MMMd
+af
+ar
+as
+az
+be
+bg
+bn
+bs
+ca
+cs
+cy
+da
+de
+CH
+de_CH
+el
+AU
+en_AU
+CA
+en_CA
+en_GB
+IE
+en_IE
+IN
+en_IN
+NZ
+en_NZ
+SG
+en_SG
+ZA
+en_ZA
+es
+419
+es_419
+AR
+es_AR
+BO
+es_BO
+CL
+es_CL
+CO
+es_CO
+CR
+es_CR
+DO
+es_DO
+EC
+es_EC
+GT
+es_GT
+HN
+es_HN
+MX
+es_MX
+NI
+es_NI
+PA
+es_PA
+PE
+es_PE
+PR
+es_PR
+PY
+es_PY
+SV
+es_SV
+US
+es_US
+UY
+es_UY
+VE
+es_VE
+et
+eu
+fa
+fi
+fil
+fr
+fr_CA
+gl
+gsw
+gu
+he
+hi
+hr
+hu
+hy
+is
+it
+ja
+ka
+kk
+km
+kn
+ko
+ky
+lo
+lt
+lv
+mk
+mn
+my
+nb
+ne
+nl
+or
+pa
+pl
+ps
+pt
+PT
+pt_PT
+ro
+ru
+si
+sk
+sl
+sq
+sr
+Cyrl
+sr_Cyrl
+Latn
+sr_Latn
+sv
+sw
+ta
+te
+th
+tl
+tr
+ur
+uz
+vi
+Hans
+zh_Hans
+HK
+zh_Hant_HK
+TW
+zh_Hant_TW
+zh_Hant
+zu
+Positive and negative trunks must be the same
+Malformed pattern \"
+E
++
+Unexpected \"0\" in pattern \"
+Multiple decimal separators in pattern \"
+Multiple exponential symbols in pattern \"
+Malformed exponential pattern \"
+¤
+‰
+fallback
+Invalid locale \"
+invalid
+in
+en_US
+ 
+#,##0.###
+ZAR
+ETB
+‎%‎
+‎+
+‎-
+EGP
+ar_DZ
+DZD
+ar_EG
+٫
+٬
+٪؜
+٠
+؜+
+؜-
+اس
+؉
+০
+#,##,##0.###
+INR
+AZN
+BYN
+BGN
+bm
+XOF
+BDT
+br
+EUR
+BAM
+chr
+USD
+CZK
+GBP
+DKK
+de_AT
+’
+CHF
+e
+AUD
+CAD
+en_MY
+MYR
+NZD
+SGD
+MXN
+es_ES
+−
+×10^
+٪
+۰
+‎−
+×۱۰^
+IRR
+PHP
+ 
+fr_CH
+fur
+ga
+haw
+ILS
+HUF
+AMD
+IDR
+ISK
+it_CH
+iw
+JPY
+GEL
+KZT
+KHR
+KRW
+KGS
+ln
+CDF
+LAK
+mg
+MGA
+MKD
+MNT
+०
+၀
+MMK
+NOK
+NPR
+no_NO
+nyn
+UGX
+PLN
+‎+‎
+‎-‎
+AFN
+BRL
+pt_BR
+RON
+RUB
+LKR
+ALL
+RSD
+SEK
+TZS
+THB
+TRY
+Е
+UAH
+PKR
+UZS
+VND
+CNY
+zh_CN
+zh_HK
+HKD
+zh_TW
+TWD
+initializeDateFormatting(<locale>)
+C
+en_ISO
+Missing DateTime formatting patterns
+Locale does not match symbols.NAME
+tXg
+MXg
+wXg
+vSe
+wSe
+NXg
+xSe
+uSe
+d
+HH
+m
+mm
+INTEGER
+CHAR
+DOUBLE
+BINARY
+DATETIME
+CAST(
+ AS 
+Cl
+TooltipTriggerMode.
+Ere
+rre
+sre
+Powered by Flutter
+Local \'controller\' has not been initialized.
+MemoryImage(
+AWd
+ImmutableBuffer::init
+Path: 
+ is empty and cannot be loaded as an image.
+Could not load file at 
+ImmutableBuffer::initFromFile
+range: 
+viewport: 
+@(mainAxis: 
+, crossAxis: 
+SceneBuilder::addTexture
+ol
+AndroidOverscrollIndicator.
+RouteInformationReportingType.
+Page
+\", 
+Ixc
+TargetImageSize(
+ x 
+This property is unavailable.
+getPropertyInt
+getPropertyBool
+getPropertyMap
+getPropertyList
+_Doc@813479568
+audio-file-auto
+vd-lavc-threads
+1
+initialize
+MediaInfo(
+Play
+播放
+Information
+信息
+mpv.conf
+_QGf@935232137
+_Action.
+  +
+Audio
+音頻
+音频
+arf
+syf
+Add to playlist
+添加到播放列表
+Cannot call onDispose after a provider was dispose
+Cannot find video index
+Stats
+統計
+统计
+Usual
+Frame timings
+幀计時
+帧计时
+Input cache
+輸入緩存
+输入缓存
+script-binding
+stats/display-stats-toggle
+Loop
+循環
+循环
+One
+單曲
+单曲
+Order
+順序
+顺序
+Shuffle
+隨機
+随机
+Background opacity
+背景透明度
+Display
+顯示
+显示
+PiP
+畫中畫
+画中画
+Console
+控製臺
+控制台
+enter
+init
+hasPipMode
+thumbColor
+progressColor
+show
+showOverlayPermissionSettingScreen
+canDrawOverlays
+Background
+HW
+auto
+畫面尺寸
+画面尺寸
+Secondary subtitle
+副字幕
+Video track
+視頻軌
+视频轨
+定時器
+定时器
+Knb
+Cast
+投屏
+NumberFormat(
+Locale data has not been initialized, call 
+FTPException: 
+ (Response: 
+$tabIndex
+$tabCount
+Internal error: expected positive number, got 
+Bendrinti...
+Pasirinkti viską
+Ieškoti žiniatinklyje
+Nuskaityti tekstą
+Įklijuoti
+Daugiau
+Ieškoti
+Licencijos
+Ištrinti
+Iškirpti
+Kopijuoti
+Atgal
+Licences
+Look up
+Share...
+Dijeli...
+Odaberi sve
+Pretraži web
+Skeniranje teksta
+Zalijepi
+Više
+Pogled prema gore
+Licence
+Brisanje
+Izreži
+Kopiraj
+Natrag
+Borrar
+Mirar hacia arriba
+Analizar texto
+Compartir…
+শ্বেয়াৰ কৰক…
+সকলো বাছনি কৰক
+ৱেবত সন্ধান কৰক
+পাঠ স্কেন কৰক
+পে\'ষ্ট কৰক
+অধিক
+ওপৰলৈ চাওক
+অনুজ্ঞাপত্ৰসমূহ
+মচক
+কাট কৰক
+প্ৰতিলিপি কৰক
+উভতি যাওক
+全部選取
+搜尋網頁
+掃瞄文字
+貼上
+查詢
+授權
+刪除
+剪下
+اشتراک کریں...
+سبھی کو منتخب کریں
+ویب تلاش کریں
+ٹیکسٹ اسکین کریں
+پیسٹ کریں
+مزید
+تفصیل دیکھیں
+لائسنسز
+حذف کریں
+کٹ کریں
+کاپی کریں
+پیچھے
+Del…
+Markér alt
+Søg på nettet
+Scan tekst
+Indsæt
+Mere
+Slå op
+Licenser
+Slet
+Klip
+Kopiér
+Tilbage
+Deli …
+Izberi vse
+Iskanje v spletu
+Optično preberite besedilo
+Prilepi
+Več
+Pogled gor
+Nazaj
+Delen...
+Alles selecteren
+Op internet zoeken
+Tekst scannen
+Plakken
+Meer
+Opzoeken
+Licenties
+Verwijderen
+Knippen
+Kopiëren
+Terug
+غوره کړئ
+Search Web
+متن سکین کړئ
+پیټ کړئ
+More
+Look Up
+جوازونه
+کم کړئ
+کاپی
+شاته
+မျှဝေရန်...
+အားလုံး ရွေးရန်
+ဝဘ်တွင်ရှာရန်
+စာသား စကင်ဖတ်ရန်
+ကူးထည့်ရန်
+နောက်ထပ်
+အပေါ်ကြည့်ရန်
+လိုင်စင်များ
+ဖျက်ရန်
+ဖြတ်ယူရန်
+မိတ္တူကူးရန်
+နောက်သို့
+শেয়ার করুন...
+সব বেছে নিন
+ওয়েবে সার্চ করুন
+টেক্সট স্ক্যান করুন
+পেস্ট করুন
+আরও
+লুক-আপ
+লাইসেন্স
+মুছে দিন
+কাট করুন
+কপি করুন
+ফিরে যান
+Chia sẻ...
+Chọn tất cả
+Tìm kiếm trên web
+Quét văn bản
+Dán
+Thêm
+Tra cứu
+Giấy phép
+Xóa
+Cắt
+Sao chép
+Quay lại
+Бөлүшүү…
+Баарын тандоо
+Интернеттен издөө
+Текстти скандоо
+Чаптоо
+Дагы
+Издөө
+Уруксаттамалар
+Жок кылуу
+Кесүү
+Көчүрүү
+Артка
+مشاركة…
+اختيار الكل
+البحث على الويب
+مسح النص ضوئيًا
+لصق
+المزيد
+النظر إلى أعلى
+التراخيص
+حذف
+قص
+نسخ
+رجوع
+全選
+掃描文字
+在網路上搜尋
+გაზიარება...
+ყველას არჩევა
+ვებში ძიება
+ტექსტის სკანირება
+ჩასმა
+მეტი
+აიხედეთ ზემოთ
+ლიცენზიები
+წაშლა
+ამოჭრა
+კოპირება
+უკან
+አጋራ...
+ሁሉንም ምረጥ
+ድርን ፈልግ
+ጽሁፍን ቃኝ
+ለጥፍ
+ተጨማሪ
+ይመልከቱ
+ፈቃዶች
+ሰርዝ
+ቁረጥ
+ቅዳ
+ተመለስ
+Paylaşın...
+Hamısını seçin
+Vebdə axtarın
+Mətni skan edin
+Yerləşdirin
+Daha çox
+Axtarın
+Lisenziyalar
+Silin
+Kəsin
+Kopyalayın
+Geri
+Partekatu...
+Hautatu guztiak
+Bilatu sarean
+Eskaneatu testua
+Itsatsi
+Gehiago
+Bilatu
+Lizentziak
+Ezabatu
+Ebaki
+Kopiatu
+Atzera
+Ulashish…
+Hammasi
+Internetdan qidirish
+Matnni skanerlash
+Joylash
+Yana
+Tepaga qarang
+Litsenziyalar
+Olib tashlash
+Kesib olish
+Nusxa olish
+Orqaga
+பகிர்...
+அனைத்தையும் தேர்ந்தெடு
+இணையத்தில் தேடு
+வார்த்தைகளை ஸ்கேன் செய்
+ஒட்டு
+மேலும்
+தேடு
+உரிமங்கள்
+நீக்கு
+வெட்டு
+நகலெடு
+முந்தைய பக்கம்
+Teilen…
+Alle auswählen
+Im Web suchen
+Text scannen
+Einsetzen
+Mehr
+Nachschlagen
+Lizenzen
+Löschen
+Ausschneiden
+Kopieren
+Zurück
+Ibahagi...
+Piliin lahat
+Maghanap sa Web
+I-scan ang text
+I-paste
+Higit Pa
+Tumingin sa Itaas
+Mga Lisensya
+I-delete
+I-cut
+Kopyahin
+Bumalik
+Bagikan...
+Pilih semua
+Telusuri di Web
+Pindai teks
+Tempel
+Lainnya
+Cari
+Lisensi
+Hapus
+Potong
+Salin
+Kembali
+Udostępnij…
+Zaznacz wszystko
+Szukaj w internecie
+Skanuj tekst
+Wklej
+Więcej
+Sprawdź
+Licencje
+Usuń
+Wytnij
+Kopiuj
+Wstecz
+Абагуліць...
+Выбраць усе
+Пошук у сетцы
+Сканіраваць тэкст
+Уставіць
+Яшчэ
+Знайсці
+Ліцэнзіі
+Выдаліць
+Выразаць
+Капіраваць
+Назад
+Balayer un texte
+Regarder en haut
+शेअर करा...
+सर्व निवडा
+वेबवर शोधा
+मजकूर स्कॅन करा
+पेस्ट करा
+आणखी
+शोध घ्या
+परवाने
+हटवा
+कट करा
+कॉपी करा
+मागे
+ସେୟାର୍ କରନ୍ତୁ...
+ସବୁ ଚୟନ କରନ୍ତୁ
+ୱେବ ସର୍ଚ୍ଚ କରନ୍ତୁ
+ଟେକ୍ସଟ୍ ସ୍କାନ୍ କରନ୍ତୁ
+ପେଷ୍ଟ କରନ୍ତୁ
+ଅଧିକ
+ଉପରକୁ ଦେଖନ୍ତୁ
+ଲାଇସେନ୍ସଗୁଡ଼କ
+ଡିଲିଟ୍ କରନ୍ତୁ
+କଟ୍ କରନ୍ତୁ
+କପି କରନ୍ତୁ
+ପଛକୁ ଫେରନ୍ତୁ
+שיתוף…
+בחירת הכול
+חיפוש באינטרנט
+סריקת טקסט
+הדבקה
+עוד
+חיפוש
+רישיונות
+מחיקה
+גזירה
+העתקה
+הקודם
+Eliminar
+Procurar
+Partilhar…
+공유...
+전체 선택
+웹 검색
+텍스트 스캔
+붙여넣기
+더보기
+찾기
+라이선스
+삭제
+잘라냄
+복사
+뒤로
+Хуваалцах...
+Бүгдийг сонгох
+Вебээс хайх
+Текстийг скан хийх
+Буулгах
+Бусад
+Дээшээ харах
+Лиценз
+Устгах
+Таслах
+Хуулах
+Буцах
+Deli…
+Izaberi sve
+Pretraži veb
+Skeniraj tekst
+Nalepi
+Još
+Pogled nagore
+Izbrišite
+Iseci
+Nazad
+શેર કરો…
+બધા પસંદ કરો
+વેબ પર શોધો
+ટેક્સ્ટ સ્કૅન કરો
+પેસ્ટ કરો
+વધુ
+શોધો
+લાઇસન્સ
+ડિલીટ કરો
+કાપો
+કૉપિ કરો
+પાછળ
+Споделяне...
+Избиране на всички
+Търсене в мрежата
+Сканирайте текст
+Поставяне
+Още
+Лицензи
+Изтриване
+Изрязване
+Копиране
+Ndaj...
+Zgjidh të gjitha
+Kërko në ueb
+Skano tekstin
+Ngjit
+Më shumë
+Kërko
+Licencat
+Fshi
+Prit
+Kopjo
+Prapa
+Partager…
+Tout sélectionner
+Rechercher sur le Web
+Scanner du texte
+Coller
+Plus
+Recherche visuelle
+Supprimer
+Couper
+Copier
+Retour
+ແບ່ງປັນ...
+ເລືອກທັງໝົດ
+ຊອກຫາຢູ່ອິນເຕີເນັດ
+ສະແກນຂໍ້ຄວາມ
+ວາງ
+ເພີ່ມເຕີມ
+ຊອກຫາຂໍ້ມູນ
+ໃບອະນຸຍາດ
+ລຶບ
+ຕັດ
+ສຳເນົາ
+ກັບຄືນ
+Deila...
+Velja allt
+Leita á vefnum
+Skanna texta
+Líma
+Meira
+Leyfi
+Eyða
+Klippa
+Afrita
+Til baka
+Select all
+Scan text
+Paste
+Cut
+Back
+هم‌رسانی…
+انتخاب همه
+جستجو در وب
+اسکن کردن نوشتار
+جای‌گذاری
+بیشتر
+جستجو
+پروانه‌ها
+برش
+کپی
+برگشت
+Zdieľať…
+Vybrať všetko
+Hľadať na webe
+Naskenovať text
+Prilepiť
+Viac
+Pohľad nahor
+Licencie
+Odstrániť
+Vystrihnúť
+Kopírovať
+Späť
+Trimiteți…
+Selectați tot
+Căutați pe web
+Scanați textul
+Inserați
+Mai multe
+Privire în sus
+Licențe
+Ștergeți
+Decupați
+Copiați
+Înapoi
+Megosztás…
+Összes kijelölése
+Keresés az interneten
+Szöveg beolvasása
+Beillesztés
+Több
+Felfelé nézés
+Licencek
+Törlés
+Kivágás
+Másolás
+Vissza
+බෙදා ගන්න...
+සියල්ල තෝරන්න
+වෙබය සොයන්න
+පෙළ ස්කෑන් කරන්න
+අලවන්න
+තව
+උඩ බලන්න
+බලපත්‍ර
+මකන්න
+කපන්න
+පිටපත් කරන්න
+ආපසු
+सेयर गर्नुहोस्...
+सबै बटनहरू चयन गर्नुहोस्
+वेबमा खोज्नुहोस्
+टेक्स्ट स्क्यान गर्नुहोस्
+टाँस्नुहोस्
+थप
+माथितिर हेर्नुहोस्
+इजाजतपत्रहरू
+मेट्नुहोस्
+काट्नुहोस्
+प्रतिलिपि गर्नुहोस्
+पछाडि जानुहोस्
+共有...
+すべてを選択
+ウェブを検索
+テキストをスキャン
+貼り付け
+その他
+調べる
+ライセンス
+削除
+切り取り
+コピー
+戻る
+แชร์...
+เลือกทั้งหมด
+ค้นหาบนอินเทอร์เน็ต
+สแกนข้อความ
+วาง
+เพิ่มเติม
+ค้นหา
+ใบอนุญาต
+ลบ
+ตัด
+คัดลอก
+กลับ
+Shiriki...
+Chagua vyote
+Tafuta kwenye Wavuti
+Changanua maandishi
+Bandika
+Zaidi
+Tafuta
+Leseni
+Futa
+Kata
+Nakili
+Rudi Nyuma
+Поделиться
+Выбрать все
+Искать в интернете
+Сканировать текст
+Вставить
+Ещё
+Найти
+Лицензии
+Удалить
+Вырезать
+Копировать
+Jaa…
+Valitse kaikki
+Hae verkosta
+Skannaa tekstiä
+Liitä
+Lisää
+Hae
+Lisenssit
+Poista
+Leikkaa
+Kopioi
+Takaisin
+Կիսվել...
+Նշել բոլորը
+Որոնել համացանցում
+Սկանավորել տեքստ
+Տեղադրել
+Այլ
+Փնտրել
+Արտոնագրեր
+Ջնջել
+Կտրել
+Պատճենել
+Հետ
+Velg alle
+Søk på nettet
+Skann tekst
+Lim inn
+Mer
+Slå opp
+Lisenser
+Slett
+Klipp ut
+Tilbake
+Kongsi...
+Buat carian pada Web
+Imbas teks
+Tampal
+Lagi
+Lihat ke Atas
+Lesen
+Padam
+ਸਾਂਝਾ ਕਰੋ...
+ਸਭ ਚੁਣੋ
+ਵੈੱਬ \'ਤੇ ਖੋਜੋ
+ਲਿਖਤ ਨੂੰ ਸਕੈਨ ਕਰੋ
+ਪੇਸਟ ਕਰੋ
+ਹੋਰ
+ਖੋਜੋ
+ਲਾਇਸੰਸ
+ਮਿਟਾਓ
+ਕੱਟ ਕਰੋ
+ਕਾਪੀ ਕਰੋ
+ਪਿੱਛੇ
+分享…
+全选
+在网络上搜索
+扫描文字
+粘贴
+更多
+向上看
+许可
+剪切
+返回
+പങ്കിടുക...
+എല്ലാം തിരഞ്ഞെടുക്കുക
+വെബിൽ തിരയുക
+ടെക്സ്റ്റ് സ്‌കാൻ ചെയ്യുക
+ഒട്ടിക്കുക
+കൂടുതൽ
+മുകളിലേക്ക് നോക്കുക
+ലൈസൻസുകൾ
+ഇല്ലാതാക്കുക
+മുറിക്കുക
+പകർത്തുക
+മടങ്ങുക
+शेयर करें…
+सभी को चुनें
+वेब पर खोजें
+टेक्स्ट स्कैन करें
+चिपकाएं
+ज़्यादा
+लुक अप बटन
+लाइसेंस
+मिटाएं
+काटें
+कॉपी करें
+वापस जाएं
+Jaga …
+Vali kõik
+Otsi veebist
+Skanni tekst
+Kleebi
+Rohkem
+Litsentsid
+Kustuta
+Lõika
+Kopeeri
+Tagasi
+ಹಂಚಿಕೊಳ್ಳಿ...
+ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ
+ವೆಬ್‌ನಲ್ಲಿ ಹುಡುಕಿ
+ಪಠ್ಯವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ
+ಅಂಟಿಸಿ
+ಇನ್ನಷ್ಟು
+ಮೇಲೆ ನೋಡಿ
+ಪರವಾನಗಿಗಳು
+ಅಳಿಸಿ
+ಕತ್ತರಿಸಿ
+ನಕಲಿಸಿ
+ಹಿಂತಿರುಗಿ
+Seleccionar todo
+Buscar na Web
+Escanear texto
+Pegar
+Máis
+Mirar cara arriba
+Licenzas
+Cortar
+Copiar
+Atrás
+ចែករំលែក...
+ជ្រើសរើស​ទាំងអស់
+ស្វែងរក​លើបណ្ដាញ
+ស្កេន​អក្សរ
+ដាក់​ចូល
+ច្រើន​ទៀត
+រកមើល
+អាជ្ញាបណ្ណ
+លុប
+កាត់
+ចម្លង
+ថយក្រោយ
+Дели…
+Изабери све
+Претражи веб
+Скенирај текст
+Налепи
+Још
+Поглед нагоре
+Лиценце
+Избришите
+Исеци
+Копирај
+Κοινοποίηση…
+Επιλογή όλων
+Αναζήτηση στον ιστό
+Σάρωση κειμένου
+Επικόλληση
+Περισσότερα
+Άδειες
+Διαγραφή
+Αποκοπή
+Αντιγραφή
+Πίσω
+Споделете...
+Избери ги сите
+Пребарајте на интернет
+Скенирајте го текстот
+Залепи
+Уште
+Погледнете нагоре
+Лиценци
+Избриши
+Исечи
+Rhannu...
+Dewis y Cyfan
+Chwilio\'r We
+Sganio testun
+Gludo
+Rhagor
+Chwilio
+Trwyddedau
+Dileu
+Torri
+Copïo
+Nôl
+Comparteix...
+Selecciona-ho tot
+Cerca al web
+Escaneja text
+Enganxa
+Més
+Mira amunt
+Llicències
+Suprimeix
+Retalla
+Copia
+Enrere
+Paylaş...
+Tümünü seç
+Web\'de Ara
+Metin tara
+Yapıştır
+Diğer
+Ara
+Lisanslar
+Sil
+Kes
+Kopyala
+షేర్ చేయండి...
+అన్నింటినీ ఎంచుకోండి
+వెబ్‌లో సెర్చ్ చేయండి
+టెక్స్ట్‌ను స్కాన్ చేయండి
+పేస్ట్ చేయండి
+మరిన్ని
+వెతకండి
+లైసెన్స్‌లు
+తొలగించండి
+కత్తిరించండి
+కాపీ చేయి
+వెనుకకు
+Бөлісу…
+Барлығын таңдау
+Интернеттен іздеу
+Мәтінді сканерлеу
+Қою
+Жаю
+Іздеу
+Лицензиялар
+Жою
+Қию
+Көшіру
+Артқа
+Pretraži Web
+Deel …
+Kies alles
+Deursoek web
+Skandeer teks
+Plak
+Nog
+Kyk op
+Lisensies
+Vee uit
+Knip
+Kopieer
+Sdílet…
+Vybrat vše
+Vyhledávat na webu
+Naskenovat text
+Vložit
+Více
+Vyhledat
+Smazat
+Vyjmout
+Kopírovat
+Zpět
+Compartilhar…
+Selecionar tudo
+Pesquisar na Web
+Digitalizar texto
+Colar
+Mais
+Pesquisar
+Licenças
+Excluir
+Voltar
+Condividi…
+Seleziona tutto
+Cerca sul web
+Scansiona testo
+Incolla
+Altro
+Cerca
+Licenze
+Elimina
+Taglia
+Indietro
+Yabelana...
+Khetha konke
+Sesha Iwebhu
+Skena umbhalo
+Namathisela
+Okuningi
+Bheka Phezulu
+Amalayisense
+Susa
+Sika
+Kopisha
+Emuva
+Compartir...
+Buscar en la Web
+Más
+Buscador visual
+Licencias
+Dela …
+Markera allt
+Sök på webben
+Skanna text
+Klistra in
+Titta upp
+Radera
+Kopiera
+Tillbaka
+Поділитися…
+Вибрати всі
+Пошук в Інтернеті
+Відсканувати текст
+Вставити
+Інші
+Шукати
+Ліцензії
+Видалити
+Вирізати
+Копіювати
+Kopīgot…
+Atlasīt visu
+Meklēt tīmeklī
+Skenēt tekstu
+Ielīmēt
+Vairāk
+Meklēt
+Dzēst
+Izgriezt
+Kopēt
+Atpakaļ
+Alles auswählen
+Wybierz wszystkie
+Select All
+Piliin Lahat
+Pilih Semua
+सबै चयन गर्नुहोस्
+Označiť všetko
+सभी चुनें
+Tümünü Seç
+Hautatu dena
+Barchasini tanlash
+Вибрати все
+ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ
+எல்லாம் தேர்ந்தெடு
+ସମସ୍ତ ଚୟନ କରନ୍ତୁ
+Vælg alt
+Seleccionar-ho tot
+Teua Zote
+Zgjidhi të gjitha
+Selectează tot
+سبھی منتخب کریں
+HYg
+gvd
+Tab 
+initial
+master
+detail
+Unknown route 
+_Focus.
+Dcd
+NYb
+Wae
+Xae
+hbe
+StadiumBorder(
+% of the way to being a RoundedRectangleBorder)
+% of the way to being a CircleBorder that is 
+% oval)
+% of the way to being a CircleBorder)
+RoundedRectangleBorder(
+CompoundAnimation
+Canvas::drawImageRect
+; id=
+FixedScrollMetrics
+..[
+]..
+Xhd
+dmd
+fmd
+wsc
+zKc
+_Ghd@153442496
+_Lhd@153442496
+_Nhd@153442496
+_Ohd@153442496
+_nid@153442496
+_yid@153442496
+Overlay was given infinite constraints and cannot be sized by a suitable child.
+The constraints given to the overlay (
+) would result in an illegal infinite size (
+). To avoid that, the Overlay tried to size itself to one of its children, but no suitable non-positioned child that belongs to an OverlayEntry with canSizeOverlay set to true could be found.
+Try wrapping the Overlay in a SizedBox to give it a finite size or use an OverlayEntry with canSizeOverlay set to true.
+No Overlay widget found.
+ widgets require an Overlay widget ancestor.\nAn overlay lets widgets float on top of other widget children.
+To introduce an Overlay widget, you can either directly include one, or use a widget that contains an Overlay itself, such as a Navigator, WidgetApp, MaterialApp, or CupertinoApp.
+The specific widget that could not find a 
+ ancestor was
+This widget is the root of the tree, so it has no ancestors, let alone a \"
+\" ancestor.
+abb
+SmartQuotesType.
+Thumbnail preview
+縮略圖預覽
+缩略图预览
+Search
+搜索
+Client connecting!
+smb2_closedir
+smb2_readdir
+smb2_opendir_async
+ftp://
+Can\'t create instance from empty information
+MMM dd hh:mm yyyy
+MMM dd yyyy
+_name
+Invalid format <
+> for LIST command response !
+Ncf
+^\'(\?:[^\']|\'\')*\'
+^(\?:G+|y+|M+|k+|S+|E+|a+|h+|K+|H+|c+|L+|Q+|d+|D+|m+|s+|v+|z+|Z+)
+^[^\'GyMkSEahKHcLQdDmsvzZ]+
+jms
+yMMMMd
+cdDEGLMQvyZz
+MM-dd-yyyy hh:mma
+^(.{8}\\s+.{7})\\s+(.{0,5})\\s+(\\d{0,24})\\s+(.+)$
+^([\\-ld])([\\-rwxs]{9})\\s+(\\d+)\\s+(\\w+)\\s+(\\w+)\\s+(\\d+)\\s+(\\w{3}\\s+\\d{1,2}\\s+(\?:\\d{1,2}:\\d{1,2}|\\d{4}))\\s+(.+)$
+226
+Transfer Error.
+150
+Connection refused. 
+Connection timed out, host: 
+DIR_LIST_COMMAND.LIST
+PASV
+Could not start Passive Mode
+TYPE A
+PWD
+257
+Failed to get current working directory
+CWD 
+250
+client == null
+Connect failed
+USER 
+PASS 
+Wrong username 
+Wrong password
+Could not connect to 
+href
+propstat
+status
+200
+prop
+resourcetype
+collection
+getcontenttype
+getcontentlength
+getetag
+creationdate
+getlastmodified
+xml parse error(405)
+[/]+$
+gmt
+T
+Time out of range
+Invalid date format
+^([+-]\?\\d{4,6})-\?(\\d\\d)-\?(\\d\\d)(\?:[ T](\\d\\d)(\?::\?(\\d\\d)(\?::\?(\\d\\d)(\?:[.,](\\d+))\?)\?)\?( \?[zZ]| \?([-+])(\\d\\d)(\?::\?(\\d\\d))\?)\?)\?$
+PROPFIND
+<d:propfind xmlns:d=\'DAV:\'>\n\t\t\t<d:prop>\n\t\t\t\t<d:displayname/>\n\t\t\t\t<d:resourcetype/>\n\t\t\t\t<d:getcontentlength/>\n\t\t\t\t<d:getcontenttype/>\n\t\t\t\t<d:getetag/>\n\t\t\t\t<d:getlastmodified/>\n\t\t\t</d:prop>\n\t\t</d:propfind>
+depth
+application/xml;charset=UTF-8
+accept
+application/xml,text/xml
+(http|https)://
+stale=true
+nonce
+qop
+opaque
+algorithm
+entityBody
+^[\"]+|[\"]+$
+\"www-authenticate\" header has more than one value, please use Headers[name]
+^[/]+
+Digest username=\"
+\", realm=\"
+\", nonce=\"
+\", uri=\"
+\", nc=
+, cnonce=\"
+\", response=\"
+, qop=
+, opaque=
+auth
+auth-int
+Hash update method called after digest was retrieved
+MD5
+MD5-sess
+statusCode: 
+OPTIONS
+Codec
+編解碼器
+编解码器
+Bitrate
+碼率
+码率
+ kbit/s
+Resolution
+分辨率
+Frame rate
+幀率
+帧率
+Audio Channels
+聲道
+声道
+Path
+路径
+Duration
+時長
+时长
+NFSSortType.
+Reset
+重置
+Display: 
+Video: 
+Crop
+裁剪
+Unscaled
+禁用縮放
+禁用缩放
+onSurfaceCreated
+onSurfaceChanged
+onSurfaceDestroyed
+onViewBack
+onViewClose
+onPlayPause
+onUpPlaybackSpeed
+onResetPlaybackSpeed
+onProgressChanged
+Miss method(
+})
+onForward
+onRewind
+onPictureInPictureModeChanged
+Miss method
+NetworkDirectoryFavoritesCompanion(
+MediaInfo(uri: 
+LocaleDataException: 
+$licenseCount
+howMany
+Invalid plural argument
+default
+$tabIndex skirtukas iš $tabCount
+Kartica $tabIndex od $tabCount
+$tabCountৰ $tabIndexটা টেব
+第 $tabIndex 個標籤，總共 $tabCount 個
+$tabCount میں سے $tabIndex ٹیب
+Fane $tabIndex af $tabCount
+Zavihek $tabIndex od $tabCount
+Tabblad $tabIndex van $tabCount
+$tabIndex د $tabCount
+တဘ် $tabCount အနက် $tabIndex ခု
+$tabCount-এর মধ্যে $tabIndexটি ট্যাব
+Tab $tabIndex trong tổng số $tabCount
+$tabCount кыналма ичинен $tabIndex
+علامة التبويب $tabIndex من $tabCount
+第 $tabIndex 個分頁 (共 $tabCount 個)
+ჩანართი $tabIndex / $tabCount-დან
+ትር $tabIndex ከ$tabCount
+$tabIndex/$tabCount tab
+$tabIndex/$tabCount fitxa
+$tabCount varaqdan $tabIndex
+தாவல் $tabIndex / $tabCount
+Tab $tabIndex von $tabCount
+Tab $tabIndex ng $tabCount
+Tab $tabIndex dari $tabCount
+Karta $tabIndex z $tabCount
+Укладка $tabIndex з $tabCount
+Onglet $tabIndex sur $tabCount
+$tabCount पैकी $tabIndex टॅब
+$tabCountର $tabIndex ଟାବ୍
+כרטיסייה $tabIndex מתוך $tabCount
+Separador $tabIndex de $tabCount
+탭 $tabCount개 중 $tabIndex번째
+$tabCount-н $tabIndex-р таб
+$tabIndex. kartica od $tabCount
+$tabCountમાંથી $tabIndex ટૅબ
+Раздел $tabIndex от $tabCount
+Skeda $tabIndex nga $tabCount
+Onglet $tabIndex sur $tabCount
+ແຖບທີ $tabIndex ຈາກທັງໝົດ $tabCount
+Flipi $tabIndex af $tabCount
+Tab $tabIndex of $tabCount
+برگه $tabIndex از $tabCount
+Fila $tabIndex din $tabCount
+$tabCount/$tabIndex. lap
+ටැබ $tabIndexකින් $tabCount
+$tabCount मध्ये $tabIndex ट्याब
+タブ: $tabIndex/$tabCount
+แท็บที่ $tabIndex จาก $tabCount
+Kichupo cha $tabIndex kati ya $tabCount
+Вкладка $tabIndex из $tabCount
+Välilehti $tabIndex kautta $tabCount
+Ներդիր $tabIndex՝ $tabCount-ից
+Fane $tabIndex av $tabCount
+$tabCount ਵਿੱਚੋਂ $tabIndex ਟੈਬ
+第 $tabIndex 个标签，共 $tabCount 个
+$tabCount-ൽ $tabIndex
+$tabCount का टैब $tabIndex
+$tabIndex. vahekaart $tabCount-st
+$tabCount ರಲ್ಲಿನ $tabIndex ಟ್ಯಾಬ್
+Pestana $tabIndex de $tabCount
+ផ្ទាំង $tabIndex ក្នុង​ចំណោម​ $tabCount
+$tabIndex. картица од $tabCount
+Καρτέλα $tabIndex από $tabCount
+Картичка $tabIndex од $tabCount
+Tab $tabIndex o $tabCount
+Pestanya $tabIndex de $tabCount
+Sekme $tabIndex / $tabCount
+$tabCountలో $tabIndexవ ట్యాబ్
+$tabCount/$tabIndex қойынды
+Oortjie $tabIndex van $tabCount
+Guia $tabIndex de $tabCount
+Scheda $tabIndex di $tabCount
+Ithebhu $tabIndex kwangu-$tabCount
+Pestaña $tabIndex de $tabCount
+Flik $tabIndex av $tabCount
+Вкладка $tabIndex з $tabCount
+$tabIndex. cilne no $tabCount
+PaletteType.
+ColorLabelType.
+Xeh
+CUd
+Tke
+Vke
+Zke
+ale
+filled
+ihe
+mle
+oac
+rle
+yke
+Paragraph::getWordBoundary
+editable
+RangeValues
+RangeLabels
+A
+B
+_SliderType.
+_ActivityIndicatorType.
+No licenses.
+1 license.
+ licenses.
+FloatingActionButtonLocation.endDocked
+FloatingActionButtonLocation.centerDocked
+FloatingActionButtonLocation.endContained
+FloatingActionButtonLocation.miniEndFloat
+FloatingActionButtonLocation.endTop
+FloatingActionButtonLocation.centerTop
+FloatingActionButtonLocation.miniEndDocked
+FloatingActionButtonLocation.miniStartFloat
+FloatingActionButtonLocation.startFloat
+FloatingActionButtonLocation.startTop
+FloatingActionButtonLocation.startDocked
+FloatingActionButtonLocation.centerFloat
+FloatingActionButtonLocation.miniEndTop
+FloatingActionButtonLocation.miniStartDocked
+FloatingActionButtonLocation.miniCenterTop
+FloatingActionButtonLocation.miniCenterDocked
+FloatingActionButtonLocation.miniCenterFloat
+FloatingActionButtonLocation.miniStartTop
+_SliverAppVariant.
+_LayoutMode.
+_BlendedDecorationImage
+SpringDescription
+(mass: 
+, stiffness: 
+, damping: 
+SpringSimulation
+(end: 
+Uk
+WrapCrossAlignment.
+WrapAlignment.
+_WrappedScrollBehavior
+_StretchController()
+_StretchState.
+_StretchDirection.
+_GlowingOverscrollIndicatorPainter(
+Canvas::scale
+Canvas::rotate
+_GlowController(color: 
+, axis: 
+side: 
+leading edge
+trailing edge
+_GlowState.
+_OverlayEntryLocation
+_LicenseEntryWithLineBreaksParserState.
+Failed to rasterize a picture: 
+DeleteRequest.
+File => name: 
+Directory => name: 
+Link => name: 
+Unknown => name: 
+_VideoEqualizerType.
+Nrd
+hib
+SystemVideoPipModeAction.
+PluralCase.
+Trying to read 
+ from 
+D
+G
+H
+K
+k
+L
+M
+Q
+S
+z
+^[
+]+
+^\\d+
+name=
+;modify=
+;perm=
+;type=
+;size=
+;unique=
+;unix.group=
+;unix.mode=
+;unix.owner=
+;unix.uid=
+;unix.gid=
+FTPEntryType.
+Atidaryti naršymo meniu
+No licenses
+$licenseCount licencijų
+1 licencija
+$licenseCount licencijos
+Uždaryti
+$licenseCount licences
+1 licence
+No licences
+Otvaranje izbornika za navigaciju
+$licenseCount licenci
+1 licenca
+$licenseCount licence
+Zatvaranje
+Abrir menú de navegación
+$licenseCount licencias
+1 licencia
+নেভিগেশ্বন মেনু খোলক
+$licenseCount খন অনুজ্ঞাপত্ৰ
+১ খন অনুজ্ঞাপত্ৰ
+বন্ধ কৰক
+開啟導覽選單
+$licenseCount 項授權
+1 項授權
+關閉
+نیویگیشن مینیو کھولیں
+$licenseCount لائسنسز
+1 لائسنس
+بند کریں
+Åbn navigationsmenuen
+$licenseCount licenser
+1 licens
+Luk
+Odpiranje menija za krmarjenje
+$licenseCount licenc
+Zapiranje
+Navigatiemenu openen
+$licenseCount licenties
+1 licentie
+Sluiten
+د پرانیستی نیینګ مینو
+$licenseCount licenses
+1 license
+بنده
+လမ်းညွှန်မီနူးကို ဖွင့်ရန်
+လိုင်စင် $licenseCount ခု
+လိုင်စင် 1 ခု
+ပိတ်ရန်
+নেভিগেশন মেনু খুলুন
+$licenseCountটি লাইসেন্স
+১টি লাইসেন্স
+বন্ধ করুন
+Mở menu di chuyển
+$licenseCount giấy phép
+1 giấy phép
+Đóng
+Чабыттоо менюсун ачуу
+$licenseCount уруксаттама
+1 уруксаттама
+Жабуу
+فتح قائمة التنقل
+ما مِن تراخيص
+ترخيصان ($licenseCount)
+$licenseCount ترخيص
+ترخيص واحد
+$licenseCount ترخيصًا
+$licenseCount تراخيص
+إغلاق
+$licenseCount 個授權
+1 個授權
+სანავიგაციო მენიუს გახსნა
+$licenseCount ლიცენზია
+1 ლიცენზია
+დახურვა
+የዳሰሳ ምናሌን ክፈት
+$licenseCount ፈቃዶች
+1 ፈቃድ
+ዝጋ
+Naviqasiya menyusunu açın
+$licenseCount lisenziya
+1 lisenziya
+Bağlayın
+Ireki nabigazio-menua
+$licenseCount lizentzia
+1 lizentzia
+Itxi
+Navigatsiya menyusini ochish
+$licenseCount ta litsenziya
+1 ta litsenziya
+Yopish
+வழிசெலுத்தல் மெனுவைத் திற
+$licenseCount உரிமங்கள்
+1 உரிமம்
+மூடுக
+Navigationsmenü öffnen
+$licenseCount Lizenzen
+1 Lizenz
+Schließen
+Buksan ang menu ng navigation
+$licenseCount na lisensya
+1 lisensya
+Isara
+Buka menu navigasi
+$licenseCount lisensi
+1 lisensi
+Tutup
+Otwórz menu nawigacyjne
+$licenseCount licencji
+1 licencja
+$licenseCount licencje
+Zamknij
+Адкрыць меню навігацыі
+$licenseCount ліцэнзіі
+1 ліцэнзія
+$licenseCount ліцэнзій
+Закрыць
+नेव्हिगेशन मेनू उघडा
+$licenseCount परवाने
+एक परवाना
+बंद करा
+ନାଭିଗେସନ୍ ମେନୁ ଖୋଲନ୍ତୁ
+$licenseCountଟି ଲାଇସେନ୍ସ
+1ଟି ଲାଇସେନ୍ସ
+ବନ୍ଦ କରନ୍ତୁ
+פתיחה של תפריט הניווט
+$licenseCount רישיונות
+רישיון אחד
+סגירה
+탐색 메뉴 열기
+라이선스 $licenseCount개
+라이선스 1개
+닫기
+Навигацын цэсийг нээх
+$licenseCount лиценз
+1 лиценз
+Хаах
+Otvorite meni za navigaciju
+Zatvorite
+નૅવિગેશન મેનૂ ખોલો
+$licenseCount લાઇસન્સ
+1 લાઇસન્સ
+બંધ કરો
+Отваряне на менюто за навигация
+$licenseCount лиценза
+1 лиценз
+Затваряне
+Hap menynë e navigimit
+$licenseCount licenca
+1 licencë
+Mbyll
+Ouvrir le menu de navigation
+$licenseCount licences
+1 licence
+Fermer
+ເປີດເມນູການນຳທາງ
+$licenseCount ໃບອະນຸຍາດ
+1 ໃບອະນຸຍາດ
+ປິດ
+Opna yfirlitsvalmynd
+$licenseCount leyfi
+1 leyfi
+Loka
+Open navigation menu
+Close
+باز کردن منوی پیمایش
+$licenseCount پروانه
+۱ پروانه
+بستن
+Otvoriť navigačnú ponuku
+$licenseCount licencií
+1 licencia
+$licenseCount licencie
+Zavrieť
+Deschideți meniul de navigare
+$licenseCount de licențe
+O licență
+$licenseCount licențe
+Închideți
+Navigációs menü megnyitása
+1 licenc
+Bezárás
+සංචාලන මෙනුව විවෘත කරන්න
+බලපත්‍ර $licenseCount
+බලපත්‍ර 1
+වසන්න
+नेभिगेसन मेनु खोल्नुहोस्
+$licenseCount वटा इजाजतपत्र
+एउटा इजाजतपत्र
+बन्द गर्नुहोस्
+ナビゲーション メニューを開く
+ライセンス: $licenseCount 件
+ライセンス: 1 件
+閉じる
+เปิดเมนูการนำทาง
+ใบอนุญาต $licenseCount ใบ
+ใบอนุญาต 1 ใบ
+ปิด
+Fungua menyu ya kusogeza
+Leseni $licenseCount
+Leseni moja
+Funga
+Открыть меню навигации
+$licenseCount лицензии
+1 лицензия
+$licenseCount лицензий
+Закрыть
+Avaa navigointivalikko
+$licenseCount lisenssiä
+1 lisenssi
+Sulje
+Բացել նավիգացիայի ընտրացանկը
+$licenseCount լիցենզիա
+1 լիցենզիա
+Փակել
+Åpne navigasjonsmenyen
+$licenseCount lisenser
+1 lisens
+Lukk
+$licenseCount lesen
+1 lesen
+ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ ਖੋਲ੍ਹੋ
+$licenseCount ਲਾਇਸੰਸ
+1 ਲਾਇਸੰਸ
+ਬੰਦ ਕਰੋ
+打开导航菜单
+$licenseCount 份许可
+1 份许可
+关闭
+നാവിഗേഷൻ മെനു തുറക്കുക
+$licenseCount ലൈസൻസുകൾ
+ഒരു ലൈസൻസ്
+അടയ്‌ക്കുക
+नेविगेशन मेन्यू खोलें
+$licenseCount लाइसेंस
+1 लाइसेंस
+बंद करें
+Ava navigeerimismenüü
+$licenseCount litsentsi
+1 litsents
+Sule
+ನ್ಯಾವಿಗೇಶನ್‌ ಮೆನು ತೆರೆಯಿರಿ
+$licenseCount ಪರವಾನಗಿಗಳು
+1 ಪರವಾನಗಿ
+ಮುಚ್ಚಿರಿ
+$licenseCount licenzas
+1 licenza
+Pechar
+បើក​ម៉ឺនុយរុករក
+អាជ្ញាបណ្ណ $licenseCount
+អាជ្ញាបណ្ណ 1
+បិទ
+Отворите мени за навигацију
+$licenseCount лиценци
+1 лиценца
+$licenseCount лиценце
+Затворите
+Άνοιγμα μενού πλοήγησης
+$licenseCount άδειες
+1 άδεια
+Κλείσιμο
+Отворете го менито за навигација
+Затвори
+Agor y ddewislen llywio
+Dim trwydded
+$licenseCount drwydded
+$licenseCount trwydded
+1 trwydded
+$licenseCount thrwydded
+Cau
+Obre el menú de navegació
+$licenseCount llicències
+1 llicència
+Tanca
+Gezinme menüsünü aç
+$licenseCount lisans
+1 lisans
+Kapat
+నావిగేషన్ మెనూను తెరువు
+$licenseCount లైసెన్స్‌లు
+1 లైసెన్స్
+మూసివేయి
+Навигация мәзірін ашу
+$licenseCount лицензия
+Жабу
+Maak navigasiekieslys oop
+$licenseCount lisensies
+1 lisensie
+Maak toe
+Schliessen
+Otevřít navigační nabídku
+$licenseCount licencí
+$licenseCount licence
+Zavřít
+Abrir menu de navegação
+$licenseCount licenças
+1 licença
+Fechar
+Apri il menu di navigazione
+$licenseCount licenze
+Chiudi
+Vula imenyu yokuzulazula
+amalayisense angu-$licenseCount
+ilayisense e-1
+Vala
+Abrir el menú de navegación
+$licenseCount licencias
+Cerrar
+Öppna navigeringsmenyn
+Stäng
+Відкрити меню навігації
+$licenseCount ліцензії
+1 ліцензія
+$licenseCount ліцензій
+Закрити
+Atvērt navigācijas izvēlni
+Nav licenču
+Aizvērt
+ListTileStyle.
+ListTileTitleAlignment.
+HSVColor
+TextAlignVertical
+(y: 
+TextGranularity.
+SelectionEventType.
+endIndex
+<linked>
+<dangling>
+  spell check enabled   : 
+\n  spell check service   : 
+\n  misspelled text style : 
+\n  spell check suggestions toolbar builder: 
+Qnd
+Rnd
+tkd
+ is not a _RenderTheater
+ryc
+MaxLengthEnforcement.
+DXa
+gYa
+INc
+track
+thumb
+gesturecontainer
+Invalid byte 
+unreachable
+Invalid input length, must be even.
+Invalid hexadecimal code unit U+
+CupertinoTimerPickerMode.
+ShowValueIndicator.
+Thumb.
+_SliderAdjustmentType.
+SliderInteraction.
+yxc
+Yih
+Zih
+Canvas::drawArc
+_yle@373019562
+_zle@373019562
+_Ale@373019562
+(topPadding: 
+, bottomHeight: 
+, ...)
+_ActionLevel.
+[\\p{Space_Separator}\\p{Punctuation}]
+SpringType.
+SawTooth
+SelectionExtendDirection.
+SelectionResult.
+SnapshotMode.
+HapticFeedbackType.mediumImpact
+Cpd
+OverflowBarAlignment.
+hRc
+tmc
+Unexpected pointer down event for trackpad
+ProcessText.queryTextActions
+ItemPosition(index: 
+, itemLeadingEdge: 
+, itemTrailingEdge: 
+°
+\?\?
+Gradient::initRadial
+Gradient::initSweep
+dEe
+Paragraph::ideographicBaseline
+Paragraph::alphabeticBaseline
+Path::addArc
+Uqd
+_ListTileSlot.
+_FloatingActionButtonType.
+_CardVariant.
+StrutStyle
+Invalid image dimensions.
+Scene::toImageSync
+Mqd
+_ToolbarSlot.
+ParagraphBuilder::addPlaceholder
+_ForceState.
+$second
+$minute
+$hour
+sec.
+min.
+hour
+hours
+CXb
+_DecorationSlot.
+MaterialStateMouseCursor(FloatActionButton)
+center: 
+radius: 
+colors: 
+stops: 
+tileMode: 
+focalRadius: 
+RadialGradient
+startAngle: 
+endAngle: 
+SweepGradient
+begin: 
+end: 
+LinearGradient
+Wtd
+Paragraph::minIntrinsicWidth
+base
+extent
+UndoManagerClient.handleUndo
+undo
+redo
+Unknown undo direction: 
+_mzd@209437083
+_UndoStack 
+ScrollbarOrientation.
+EMc
+FMc
+GMc
+san.
+dəq.
+saat
+min
+hodin
+hodina
+hodiny
+Min.
+Stunden
+Stunde
+godziny
+godzina
+godzin
+сек
+мин
+часа
+час
+վրկ
+րոպե
+ժամ
+วินาที
+นาที
+ชั่วโมง
+წმ
+წთ
+საათი
+horas
+hora
+minutes
+minute
+heures
+heure
+na seg.
+seg.
+na min.
+na oras
+oras
+isekhondi.
+iminithi.
+amahora
+ihora
+dtk.
+mnt.
+jam
+分鐘
+小時
+сати
+сат
+сата
+mp
+perc
+óra
+सेकेन्ड
+मिनेट
+घन्टा
+ثانية
+ثانيتان
+ثانية واحدة
+ثوانٍ
+دقيقة
+دقيقتان
+دقيقة واحدة
+دقائق
+ساعة
+ساعتان
+ساعات
+hodín
+сағат
+सेकंड
+मिनट
+घंटे
+घंटा
+sn.
+dk.
+sati
+sat
+sata
+sek
+timmar
+timme
+tundi
+tund
+ثانیه
+دقیقه
+ساعت
+eiliad
+munud
+funud
+awr
+сек.
+мин.
+tuntia
+tunti
+ordu
+seg
+సెకన్లు.
+నిమి.
+గంటలు
+గంట
+soniya
+daqiqa
+soat
+ሴኮ
+ደቂቃ
+ሰዓቶች
+ሰዓት
+часов
+से.
+मि.
+तास
+с
+хв
+години
+година
+годин
+វិនាទី
+នាទី
+ម៉ោង
+ಸೆ.
+ನಿಮಿ.
+ಗಂಟೆಗಳು
+ಗಂಟೆ
+秒
+分钟
+小时
+வி.
+நிமி.
+மணிநேரம்
+ସେକେଣ୍ଡ
+ମିନିଟ୍
+ଘଣ୍ଟା
+мүн.
+саат
+စက္ကန့်
+မိနစ်
+နာရီ
+sek.
+uur
+timer
+ছেকেণ্ড।
+মিনিট।
+ঘণ্টা
+ວິ.
+ນທ.
+ຊົ່ວໂມງ
+δευτ.
+λεπ.
+ώρες
+ώρα
+hores
+секунд.
+минут.
+цаг
+সেকেন্ড।
+分
+minit
+સેકન્ડ
+મિનિટ
+કલાક
+sekunde
+dakika
+saa
+гадзіны
+гадзіна
+гадзін
+orë
+giây
+phút
+giờ
+giờ
+초
+분
+시간
+時間
+שנ’
+דק’
+שעות
+שעה
+val.
+ਸਕਿੰ.
+ਮਿੰ.
+ਘੰਟੇ
+ਘੰਟਾ
+de ore
+oră
+ore
+තත්.
+මිනි.
+පැය
+mín.
+klukkustundir
+klukkustund
+ora
+سیکنڈ۔
+منٹ۔
+گھنٹے
+گھنٹہ
+സെക്കൻഡ്
+മിനിറ്റ്
+മണിക്കൂർ
+ure
+ura
+UndoHistoryValue
+(canUndo: 
+, canRedo: 
+dsd
+UndoDirection.
+Atsisakyti
+Odbaci
+Descartar
+অগ্ৰাহ্য কৰক
+拒絕
+برخاست کریں
+Afvis
+Opusti
+رد کړه
+ပယ်ရန်
+খারিজ করুন
+Bỏ qua
+رفض
+አሰናብት
+İmtina edin
+Baztertu
+நிராகரிக்கும்
+I-dismiss
+Адхіліць
+डिसमिस करा
+ଖାରଜ କରନ୍ତୁ
+Ignorar
+Үл хэрэгсэх
+છોડી દો
+Отхвърляне
+Hiq
+Ignorer
+ປິດໄວ້
+Hunsa
+Dismiss
+نپذیرفتن
+Odmietnuť
+Elvetés
+ඉවත ලන්න
+खारेज गर्नुहोस्
+Ondoa
+Ohita
+Avvis
+Tolak
+ਖਾਰਜ ਕਰੋ
+നിരസിക്കുക
+खारिज करें
+Loobu
+ವಜಾಗೊಳಿಸಿ
+ច្រាន​ចោល
+Одбаци
+Παράβλεψη
+Отфрли
+Diystyru
+Ignora
+విస్మరించు
+Dispensar
+Cashisa
+Nerādīt
+Path::addPath
+Path::setFillType
+dnd
+stc
+FrictionSimulation
+(cₓ: 
+, x₀: 
+, dx₀: 
+minExtent: 
+, extent: 
+, maxExtent: 
+, initialExtent: 
+MWb
+Iššokantysis meniu
+Pop-up menu
+Skočni izbornik
+প\'পআপ মেনু
+彈出式選單
+پاپ اپ مینیو
+Pop op-menu
+Pojavni meni
+Pop-upmenu
+د پاپ اپ مینو
+ပေါ့ပ်အပ်မီနူး
+পপ-আপ মেনু
+Menu bật lên
+Калкып чыгуучу меню
+قائمة منبثقة
+ამომხტარი მენიუ
+የብቅ-ባይ ምናሌ
+Popap menyusu
+Menu gainerakorra
+Pop-ap menyusi
+பாப்-அப் மெனு
+Pop-up-Menü
+Popup na menu
+Menu pop-up
+Menu kontekstowe
+Меню ўсплывальнага акна
+पॉपअप मेनू
+ପପ୍-ଅପ୍ ମେନୁ
+תפריט קופץ
+팝업 메뉴
+Попап цэс
+Iskačući meni
+પૉપઅપ મેનૂ
+Изскачащо меню
+Menyja kërcyese
+Menu contextuel
+ເມນູປັອບອັບ
+Sprettivalmynd
+Popup menu
+منوی بازشو
+Kontextová ponuka
+Meniu pop-up
+Előugró menü
+උත්පතන මෙනුව
+पपअप मेनु
+ポップアップ メニュー
+เมนูป๊อปอัป
+Menyu ibukizi
+Всплывающее меню
+Ponnahdusvalikko
+Ելնող ընտրացանկ
+Forgrunnsmeny
+Menu pop timbul
+ਪੌਪਅੱਪ ਮੀਨੂ
+弹出菜单
+പോപ്പ് അപ്പ് മെനു
+पॉपअप मेन्यू
+Hüpikmenüü
+ಪಾಪ್ಅಪ್ ಮೆನು
+Menú emerxente
+​ម៉ឺនុយ​លោត​ឡើង
+Искачући мени
+Αναδυόμενο μενού
+Скокачко мени
+Dewislen ffenestr naid
+Menú emergent
+Popup menü
+పాప్‌అప్ మెనూ
+Қалқымалы терезе мәзірі
+Skočni meni
+Opspringkieslys
+Vyskakovací nabídka
+Menu popup
+Imenyu ye-popup
+Menú emergente
+Popup-meny
+Спливаюче меню
+Uznirstošā izvēlne
+amp
+apos
+gt
+quot
+DOUBLE_QUOTE
+ExternalFonts
+GeneralPrefs.appThemeDark
+darkA
+GeneralPrefs.appThemeLight
+lightA
+PlayerPrefs.customCommands
+NetworkFileSystemPrefs.sortType
+ShaderManager.EnabledShaders
+KDisabledDirPaths
+LastScanPaths
+PlaybackHistoryPrefs.reAudioTrackEnabled
+PlaybackHistoryPrefs.reSubtitleTrackEnabled
+PlaybackHistoryPrefs.reAudioDelayEnabled
+PlaybackHistoryPrefs.reSubtitleDelayEnabled
+PlaybackHistoryPrefs.reMirrorEnabled
+PlaybackHistoryPrefs.rePlatformBrightnessEnabled
+PlaybackHistoryPrefs.rePlatformVolumeEnabled
+PlaybackHistoryPrefs.reTransformEnabled
+PlaybackHistoryPrefs.rePlaybackSpeedEnabled
+PlaybackHistoryPrefs.reVideoPositionEnabled
+MediaPrefs.screenOrientationMode
+PlayerPrefs.showMainOverlayDuration
+PlayerPrefs.autoHideMainOverlay
+FontConfVersion
+MediaPrefs.mpvConf
+MediaPrefs.videoFastDecodeEnabled
+MediaPrefs.ao
+audioTrack
+SubtitlePrefs.ignoreAssStyleEnabled
+SubtitlePrefs.italicEnabled
+SubtitlePrefs.boldEnabled
+SubtitlePrefs.borderSize
+SubtitlePrefs.borderColor
+SubtitlePrefs.fontColor
+SubtitlePrefs.fontSize
+SubtitlePrefs.autoLoadEnabled
+SubtitlePrefs.fontName
+PlayerPrefs.tlsVerify
+PlayerGesturePrefs.longPressPlaybackSpeed
+MediaPrefs.fastSeekEnabled
+PlayerGesturePrefs.doubleTapSeekValue
+PlayerPrefs.backgroundModeEnabled
+VideoListSettings.soreType
+VideoListSettings.isReverse
+PlayerGesturePrefs.horizontalDragEnabled
+PlayerGesturePrefs.verticalDragRightEnabled
+PlayerGesturePrefs.verticalDragLeftEnabled
+PlayerGesturePrefs.longPressEnabled
+PlayerGesturePrefs.vibrateWhenLongPressEnabled
+PlayerGesturePrefs.doubleTapSeekEnabled
+PlayerGesturePrefs.doubleTapEnabled
+PlayerPrefs.customCommandsIsReverse
+MediaPrefs.frameStepEnabled
+PlayerPrefs.allowWindowExtendDisplayCutout
+NetworkFileSystemPrefs.thumbnailPreviewEnabled
+NetworkFileSystemPrefs.isReverse
+MediaPrefs.customPipModeEnabled
+PlayerTheme.backgroundOpacity
+PlayerTheme.primaryColor
+GeneralPrefs.themeMode
+system
+GeneralPrefs.language
+GeneralPrefs.videoFileLengthMini
+GeneralPrefs.recognizeNoMediaEnabled
+GeneralPrefs.autoScanEnabled
+VideoHomePrefs.showPlaybackHistory
+VideoDirListPrefs.folderModeEnabled
+VideoDirListPrefs.listMode
+column
+VideoListSettings.listMode
+ltr
+rtl
+downstream
+functionModifier
+all
+scrollLockModifier
+numLockModifier
+capsLockModifier
+metaModifier
+any
+right
+left
+controlModifier
+shiftModifier
+altModifier
+plugins.flutter.io/path_provider
+xyz.re.player.ex/AndroidChannel
+xyz.re.player.ex/AudioManagerChannel
+xyz.re.player.ex/BackgroundServiceChannel
+xyz.re.player.ex/SystemVideoPopupView
+xyz.re.player.ex/SystemVideoPipMode
+xyz.lhtls.mpv_client
+flutter_display_mode
+xyz.re.player.ex/MediaStoreChannel
+xyz.re.player.ex/ContentResolverChannel
+xyz.re.player.ex/NewPlaylistItemChannel
+xyz.re.player.ex/DocumentTreeChannel
+vibration
+dev.fluttercommunity.plus/device_info
+storage_access
+xyz.re.player.ex/PermissionChannel
+plugins.flutter.io/url_launcher
+dev.fluttercommunity.plus/package_info
+flutter/restoration
+flutter/platform
+flutter/textinput
+flutter/processtext
+flutter/mousecursor
+flutter/undomanager
+flutter/menu
+flutter/keyboard
+flutter/navigation
+flutter/accessibility
+flutter/keyevent
+flutter/lifecycle
+flutter/system
+focus
+tap
+longPress
+clear
+selectAll
+RenderViewport.excludeFromScrolling
+RenderViewport.twoPane
+_InputDecoratorState.suffix
+_InputDecoratorState.prefix
+bottom
+￼
+solid
+bottomLeft
+topRight
+bottomRight
+topLeft
+asynchronous suspension
+Pong
+Ping
+play_arrow_rounded
+pause_rounded
+Icons.close_rounded
+Icons.check
+Icons.favorite_border_rounded
+Icons.favorite_rounded
+inactiveGray
+systemBlue
+systemBackground
+Roboto
+whiteMountainView displayLarge
+whiteMountainView displayMedium
+whiteMountainView displaySmall
+whiteMountainView headlineLarge
+whiteMountainView headlineMedium
+whiteMountainView headlineSmall
+whiteMountainView titleLarge
+whiteMountainView titleMedium
+whiteMountainView titleSmall
+whiteMountainView bodyLarge
+whiteMountainView bodyMedium
+whiteMountainView bodySmall
+whiteMountainView labelLarge
+whiteMountainView labelMedium
+whiteMountainView labelSmall
+blackMountainView displayLarge
+blackMountainView displayMedium
+blackMountainView displaySmall
+blackMountainView headlineLarge
+blackMountainView headlineMedium
+blackMountainView headlineSmall
+blackMountainView titleLarge
+blackMountainView titleMedium
+blackMountainView titleSmall
+blackMountainView bodyLarge
+blackMountainView bodyMedium
+blackMountainView bodySmall
+blackMountainView labelLarge
+blackMountainView labelMedium
+blackMountainView labelSmall
+alphabetic
+tall displayLarge 2014
+tall displayMedium 2014
+tall displaySmall 2014
+tall headlineLarge 2014
+tall headlineMedium 2014
+tall headlineSmall 2014
+tall titleLarge 2014
+tall titleMedium 2014
+tall titleSmall 2014
+tall bodyLarge 2014
+tall bodyMedium 2014
+tall bodySmall 2014
+tall labelLarge 2014
+tall labelMedium 2014
+tall labelSmall 2014
+ideographic
+dense displayLarge 2014
+dense displayMedium 2014
+dense displaySmall 2014
+dense headlineLarge 2014
+dense headlineMedium 2014
+dense headlineSmall 2014
+dense titleLarge 2014
+dense titleMedium 2014
+dense titleSmall 2014
+dense bodyLarge 2014
+dense bodyMedium 2014
+dense bodySmall 2014
+dense labelLarge 2014
+dense labelMedium 2014
+dense labelSmall 2014
+englishLike displayLarge 2014
+englishLike displayMedium 2014
+englishLike displaySmall 2014
+englishLike headlineLarge 2014
+englishLike headlineMedium 2014
+englishLike headlineSmall 2014
+englishLike titleLarge 2014
+englishLike titleMedium 2014
+englishLike titleSmall 2014
+englishLike bodyLarge 2014
+englishLike bodyMedium 2014
+englishLike bodySmall 2014
+englishLike labelLarge 2014
+englishLike labelMedium 2014
+englishLike labelSmall 2014
+even
+tall displayLarge 2021
+tall displayMedium 2021
+tall displaySmall 2021
+tall headlineLarge 2021
+tall headlineMedium 2021
+tall headlineSmall 2021
+tall titleLarge 2021
+tall titleMedium 2021
+tall titleSmall 2021
+tall bodyLarge 2021
+tall bodyMedium 2021
+tall bodySmall 2021
+tall labelLarge 2021
+tall labelMedium 2021
+tall labelSmall 2021
+dense displayLarge 2021
+dense displayMedium 2021
+dense displaySmall 2021
+dense headlineLarge 2021
+dense headlineMedium 2021
+dense headlineSmall 2021
+dense titleLarge 2021
+dense titleMedium 2021
+dense titleSmall 2021
+dense bodyLarge 2021
+dense bodyMedium 2021
+dense bodySmall 2021
+dense labelLarge 2021
+dense labelMedium 2021
+dense labelSmall 2021
+englishLike displayLarge 2021
+englishLike displayMedium 2021
+englishLike displaySmall 2021
+englishLike headlineLarge 2021
+englishLike headlineMedium 2021
+englishLike headlineSmall 2021
+englishLike titleLarge 2021
+englishLike titleMedium 2021
+englishLike titleSmall 2021
+englishLike bodyLarge 2021
+englishLike bodyMedium 2021
+englishLike bodySmall 2021
+englishLike labelLarge 2021
+englishLike labelMedium 2021
+englishLike labelSmall 2021
+keyboard
+down
+page
+up
+line
+CupertinoSystemDisplay
+CupertinoSystemText
+monospace
+double
+fallback style; consider putting your text in a Material
+click
+clickable
+textable
+rectangle
+normal
+1:1
+16:9
+4:3
+horizontal
+spaceAround
+center
+vertical
+material
+clip
+parent
+iconfont
+darkB
+secondarySubtitle
+A-B
+-100
+UI
+爱发电
+hardEdge
+manual
+MaterialIcons
+EvaIcons
+eva_icons_flutter
+tertiarySystemFill
+sqlite
+TEXT
+REAL
+BLOB
+smb
+ftp
+webDav
+This value was required, but isn\'t present
+This column is not nullable and doesn\'t have a default value. Null fields thus can\'t be inserted.
+isEnabled
+hasEnabledState
+isSlider
+isHidden
+namesRoute
+scopesRoute
+isImage
+isFocused
+isFocusable
+isHeader
+isButton
+isToggled
+hasToggledState
+hasImplicitScrolling
+isReadOnly
+isTextField
+isMultiline
+isObscured
+setText
+moveCursorBackwardByWord
+moveCursorForwardByWord
+dismiss
+customAction
+didLoseAccessibilityFocus
+didGainAccessibilityFocus
+paste
+cut
+copy
+setSelection
+moveCursorBackwardByCharacter
+moveCursorForwardByCharacter
+showOnScreen
+decrease
+increase
+scrollDown
+scrollUp
+scrollRight
+scrollLeft
+und
+CN
+systemFill
+quaternarySystemFill
+systemGreen
+secondarySystemFill
+Socket has been closed
+iYf
+HXg
+Kwg
+wv
+_kFb@13463476
+arm64
+Too many percent/permill
+Message corrupted
+Invalid envelope
+Expected envelope, got nothing
+Invalid method call
+DOCUMENT_FRAGMENT
+PROCESSING
+ELEMENT
+DOCUMENT_TYPE
+DECLARATION
+COMMENT
+CDATA
+ATTRIBUTE
+DOCUMENT
+SINGLE_QUOTE
+nonStrict
+strictRFC4122
+externalApplication
+inAppWebView
+externalNonBrowserApplication
+platformDefault
+inAppBrowserView
+readWriteCreate
+link
+directory
+hidden
+temporary
+ipc
+printq
+diskTree
+delete
+trash
+restore
+edit
+settings
+networkSharing
+home
+network
+custom
+grid
+portrait
+reverseLandscape
+landscapeSensor
+landscape
+autoSensor
+openSLES
+inputCache
+stats/display-page-3
+frameTimings
+stats/display-page-2
+usual
+stats/display-page-1
+shuffle
+order
+one
+mediacodecCopy
+mediacodec-copy
+mediacodec
+jpegXl
+lower
+raise
+Hue
+Gamma
+Saturation
+Contrast
+rewind
+forward
+play
+delayed
+failed
+granted
+lossTransientCanDuck
+lossTransient
+loss
+gainTransientExclusive
+gainTransientMayDuck
+gainTransient
+gain
+sensorLandscape
+sensor
+locked
+fullUser
+userPortrait
+userLandscape
+fullSensor
+reversePortrait
+sensorPortrait
+noSensor
+behind
+user
+unset
+onAfterEndFile
+onBeforeStartFile
+onUnload
+onPreloaded
+onLoadFail
+onLoad
+redirect
+int64
+flag
+OTHER
+FEW
+TWO
+ONE
+MANY
+ZERO
+LINK
+FILE
+DIR
+rgb
+hsl
+hsv
+hex
+green
+blue
+saturationForHSL
+lightness
+alpha
+hsvWithHue
+disabled
+notPasteable
+pasteable
+permissive
+explicit
+keepVisibleAtStart
+keepVisibleAtEnd
+glow
+stretch
+recede
+idle
+pull
+absorb
+trailing
+leading
+disposed
+disposing
+pushing
+pushReplace
+removing
+remove
+popping
+adding
+pop
+add
+staging
+doNotPop
+bubble
+middle
+traditional
+devicePixelRatio
+gestureSettings
+navigationMode
+padding
+orientation
+textScaler
+viewPadding
+viewInsets
+inactive
+defunct
+closedLoop
+parentScope
+automatic
+touch
+scope
+previouslyFocusedChild
+ignored
+skipRemainingHandlers
+liveTextInput
+searchWeb
+lookUp
+waiting
+done
+forcePress
+scribble
+drag
+toolbar
+doubleTap
+End
+Update
+Start
+newline
+emergencyCall
+continueAction
+previous
+next
+send
+search
+go
+enforced
+alert
+immersiveSticky
+edgeToEdge
+top
+symbolModifier
+rawKeyData
+keyDataThenRawKeyData
+capsLock
+scrollLock
+numLock
+postFrameCallbacks
+persistentCallbacks
+midFrameMicrotasks
+transientCallbacks
+reverse
+viewport
+pixel
+loose
+passthrough
+expand
+collapsed
+uncollapsed
+previousLine
+nextLine
+backward
+word
+document
+endEdgeUpdate
+startEdgeUpdate
+selectWord
+granularlyExtendSelection
+directionallyExtendSelection
+pending
+foreground
+background
+deferToChild
+translucent
+baseline
+spaceBetween
+tight
+minWidth
+maxHeight
+maxWidth
+minHeight
+stable
+unstable
+changed
+criticallyDamped
+overDamped
+underDamped
+ellipsis
+visible
+fade
+noRepeat
+contain
+scaleDown
+cover
+circle
+layout
+identical
+tall
+dense
+englishLike
+padded
+last
+first
+only
+fill
+startOffset
+tab
+onlyForDiscrete
+tapAndSlide
+statusBar
+floatingActionButton
+materialBanner
+bottomSheet
+appBar
+bodyScrim
+body
+endDrawer
+drawer
+snackBar
+persistentFooter
+bottomNavigationBar
+pressed
+hovered
+focused
+scrolledUnder
+dragged
+canvas
+transparency
+button
+card
+titleHeight
+threeLine
+list
+input
+suffixIcon
+suffix
+hint
+prefixIcon
+icon
+helperError
+counter
+container
+never
+always
+hover
+standard
+small
+elevated
+nested
+lateral
+view
+ready
+possible
+accepted
+started
+latestPointer
+peaked
+rejected
+atBreak
+inWord
+inSpace
+macOS
+iOS
+inParagraph
+beforeParagraph
+nextButton
+backButton
+hms
+minimize
+maximize
+preserve
+dismissed
+completed
+blob
+dateTime
+bigInt
+bool
+insert
+insertOrReplace
+insertOrFail
+insertOrAbort
+insertOrRollback
+insertOrIgnore
+equal
+and
+primary
+comparisonEq
+desc
+postgres
+boolean
+bigint
+float8
+bytea
+mariadb
+BOOLEAN
+BIGINT
+update
+multi
+json
+plain
+stream
+bytes
+resolveCallFollowing
+rejectCallFollowing
+resolve
+connectionError
+badResponse
+receiveTimeout
+connectionTimeout
+sendTimeout
+upstream
+proportional
+wavy
+dashed
+dotted
+justify
+italic
+scale
+scrollInertiaCancel
+scroll
+trackpad
+invertedStylus
+stylus
+mouse
+panZoomEnd
+panZoomUpdate
+panZoomStart
+move
+latency
+postureHalfOpened
+postureFlat
+cutout
+hinge
+fold
+exit
+paused
+resumed
+detached
+pictureCacheBytes
+pictureCacheCount
+layerCacheBytes
+layerCacheCount
+vsyncStart
+rasterFinish
+buildStart
+rasterStart
+buildFinish
+antiAliasWithSaveLayer
+antiAlias
+stroke
+high
+medium
+low
+srcOver
+modulate
+multiply
+plus
+notCompressed
+decompressed

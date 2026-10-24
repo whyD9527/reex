@@ -1,0 +1,9 @@
+# 构建产物
+/out/
+*.log
+.gradle/
+/local.properties
+
+# 分析过程中的临时文件
+__pycache__/
+*.pyc
