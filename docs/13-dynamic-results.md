@@ -188,7 +188,7 @@ CREATE TABLE playback_histories (
 
 | 项 | 原因 | 补救 |
 | --- | --- | --- |
-| Java 层 MethodChannel 抓包 | Frida 17 的 gadget 运行时**不含 Java bridge**（`typeof Java === undefined`，也没有 `require`） | 用 frida 16.x（自带 bridge）重建 gadget，或用 `frida-compile` 把 `frida-java-bridge` 打包进脚本 |
+| Java 层 MethodChannel 抓包 | 两条路都试过：<br>① Frida 17 gadget：`typeof Java === undefined`，无 bridge；<br>② 用 Frida 16.7.19 gadget（自带 bridge）重建 APK（`patches/out/Reex-1.8.9-capture.apk`，`on_load=wait`）：`typeof Java === 'object'` 成立，但**一执行 `Java.perform` 进程就被杀**（`TransportError: the connection is closed`，`pidof` 变空）——Android 17 + MIUI 下 Frida 16 Java bridge 不兼容 | 若要补：用 `frida-compile` 把 `frida-java-bridge` 打进 Frida 17 脚本；或用设备上已装的 LSPosed 写一个 Xposed 模块 hook `MethodChannel.invokeMethod` |
 | 真实 SMB 文件播放 | 没有可用的 SMB 服务器 | 起一个 Samba 容器/另一台电脑共享即可 |
 | mpv 日志落盘 | 需在应用设置里开启 | 打开"错误日志"开关后重放一次 SMB URI |
 | USB 直连 | Code 10（链路层） | 换 USB 2.0 口/数据线，或继续用无线 |
