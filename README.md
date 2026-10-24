@@ -55,7 +55,9 @@ Reex-Reverse/
 │   ├── 05-java.md               Java 层逐类分析（含通道协议）
 │   ├── 06-dart.md               Dart AOT 还原：类/方法/字符串/依赖
 │   ├── 07-rebuild.md            重打包、签名、安装、差异校验
-│   └── 08-appendix.md           资源、权限、依赖、字符串附录
+│   ├── 08-appendix.md           资源、权限、依赖、字符串附录
+│   ├── 09-security.md           安全与合规审计（含 CVE / LGPL / S-01..S-11）
+│   └── 10-native-reimpl.md      自写原生库的完整还原（libmmr / libmpvclient）
 ├── decompiled/
 │   ├── apktool/                 apktool 全量反编译（manifest/res/smali/assets/lib）
 │   └── jadx-src/                jadx 反编译的 Java 源码（1209 个文件）
@@ -68,7 +70,12 @@ Reex-Reverse/
 │       ├── asm/                 544 个反汇编文件（1,858 个带地址的函数）
 │       ├── blutter_frida.js     Frida 脚本（类/函数地址表）
 │       └── strings_zh.txt       344 条中文界面文案
-├── native/                      原生层分析（依赖图、版本、符号）
+├── native/                      原生层：依赖图、版本、**重建的 C 头与伪代码**
+│   ├── libmmr.h                 媒体元数据检索器 ABI（结构体+10 个函数）
+│   ├── libmpvclient.h           JNI/FFI/SMB2 协议 ABI
+│   ├── pseudo/                  等价重写的伪 C（带原始地址注释）
+│   ├── disasm/                  两个自写库的完整反汇编文本
+│   └── graph.md                 库依赖图（Mermaid）
 ├── build/                       重打包验证产物（已签名 APK + 校验结果）
 └── tools/                       一键复现脚本 + blutter 编译补丁说明
 ```
@@ -119,6 +126,9 @@ Reex-Reverse/
    导出 46,540 个对象池条目、762 个类、953 个字段、7,541 条字符串与 544 份反汇编。
 7. **还原出作者的原始工程路径**：`file:///G:/MyProject/Reex/re_player_ex/...`，
    Dart 包名确认为 `re_player_ex`，并保留了一条源码路径 `package:re_player_ex/utils/ffi_io.dart`。
+8. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数）与
+   `libmpvclient`（JNI + Dart FFI + SMB2 流）；其中 SMB 协议把**明文凭据以 JSON 塞进
+   `smb2://{...}` URI**，会进入 mpv 日志（安全问题 S-11）。
 
 ---
 

@@ -156,7 +156,7 @@ public final native long newGlobalNativePtr(Object obj); // 建立 Dart 对象 �
 public final native void deleteGlobalNativePtr(long ptr);
 ```
 
-`libmpvclient.so` 导出的 JNI 符号证实了实现：
+`libmpvclient.so` 导出的 JNI 符号证实了实现（细节见 [10-native-reimpl.md](10-native-reimpl.md)）：
 
 ```
 Java_xyz_lhtls_mpv_1client_MPVJniUtils_avJniSetJavaVM
@@ -164,6 +164,18 @@ Java_xyz_lhtls_mpv_1client_MPVJniUtils_newGlobalNativePtr
 Java_xyz_lhtls_mpv_1client_MPVJniUtils_deleteGlobalNativePtr
 Java_xyz_lhtls_mpv_1client_MPVJniUtils_mpvTerminateDestroy
 ```
+
+**补充（反汇编后修正）**：`xyz.lhtls.mpv_client` 插件在 Kotlin 侧还有一条同名 MethodChannel，
+只负责 Flutter 外接纹理：
+
+| 方法 | 作用 |
+| --- | --- |
+| `SurfaceTextureEntry.create` | 创建 SurfaceTexture，返回 `{textureId, surfacePtr}` |
+| `SurfaceTextureEntry.setDefaultBufferSize` | 设置宽高 |
+| `SurfaceTextureEntry.release` | 释放 |
+
+Dart 通过 FFI 把 `surfacePtr`（ANativeWindow*）交给 mpv，mpv 直接渲染到该 Surface，
+Flutter 侧用 textureId 显示 —— 这就是视频画面的完整链路（没有走平台视图）。
 
 同时该库导出了 `mpv_stream_cb_add_ro_smb2` —— 自定义 `smb2://` 流协议实现，
 使 mpv 能直接播放 SMB 共享上的视频而无需挂载。
