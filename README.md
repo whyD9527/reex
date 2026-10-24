@@ -57,7 +57,9 @@ Reex-Reverse/
 │   ├── 07-rebuild.md            重打包、签名、安装、差异校验
 │   ├── 08-appendix.md           资源、权限、依赖、字符串附录
 │   ├── 09-security.md           安全与合规审计（含 CVE / LGPL / S-01..S-11）
-│   └── 10-native-reimpl.md      自写原生库的完整还原（libmmr / libmpvclient）
+│   ├── 10-native-reimpl.md      自写原生库的完整还原（libmmr / libmpvclient）
+│   ├── 11-protocol-map.md       **机器码级协议图谱**（11 通道 → 方法 → 函数地址）
+│   └── 12-dynamic-playbook.md   真机动态验证 Playbook（配合 frida/）
 ├── decompiled/
 │   ├── apktool/                 apktool 全量反编译（manifest/res/smali/assets/lib）
 │   └── jadx-src/                jadx 反编译的 Java 源码（1209 个文件）
@@ -77,6 +79,9 @@ Reex-Reverse/
 │   ├── disasm/                  两个自写库的完整反汇编文本
 │   └── graph.md                 库依赖图（Mermaid）
 ├── build/                       重打包验证产物（已签名 APK + 校验结果）
+├── patches/                     **加固补丁流水线**（allowBackup / http_header / 明文流量）
+│   └── out/                     加固并签名的 APK
+├── frida/                       动态验证脚本（hooks.js）
 └── tools/                       一键复现脚本 + blutter 编译补丁说明
 ```
 
@@ -126,7 +131,10 @@ Reex-Reverse/
    导出 46,540 个对象池条目、762 个类、953 个字段、7,541 条字符串与 544 份反汇编。
 7. **还原出作者的原始工程路径**：`file:///G:/MyProject/Reex/re_player_ex/...`，
    Dart 包名确认为 `re_player_ex`，并保留了一条源码路径 `package:re_player_ex/utils/ffi_io.dart`。
-8. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数）与
+8. **11 条通道在 Dart 机器码中全部定位**：自写 PP(x27) 引用扫描器扫了 141 万条指令、
+   7.2 万处对象池引用，得到「通道 → 方法名 → 函数地址」的完整映射（docs/11），
+   并发现 Java 侧未暴露的方法（如通知 API 的 14 个 key、权限通道的 4 个细分方法）。
+9. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数）与
    `libmpvclient`（JNI + Dart FFI + SMB2 流）；其中 SMB 协议把**明文凭据以 JSON 塞进
    `smb2://{...}` URI**，会进入 mpv 日志（安全问题 S-11）。
 

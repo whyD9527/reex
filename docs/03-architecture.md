@@ -144,7 +144,30 @@ SAF / content:// 读写。
 
 ### 3.11 `BackgroundServiceChannel`（e2.o）
 
-`create`（传入通知内容 → `ReexPlaybackService` 前台保活）、`dispose`。
+Java 侧只实现 `create` / `dispose`，但 **Dart 侧调用的方法名远多于这两个**
+（机器码扫描结果，见 [11-protocol-map.md](11-protocol-map.md)）：
+
+```
+create, dispose, updateNotification, setNotificationActions, setNotificationIcon,
+setMediaMetadata, setPlaybackState,
+title, artist, album, albumArtist, duration, position, playbackSpeed,
+isPlaying, canSkipToNext, canSkipToPrevious, displayIconUri
+```
+
+说明 Java 侧 `create` 接收的是一个 **Map**，Dart 把整套通知/媒体元数据打包传入，
+Kotlin 只做转发与 `Notification` 构建（notification 字段名即上面这些 key）。
+
+### 3.12 `PermissionChannel` 的真实方法名（补充）
+
+Dart 侧实际调用（机器码扫描）：
+
+```
+checkMediaPermission, requestMediaPermission,
+checkManualExternalStorage, requestManualExternalStorage
+```
+
+比 jadx 里看到的单一 `requestPermissions` 更细：权限被分成「媒体权限」与
+「所有文件访问（MANAGE_EXTERNAL_STORAGE）」两组分别检查/申请。
 
 ## 4. Dart ↔ mpv 的 JNI 桥
 
@@ -182,6 +205,9 @@ Flutter 侧用 textureId 显示 —— 这就是视频画面的完整链路（�
 
 Dart 侧通过 `dart:ffi` 直接 `DynamicLibrary.open("libmpvclient.so")` 调用上述封装
 （`libapp.so` 字符串中含 `libmpvclient.so`、`mpv_command_async`、`mpv_observe_property` 等）。
+
+> 全部 11 条通道在 Dart 机器码中的调用点、方法名与函数地址，
+> 见自动生成的 [11-protocol-map.md](11-protocol-map.md)（1.4M 条指令、72,391 处池引用扫描结果）。
 
 ## 5. 播放数据流（推断并经字符串/符号验证）
 
