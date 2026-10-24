@@ -220,6 +220,13 @@ Dart AOT（arm64 + 压缩指针）的寄存器约定：
 | seekable-ranges | 2 |
 | video-params | 1 |
 | video-out-params | 1 |
+| metadata | 7 |
+| track-list | 3 |
+| chapters | 2 |
+| screenshot-to-file | 2 |
+| screenshot-format | 1 |
+| screenshot-directory | 1 |
+| screenshot-template | 1 |
 
 ## 6. 结论与局限
 

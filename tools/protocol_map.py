@@ -12,7 +12,10 @@ MPV_PROPS = ['video-rotate','video-unscaled','video-zoom','video-pan-x','video-p
              'audio-file-auto','sub-delay','sub-font','sub-font-size','sub-bold',
              'sub-italic','sub-border-size','sub-border-color','sub-color','sub-text',
              'sub-auto','sub-ass-override','seekable','seekable-ranges','video-params',
-             'video-out-params']
+             'video-out-params',
+             # 媒体信息/截图（应用用 mpv 自带能力，而非 libmmr）
+             'metadata','track-list','chapters','albumart','screenshot-to-file',
+             'screenshot-format','screenshot-directory','screenshot-template']
 
 
 
