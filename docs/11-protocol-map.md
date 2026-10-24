@@ -39,6 +39,10 @@ Dart AOT（arm64 + 压缩指针）的寄存器约定：
 | xyz.re.player.ex/SystemVideoPipMode | 0x11358 | 8 | 6 |
 | xyz.re.player.ex/SystemVideoPopupView | 0x11348 | 8 | 7 |
 
+
+> 第 11 个应用通道 **HeadsetPlugChannel 是 EventChannel**（不是 MethodChannel），
+> 因此不在上表；它的名称字符串在 Dart 侧由类 hba 引用（见 03-architecture.md 3.9）。
+
 第三方通道（同一批扫描里顺带确认）：
 
 | 通道 | 池偏移 | 引用次数 |

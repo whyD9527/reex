@@ -135,6 +135,10 @@ def main():
         funcs = {r['func'] for r in info['refs'] if r['func']}
         L.append('| %s | %s | %d | %d |' % (name, info['off'], len(info['refs']), len(funcs)))
     L.append('')
+    L.append('')
+    L.append('> 第 11 个应用通道 **HeadsetPlugChannel 是 EventChannel**（不是 MethodChannel），')
+    L.append('> 因此不在上表；它的名称字符串在 Dart 侧由类 hba 引用（见 03-architecture.md 3.9）。')
+    L.append('')
     L.append('第三方通道（同一批扫描里顺带确认）：')
     L.append('')
     L.append('| 通道 | 池偏移 | 引用次数 |')
