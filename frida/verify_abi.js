@@ -11,7 +11,7 @@
 
 'use strict';
 
-const MEDIA = '/data/user/0/xyz.re.player.ex/files/';
+const MEDIA = '/sdcard/Download/reex_media/';
 const FILES = {
   mp4: MEDIA + 'sample10s.mp4',
   wav: MEDIA + 'test_2ch_44100.wav',
@@ -21,30 +21,41 @@ const FILES = {
 function log(s) { console.log('[abi] ' + s); }
 
 function exportOf(mod, sym) {
-  try {
-    if (Module.getExportByName) return Module.getExportByName(mod, sym);
-  } catch (e) {}
+  try { return Process.getModuleByName(mod).getExportByName(sym); } catch (e) {}
+  try { return Module.getExportByName(mod, sym); } catch (e) {}
   try { return Module.findExportByName(mod, sym); } catch (e) {}
   return null;
 }
 
 let NATIVE_DIR = null;
-Java.perform(function () {
+(function () {
+  // 不依赖 Java bridge：从已加载的 libapp.so 路径推导 nativeLibraryDir
   try {
-    const cur = Java.use('android.app.ActivityThread').currentApplication();
-    NATIVE_DIR = cur.getApplicationInfo().nativeLibraryDir.value;
+    const m = Process.enumerateModules().filter(function (x) {
+      return x.name === 'libapp.so' || x.name === 'libmmr.so';
+    })[0];
+    if (m) NATIVE_DIR = m.path.substring(0, m.path.lastIndexOf('/'));
     log('nativeLibraryDir = ' + NATIVE_DIR);
   } catch (e) { log('nativeLibraryDir unavailable: ' + e); }
-});
+})();
+
+function findBase(name) {
+  // Frida 17 移除了 Module.findBaseAddress，用 Process.findModuleByName 代替
+  try { const m = Process.findModuleByName(name); return m ? m.base : null; } catch (e) { return null; }
+}
 
 function waitLib(name, cb, tries) {
   tries = tries || 0;
-  if (Module.findBaseAddress(name)) return cb(Module.findBaseAddress(name));
+  const b = findBase(name);
+  if (b) return cb(b);
   // libmmr 在应用里没有被加载过：主动 dlopen 一次（它就在 nativeLibraryDir 里）
   if (name === 'libmmr.so' && tries === 20 && NATIVE_DIR) {
     try {
-      Module.load(NATIVE_DIR + '/' + name);
-      log('dlopen ' + NATIVE_DIR + '/' + name);
+      // Frida 17 去掉了 Module.load()，直接调 libc dlopen
+      const libc = Process.getModuleByName('libc.so');
+      const dlopen = new NativeFunction(libc.getExportByName('dlopen'), 'pointer', ['pointer', 'int']);
+      const h = dlopen(Memory.allocUtf8String(NATIVE_DIR + '/' + name), 2 /* RTLD_NOW */);
+      log('dlopen ' + NATIVE_DIR + '/' + name + ' -> ' + h);
     } catch (e) { log('dlopen failed: ' + e); }
   }
   if (tries > 60) { log(name + ' not loaded, give up'); return; }

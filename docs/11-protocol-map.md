@@ -239,3 +239,25 @@ Dart AOT（arm64 + 压缩指针）的寄存器约定：
      blutter 覆盖的 1,858 个函数可补类名，其余只能靠“引用了哪些字符串”推断用途。
    - 内联与尾调用可能让一个调用点出现在非预期函数里。
    - pushSystemHomeScreen 等少数方法因字符串复用/内联未命中。
+---
+
+## 7. 真机运行时确认（2026-10-24）
+
+在 Redmi K90 / Android 17 上用 frida-gadget 注入后抓到的原生层事实：
+
+```
+register_mpv_stream_cb_dart proto=smb2
+register_mpv_stream_cb_dart proto=content
+mpv_command_async: loadfile smb2://{"server":"10.0.0.5","share":"media",
+                  "path":"/c.mkv","username":"u3","password":"SEKRET789"} replace 0 ...
+```
+
+含义：
+
+1. 应用自己实现了 `smb2` 与 `content` 两条 mpv 流协议（不是用 `libmpvclient.so` 的原生 SMB）；
+2. `smb2://` 的 JSON 凭据（含明文密码）确实作为 `loadfile` 参数传给 mpv ——
+   这是 S-11 的直接证据；
+3. Java 层 `MethodChannel.invokeMethod` 的运行时抓包受限于 Frida 17 gadget 无 Java bridge，
+   静态图谱（本文第 2–4 节）仍是对照依据。
+
+详见 [13-dynamic-results.md](13-dynamic-results.md)。

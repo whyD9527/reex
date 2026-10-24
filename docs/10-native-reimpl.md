@@ -135,6 +135,17 @@ av_find_best_stream(VIDEO)
 
 ## 3. libmpvclient.so —— JNI + Dart FFI + SMB2
 
+> ⚠️ **动态验证补充（2026-10-24）**：本库里的 SMB 流实现
+> （`mpv_stream_cb_add_ro_smb2` / `smb_url_parse` / `smb_*` 那套）**从未被调用**。
+>
+> 运行时 Frida 抓到的注册是：
+> `register_mpv_stream_cb_dart proto=smb2` 与 `proto=content`，
+> 且 Dart 字符串里有 24 个 `smb2_*` 符号 + `libsmb2.so`（FFI 直调）。
+>
+> 即：**SMB 由 Dart 通过 libsmb2 FFI 实现**，本库的原生 SMB 路径是死代码。
+> 本章 §3.2–3.3 的还原仍然准确（它确实长这样），但描述的是"未被使用的实现"。
+> 详见 [13-dynamic-results.md](13-dynamic-results.md) §4。
+
 ### 3.1 导出面（去掉 cJSON/Dart API 转发后）
 
 | 地址 | 名称 | 作用 |

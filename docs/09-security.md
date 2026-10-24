@@ -86,6 +86,9 @@ if (intent.getDataString() == null) { ... }
   让 Reex 以"受害者身份"发起带攻击者指定头的请求（Cookie/Authorization 注入、
   对内网地址发起请求、加载 `file://` 路径）。
   由于请求方是本机 App（无服务端凭据），实际危害有限，但**属于权限混淆**。
+- **补充（真机数据库确认）**：`extended_playlist_items` 表有 `http_header TEXT` 列，
+  说明自定义头不仅在 Intent 注入路径上，还会**随播放列表持久化到磁盘**，
+  导出的数据库里能直接读到。
 - **建议**：对 `http_header` 做白名单（只允许 Referer/User-Agent），
   对 `file://`/`content://` 校验调用方或改由用户确认。
 
@@ -123,7 +126,12 @@ lp.gravity = 8388693;
 - `FLAG_NOT_FOCUSABLE`：悬浮窗不抢焦点，符合预期。
 - 布局 `R.layout.video_popup_view` 含关闭/返回按钮 + 进度条，无输入控件被滥用风险。
 
-### S-07 凭据存储
+### S-07 凭据存储（**已由真机数据库确认**）
+
+> 2026-10-24 真机验证：导出 `reex.sqlite`（user_version=10），确认
+> `network_accounts(id, kind, server, username, password TEXT, port, domain, share, alias)`
+> —— `password` 是**明文 TEXT 列**，无加密、无 Keystore 包装。
+> 详见 [13-dynamic-results.md](13-dynamic-results.md) §5。
 
 Dart 字符串给出数据库名与版本：
 
@@ -180,7 +188,18 @@ this.f3430g.getSettings().setSupportMultipleWindows(true);
 - 该 Activity **`exported=false`**，只能被应用自己拉起；JS 开关由 Dart 传入。
 - 没有 `addJavascriptInterface`，无 JS 桥泄漏风险。
 
-### S-11 SMB 凭据进入 URI 与日志（本次反汇编新发现）
+### S-11 SMB 凭据进入 URI 与日志（**已由运行时抓包确认**）
+
+> **运行时证据**（Frida hook `mpv_command_async`）：
+>
+> ```
+> loadfile smb2://{"server":"10.0.0.5","share":"media","path":"/c.mkv",
+>                  "username":"u3","password":"SEKRET789"} replace 0 ...
+> ```
+>
+> 明文密码确实随 URI 进入 mpv。日志落盘是**条件性**的：本次会话中
+> `files/mpv_logs.jsonl` 未生成，需在设置里开启日志后才会写入。
+> 详见 [13-dynamic-results.md](13-dynamic-results.md) §3。
 
 `libmpvclient.so` 的 SMB 流协议把**整个凭据对象序列化成 JSON 塞进 URI**：
 

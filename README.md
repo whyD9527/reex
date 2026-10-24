@@ -59,7 +59,8 @@ Reex-Reverse/
 │   ├── 09-security.md           安全与合规审计（含 CVE / LGPL / S-01..S-11）
 │   ├── 10-native-reimpl.md      自写原生库的完整还原（libmmr / libmpvclient）
 │   ├── 11-protocol-map.md       **机器码级协议图谱**（11 通道 → 方法 → 函数地址）
-│   └── 12-dynamic-playbook.md   真机动态验证 Playbook（配合 frida/）
+│   ├── 12-dynamic-playbook.md   真机动态验证 Playbook（配合 frida/）
+│   └── 13-dynamic-results.md    **真机验证结果**（Redmi K90 / Android 17）
 ├── decompiled/
 │   ├── apktool/                 apktool 全量反编译（manifest/res/smali/assets/lib）
 │   └── jadx-src/                jadx 反编译的 Java 源码（1209 个文件）
@@ -134,9 +135,15 @@ Reex-Reverse/
 8. **11 条通道在 Dart 机器码中全部定位**：自写 PP(x27) 引用扫描器扫了 141 万条指令、
    7.2 万处对象池引用，得到「通道 → 方法名 → 函数地址」的完整映射（docs/11），
    并发现 Java 侧未暴露的方法（如通知 API 的 14 个 key、权限通道的 4 个细分方法）。
-9. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数；注意本版本未使用）与
-   `libmpvclient`（JNI + Dart FFI + SMB2 流）；其中 SMB 协议把**明文凭据以 JSON 塞进
-   `smb2://{...}` URI**，会进入 mpv 日志（安全问题 S-11）。
+9. **两个自写原生库已还原到可重写程度**：`libmmr`（元数据/封面/截帧，10 个导出函数）
+   与 `libmpvclient`（JNI + Dart FFI + SMB2 流）。但**真机验证发现两者的 SMB/元数据路径都没被调用**：
+   - `libmmr` 全 APK 零引用（死代码）；
+   - 原生 SMB 流（`mpv_stream_cb_add_ro_smb2`）同样未被调用，**SMB 实际由 Dart 通过 libsmb2 FFI 实现**。
+10. **真机动态验证（Redmi K90 / Android 17 / KernelSU）已完成**：
+   - 抓到 `loadfile smb2://{... "password":"SEKRET789" ...}` → **S-11 确认**；
+   - 导出 `reex.sqlite`（user_version=10），`network_accounts.password TEXT` → **S-07 确认**；
+   - `extended_playlist_items.http_header` → S-03 会持久化到磁盘；
+   - `libmmr` 的截帧/音频字段实测返回 NULL / 0（与其编译头文件版本不符的旁证）。
 
 ---
 

@@ -200,8 +200,15 @@ Java_xyz_lhtls_mpv_1client_MPVJniUtils_mpvTerminateDestroy
 Dart 通过 FFI 把 `surfacePtr`（ANativeWindow*）交给 mpv，mpv 直接渲染到该 Surface，
 Flutter 侧用 textureId 显示 —— 这就是视频画面的完整链路（没有走平台视图）。
 
-同时该库导出了 `mpv_stream_cb_add_ro_smb2` —— 自定义 `smb2://` 流协议实现，
-使 mpv 能直接播放 SMB 共享上的视频而无需挂载。
+该库还导出了 `mpv_stream_cb_add_ro_smb2`（原生 `smb2://` 流实现），
+但**真机动态验证证明它从未被调用**（见 [13-dynamic-results.md](13-dynamic-results.md) §4）：
+
+- 运行时 Frida 抓到的是 `register_mpv_stream_cb_dart proto=smb2` 和 `proto=content`；
+- Dart 字符串里有 **24 个 `smb2_*` 符号**（`smb2_init_context`、`smb2_connect_share_async`、
+  `smb2_open_async`、`smb2_pread_async`、`smb2_which_events`、`smb2_service`…）以及 `libsmb2.so`。
+
+所以真实链路是：**Dart FFI → libsmb2.so（异步事件循环）→ 通过自定义 mpv 流协议喂数据**，
+与 `libmpvclient.so` 里的原生 SMB 实现无关（后者是死代码，和 `libmmr` 一样）。
 
 Dart 侧通过 `dart:ffi` 直接 `DynamicLibrary.open("libmpvclient.so")` 调用上述封装
 （`libapp.so` 字符串中含 `libmpvclient.so`、`mpv_command_async`、`mpv_observe_property` 等）。
@@ -217,7 +224,10 @@ Dart 侧通过 `dart:ffi` 直接 `DynamicLibrary.open("libmpvclient.so")` 调用
   → mpv_client: mpv_command_async(["loadfile", uri, ...])
   → libmpv: 选择 demuxer
        ├─ 普通网络/本地：FFmpeg avformat
-       └─ smb://：libsmb2 自定义流回调（mpv_stream_cb_add_ro_smb2）
+       └─ smb2://：
+            Dart 自定义流协议（register_mpv_stream_cb_dart）
+            → Dart FFI 调 libsmb2.so（smb2_open_async / smb2_pread_async / smb2_service）
+            → 数据回填给 mpv
   → 解码：FFmpeg libavcodec（硬解走 mediacodec? 未见 libmediandk 依赖 → 走 libavcodec 软解 + libplacebo 渲染）
   → 渲染：libplacebo (OpenGL ES) → ANativeWindow（Flutter 提供的外接纹理）
   → 音频：OpenSL ES（libOpenSLES.so 依赖）

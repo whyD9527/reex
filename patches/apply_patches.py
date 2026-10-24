@@ -97,7 +97,7 @@ def patch_http_header(app_dir):
         log('  ! P2 pattern mismatch')
 
 
-def patch_gadget(app_dir, gadget_so):
+def patch_gadget(app_dir, gadget_so, wait=False):
     """把 frida-gadget 注入 APK：lib/arm64-v8a/libgadget.so + 启动时 loadLibrary。"""
     libdir = os.path.join(app_dir, 'lib', 'arm64-v8a')
     if not os.path.isdir(libdir):
@@ -109,7 +109,7 @@ def patch_gadget(app_dir, gadget_so):
             "type": "listen",
             "address": "127.0.0.1",
             "port": 27042,
-            "on_load": "resume"
+            "on_load": "wait" if wait else "resume"
         }
     }
     with open(os.path.join(libdir, 'libgadget.config.so'), 'w', encoding='utf-8') as f:
@@ -157,6 +157,7 @@ def main():
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--debuggable', action='store_true', help='加 android:debuggable=true（配合 run-as 取数据）')
     ap.add_argument('--gadget', default='', help='frida-gadget .so 路径；给出则注入免 root 注入点')
+    ap.add_argument('--gadget-wait', action='store_true', help='gadget on_load=wait（启动即暂停，便于抓启动期通道调用）')
     args = ap.parse_args()
 
     src = os.path.abspath(args.src)
@@ -175,7 +176,7 @@ def main():
     if args.strict_intent:
         patch_http_header(work)
     if args.gadget:
-        patch_gadget(work, args.gadget)
+        patch_gadget(work, args.gadget, args.gadget_wait)
 
     if not PATCHES:
         log('  (no changes)')
